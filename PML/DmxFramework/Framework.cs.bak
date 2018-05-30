@@ -1,0 +1,123 @@
+using System;
+using System.Collections;
+using System.Collections.Generic;
+using System.Text;
+using System.Xml;
+
+
+
+namespace DmxFramework
+{
+    public class Framework
+    {
+        public const int Tick = 30; 
+        Fixtures.VirtualFixture mFixtures;
+        DmxOutput mOutput;
+        Keyboard.KeyBord mKeyBord;
+
+        public static Sound.BeatDetection beatDetection = new DmxFramework.Sound.BeatDetection();
+        public static AutoMode.AutoMode AutomaticMode = new DmxFramework.AutoMode.AutoMode();
+        public static Random random = new Random();
+        public static ArrayList RealFixtureList = new ArrayList();
+
+        public Framework()
+        {
+            mOutput = new DmxOutput();
+        }
+
+        public void StartKeybordListening()
+        {
+            mKeyBord = new Keyboard.KeyBord();
+        }
+
+        public void StartDmxDevice()
+        {
+           
+            mOutput.Interfaces[0].IsActive = true;
+        }
+
+        public  void LoadXml()
+        {
+            RealFixtureList.Clear();
+            XmlDocument doc = new XmlDocument();
+            doc.Load("Framework.xml");
+
+            XmlNode ParameterNode = (doc.GetElementsByTagName("Parameters"))[0];
+            this.mOutput.SetNbChannels(Convert.ToInt32(ParameterNode.Attributes["MaxRealCanal"].InnerText));
+
+            XmlNode FixtureNode = (doc.GetElementsByTagName("Fixture"))[0];
+            mFixtures = new DmxFramework.Fixtures.VirtualFixture(FixtureNode, mOutput,0,"");
+
+            LoadScenes();
+        }
+
+        public void LoadXml(string pPath)
+        {
+            RealFixtureList.Clear();
+            XmlDocument doc = new XmlDocument();
+            doc.Load("Framework.xml");
+
+            XmlNode ParameterNode = (doc.GetElementsByTagName("Parameters"))[0];
+            this.mOutput.SetNbChannels(Convert.ToInt32(ParameterNode.Attributes["MaxRealCanal"].InnerText));
+
+            XmlNode FixtureNode = (doc.GetElementsByTagName("Fixture"))[0];
+            mFixtures = new DmxFramework.Fixtures.VirtualFixture(FixtureNode, mOutput, 0, "");
+
+            LoadScenes();
+        }
+
+        private void LoadScenes()
+        {
+            XmlDocument doc = new XmlDocument();
+            doc.Load("Scene.xml");
+
+      
+            XmlNode FixtureNode = (doc.GetElementsByTagName("Fixture"))[0];
+            mFixtures.LoadScene(FixtureNode);
+
+
+            XmlNode KeyBordNode = (doc.GetElementsByTagName("Keyboard"))[0];
+            if(KeyBordNode!=null)
+                mKeyBord.LoadXml(mFixtures,KeyBordNode);
+        }
+
+
+        public Fixtures.VirtualFixture Fixtures
+        {
+            get { return mFixtures; }
+        }
+
+        public DmxOutput Outputs
+        {
+            get { return mOutput; }
+        }
+
+        public Keyboard.KeyBord KeyBord
+        {
+            get { return mKeyBord; }
+        }
+
+        public void Exit()
+        {
+            this.mOutput.Disconnect();
+            beatDetection.StopAll();
+
+
+            XmlDocument doc = new XmlDocument();
+            doc.LoadXml("<PimpMyScenes></PimpMyScenes>");
+            
+            
+            doc.DocumentElement.AppendChild(mFixtures.GetSceneXml(doc));
+            doc.DocumentElement.AppendChild(mKeyBord.GetXml(doc));
+
+            doc.Save("Scene.xml");
+        }
+
+        public Fixtures.Fixture GetFixtureFromPath(string pPath)
+        {
+            return mFixtures.GetFixtureFromPath(pPath);
+        }
+
+
+    }
+}

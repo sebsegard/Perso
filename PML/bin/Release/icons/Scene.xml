@@ -1,0 +1,155 @@
+<PimpMyScenes>
+  <Fixture Name="DJSEB LIGHT">
+    <SubFixture>
+      <Fixture Name="PROJECTEUR ROBOTISES">
+        <SubFixture>
+          <Fixture Name="SCANNER">
+            <SubFixture>
+              <Fixture Name="DJSCAN">
+                <SubFixture>
+                  <Fixture Name="DJSCAN1">
+                    <Poursuit Active="False" pt_A_X="40" pt_A_Y="40" pt_B_X="200" pt_B_Y="40" pt_C_X="200" pt_C_Y="200" pt_D_X="40" pt_D_Y="200" />
+                    <Scenes RowCount="0" ColumnCount="0" />
+                  </Fixture>
+                  <Fixture Name="DJSCAN2">
+                    <Poursuit Active="False" pt_A_X="40" pt_A_Y="40" pt_B_X="200" pt_B_Y="40" pt_C_X="200" pt_C_Y="200" pt_D_X="40" pt_D_Y="200" />
+                    <Scenes RowCount="0" ColumnCount="0" />
+                  </Fixture>
+                </SubFixture>
+                <Scenes RowCount="0" ColumnCount="0" />
+              </Fixture>
+              <Fixture Name="TheWinner">
+                <SubFixture>
+                  <Fixture Name="THEWINNER1">
+                    <Poursuit Active="False" pt_A_X="40" pt_A_Y="40" pt_B_X="200" pt_B_Y="40" pt_C_X="200" pt_C_Y="200" pt_D_X="40" pt_D_Y="200" />
+                    <Scenes RowCount="0" ColumnCount="0" />
+                  </Fixture>
+                  <Fixture Name="THEWINNER2">
+                    <Poursuit Active="False" pt_A_X="40" pt_A_Y="40" pt_B_X="200" pt_B_Y="40" pt_C_X="200" pt_C_Y="200" pt_D_X="40" pt_D_Y="200" />
+                    <Scenes RowCount="0" ColumnCount="0" />
+                  </Fixture>
+                </SubFixture>
+                <Scenes RowCount="0" ColumnCount="0" />
+              </Fixture>
+              <Fixture Name="AS 250">
+                <SubFixture>
+                  <Fixture Name="AS 250 1">
+                    <Poursuit Active="False" pt_A_X="40" pt_A_Y="40" pt_B_X="200" pt_B_Y="40" pt_C_X="200" pt_C_Y="200" pt_D_X="40" pt_D_Y="200" />
+                    <Scenes RowCount="0" ColumnCount="0" />
+                  </Fixture>
+                  <Fixture Name="AS 250 2">
+                    <Poursuit Active="False" pt_A_X="40" pt_A_Y="40" pt_B_X="200" pt_B_Y="40" pt_C_X="200" pt_C_Y="200" pt_D_X="40" pt_D_Y="200" />
+                    <Scenes RowCount="0" ColumnCount="0" />
+                  </Fixture>
+                  <Fixture Name="AS 250 3">
+                    <Poursuit Active="False" pt_A_X="40" pt_A_Y="40" pt_B_X="200" pt_B_Y="40" pt_C_X="200" pt_C_Y="200" pt_D_X="40" pt_D_Y="200" />
+                    <Scenes RowCount="0" ColumnCount="0" />
+                  </Fixture>
+                  <Fixture Name="AS 250 4">
+                    <Poursuit Active="False" pt_A_X="40" pt_A_Y="40" pt_B_X="200" pt_B_Y="40" pt_C_X="200" pt_C_Y="200" pt_D_X="40" pt_D_Y="200" />
+                    <Scenes RowCount="0" ColumnCount="0" />
+                  </Fixture>
+                </SubFixture>
+                <Scenes RowCount="0" ColumnCount="0" />
+              </Fixture>
+            </SubFixture>
+            <Scenes RowCount="0" ColumnCount="0" />
+          </Fixture>
+          <Fixture Name="LYRES">
+            <SubFixture>
+              <Fixture Name="iMove">
+                <SubFixture>
+                  <Fixture Name="IMOVE1">
+                    <Poursuit Active="False" pt_A_X="40" pt_A_Y="40" pt_B_X="200" pt_B_Y="40" pt_C_X="200" pt_C_Y="200" pt_D_X="40" pt_D_Y="200" />
+                    <Scenes RowCount="0" ColumnCount="0" />
+                  </Fixture>
+                  <Fixture Name="IMOVE2">
+                    <Poursuit Active="False" pt_A_X="40" pt_A_Y="40" pt_B_X="200" pt_B_Y="40" pt_C_X="200" pt_C_Y="200" pt_D_X="40" pt_D_Y="200" />
+                    <Scenes RowCount="0" ColumnCount="0" />
+                  </Fixture>
+                </SubFixture>
+                <Scenes RowCount="0" ColumnCount="0" />
+              </Fixture>
+            </SubFixture>
+            <Scenes RowCount="0" ColumnCount="0" />
+          </Fixture>
+        </SubFixture>
+        <Scenes RowCount="0" ColumnCount="0" />
+      </Fixture>
+      <Fixture Name="LASER">
+        <SubFixture>
+          <Fixture Name="GORDON30_1">
+            <Poursuit Active="False" pt_A_X="40" pt_A_Y="40" pt_B_X="200" pt_B_Y="40" pt_C_X="200" pt_C_Y="200" pt_D_X="40" pt_D_Y="200" />
+            <Scenes RowCount="0" ColumnCount="0" />
+          </Fixture>
+          <Fixture Name="LASER MAC 4">
+            <Poursuit Active="False" pt_A_X="40" pt_A_Y="40" pt_B_X="200" pt_B_Y="40" pt_C_X="200" pt_C_Y="200" pt_D_X="40" pt_D_Y="200" />
+            <Scenes RowCount="0" ColumnCount="0" />
+          </Fixture>
+        </SubFixture>
+        <Scenes RowCount="0" ColumnCount="0" />
+      </Fixture>
+      <Fixture Name="STROBOSCOPE">
+        <SubFixture>
+          <Fixture Name="STROB1">
+            <Poursuit Active="False" pt_A_X="40" pt_A_Y="40" pt_B_X="200" pt_B_Y="40" pt_C_X="200" pt_C_Y="200" pt_D_X="40" pt_D_Y="200" />
+            <Scenes RowCount="0" ColumnCount="0" />
+          </Fixture>
+        </SubFixture>
+        <Scenes RowCount="0" ColumnCount="0" />
+      </Fixture>
+      <Fixture Name="Projecteurs LED">
+        <SubFixture>
+          <Fixture Name="LED_1">
+            <Poursuit Active="False" pt_A_X="40" pt_A_Y="40" pt_B_X="200" pt_B_Y="40" pt_C_X="200" pt_C_Y="200" pt_D_X="40" pt_D_Y="200" />
+            <Scenes RowCount="0" ColumnCount="0" />
+          </Fixture>
+          <Fixture Name="LED_2">
+            <Poursuit Active="False" pt_A_X="40" pt_A_Y="40" pt_B_X="200" pt_B_Y="40" pt_C_X="200" pt_C_Y="200" pt_D_X="40" pt_D_Y="200" />
+            <Scenes RowCount="0" ColumnCount="0" />
+          </Fixture>
+          <Fixture Name="LED_3">
+            <Poursuit Active="False" pt_A_X="40" pt_A_Y="40" pt_B_X="200" pt_B_Y="40" pt_C_X="200" pt_C_Y="200" pt_D_X="40" pt_D_Y="200" />
+            <Scenes RowCount="0" ColumnCount="0" />
+          </Fixture>
+          <Fixture Name="LED_4">
+            <Poursuit Active="False" pt_A_X="40" pt_A_Y="40" pt_B_X="200" pt_B_Y="40" pt_C_X="200" pt_C_Y="200" pt_D_X="40" pt_D_Y="200" />
+            <Scenes RowCount="0" ColumnCount="0" />
+          </Fixture>
+          <Fixture Name="LED_5">
+            <Poursuit Active="False" pt_A_X="40" pt_A_Y="40" pt_B_X="200" pt_B_Y="40" pt_C_X="200" pt_C_Y="200" pt_D_X="40" pt_D_Y="200" />
+            <Scenes RowCount="0" ColumnCount="0" />
+          </Fixture>
+          <Fixture Name="LED_6">
+            <Poursuit Active="False" pt_A_X="40" pt_A_Y="40" pt_B_X="200" pt_B_Y="40" pt_C_X="200" pt_C_Y="200" pt_D_X="40" pt_D_Y="200" />
+            <Scenes RowCount="0" ColumnCount="0" />
+          </Fixture>
+          <Fixture Name="LED_7">
+            <Poursuit Active="False" pt_A_X="40" pt_A_Y="40" pt_B_X="200" pt_B_Y="40" pt_C_X="200" pt_C_Y="200" pt_D_X="40" pt_D_Y="200" />
+            <Scenes RowCount="0" ColumnCount="0" />
+          </Fixture>
+          <Fixture Name="LED_8">
+            <Poursuit Active="False" pt_A_X="40" pt_A_Y="40" pt_B_X="200" pt_B_Y="40" pt_C_X="200" pt_C_Y="200" pt_D_X="40" pt_D_Y="200" />
+            <Scenes RowCount="0" ColumnCount="0" />
+          </Fixture>
+        </SubFixture>
+        <Scenes RowCount="0" ColumnCount="0" />
+      </Fixture>
+      <Fixture Name="SUNLED">
+        <SubFixture>
+          <Fixture Name="SUNLED1">
+            <Poursuit Active="False" pt_A_X="40" pt_A_Y="40" pt_B_X="200" pt_B_Y="40" pt_C_X="200" pt_C_Y="200" pt_D_X="40" pt_D_Y="200" />
+            <Scenes RowCount="0" ColumnCount="0" />
+          </Fixture>
+          <Fixture Name="SUNLED2">
+            <Poursuit Active="False" pt_A_X="40" pt_A_Y="40" pt_B_X="200" pt_B_Y="40" pt_C_X="200" pt_C_Y="200" pt_D_X="40" pt_D_Y="200" />
+            <Scenes RowCount="0" ColumnCount="0" />
+          </Fixture>
+        </SubFixture>
+        <Scenes RowCount="0" ColumnCount="0" />
+      </Fixture>
+    </SubFixture>
+    <Scenes RowCount="0" ColumnCount="0" />
+  </Fixture>
+  <Keyboard />
+</PimpMyScenes>

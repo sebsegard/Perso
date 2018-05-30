@@ -1,0 +1,60 @@
+<PimpMyLightFixture>
+  <Fixture Constructor="ELECTROCONCEPT" PRODUCT="PROFILE575" img="" Name="" StartAddress="0" Type="Real">
+    <Channels>
+      <Channel Name="PAN" Num="1" inverted="False" Type="Pan" />
+      <Channel Name="Tilt" Num="3" inverted="False" Type="Tilt" />
+      <Channel Name="Pan Fin" Num="2" inverted="False" Type="Basic" />
+      <Channel Name="Tilt fin" Num="4" inverted="False" Type="Basic" />
+      <Channel Name="Color" Num="5" inverted="False" Type="Btn" RowCount="6" ColumnCount="2">
+        <btn value="0" img="Fixtures\ELECTROCONCEPT\PROFILE575\img\Open.BMP" start="0" end="15" text="White" />
+        <btn value="16" img="Fixtures\ELECTROCONCEPT\PROFILE575\img\Red 304.bmp" start="16" end="31" text="Red" />
+        <btn value="32" img="Fixtures\ELECTROCONCEPT\PROFILE575\img\Green 201.bmp" start="32" end="47" text="Green" />
+        <btn value="48" img="Fixtures\ELECTROCONCEPT\PROFILE575\img\Pink.bmp" start="48" end="63" text="Pink" />
+        <btn value="64" img="Fixtures\ELECTROCONCEPT\PROFILE575\img\Blue.bmp" start="64" end="79" text="Blue" />
+        <btn value="80" img="Fixtures\ELECTROCONCEPT\PROFILE575\img\magenta.bmp" start="80" end="95" text="Orange" />
+        <btn value="96" img="Fixtures\ELECTROCONCEPT\PROFILE575\img\lightblue.bmp" start="96" end="111" text="Cyan" />
+        <btn value="112" img="Fixtures\ELECTROCONCEPT\PROFILE575\img\Yellow.bmp" start="112" end="127" text="Yellow" />
+        <btn value="128" img="Fixtures\ELECTROCONCEPT\PROFILE575\img\CW Slow.bmp" start="128" end="169" text="Slow" />
+        <btn value="170" img="Fixtures\ELECTROCONCEPT\PROFILE575\img\CW Medium.bmp" start="170" end="211" text="Medium" />
+        <btn value="212" img="Fixtures\ELECTROCONCEPT\PROFILE575\img\CW Fast.bmp" start="212" end="255" text="Fast" />
+      </Channel>
+      <Channel Name="Gobo" Num="6" inverted="False" Type="Btn" RowCount="6" ColumnCount="2">
+        <btn value="0" img="Fixtures\ELECTROCONCEPT\PROFILE575\img\812-gobo2.bmp" start="0" end="15" text="Full" />
+        <btn value="16" img="Fixtures\ELECTROCONCEPT\PROFILE575\img\Twist.gif" start="16" end="31" text="Spirale" />
+        <btn value="32" img="Fixtures\ELECTROCONCEPT\PROFILE575\img\Mania Mr Spok.bmp" start="32" end="47" text="Gobo2" />
+        <btn value="48" img="Fixtures\ELECTROCONCEPT\PROFILE575\img\M6.bmp" start="48" end="63" text="Gobo 3" />
+        <btn value="64" img="Fixtures\ELECTROCONCEPT\PROFILE575\img\ManiaSCX600_G_straws.bmp" start="64" end="79" text="Gobo 4" />
+        <btn value="80" img="Fixtures\ELECTROCONCEPT\PROFILE575\img\Custom Gobo 008.bmp" start="80" end="95" text="Vague" />
+        <btn value="96" img="Fixtures\ELECTROCONCEPT\PROFILE575\img\4Beam.BMP" start="96" end="111" text="4 beams" />
+        <btn value="112" img="Fixtures\ELECTROCONCEPT\PROFILE575\img\812-gobo14.bmp" start="112" end="127" text="Triangle" />
+        <btn value="128" img="Fixtures\ELECTROCONCEPT\PROFILE575\img\CW Slow.bmp" start="128" end="169" text="Slow" />
+        <btn value="170" img="Fixtures\ELECTROCONCEPT\PROFILE575\img\CW Medium.bmp" start="170" end="211" text="Medium" />
+        <btn value="212" img="Fixtures\ELECTROCONCEPT\PROFILE575\img\CW Fast.bmp" start="212" end="255" text="Fast" />
+      </Channel>
+      <Channel Name="RotationGobo" Num="7" inverted="False" Type="Basic" />
+      <Channel Name="Dimmer" Num="8" inverted="False" Type="Btn" RowCount="8" ColumnCount="1">
+        <btn value="0" img="Fixtures\ELECTROCONCEPT\PROFILE575\img\812-gobo1.bmp" start="0" end="1" text="Value 0" />
+        <btn value="31" img="" start="31" end="61" text="Value 1" />
+        <btn value="62" img="" start="62" end="92" text="Value 2" />
+        <btn value="93" img="" start="93" end="130" text="Value 3" />
+        <btn value="131" img="Fixtures\ELECTROCONCEPT\PROFILE575\img\Strobe Slow.gif" start="131" end="170" text="strob1" />
+        <btn value="171" img="Fixtures\ELECTROCONCEPT\PROFILE575\img\Strobe Med.GIF" start="171" end="210" text="strob2" />
+        <btn value="211" img="Fixtures\ELECTROCONCEPT\PROFILE575\img\Strobe Fast.gif" start="211" end="253" text="strob3" />
+        <btn value="254" img="Fixtures\ELECTROCONCEPT\PROFILE575\img\Open.BMP" start="254" end="255" text="Full" />
+      </Channel>
+      <Channel Name="Prism" Num="9" inverted="False" Type="Btn" RowCount="8" ColumnCount="1">
+        <btn value="0" img="" start="0" end="16" text="No prism" />
+        <btn value="16" img="" start="16" end="63" text="Prism" />
+        <btn value="64" img="" start="64" end="111" text="Reverse 1" />
+        <btn value="112" img="" start="112" end="126" text="Reverse 2" />
+        <btn value="127" img="" start="127" end="170" text="Normal 1" />
+        <btn value="171" img="" start="171" end="191" text="Normal 2" />
+        <btn value="200" img="" start="200" end="225" text="Come and go 1" />
+        <btn value="226" img="" start="226" end="255" text="Come and go 2" />
+      </Channel>
+      <Channel Name="Focus" Num="10" inverted="False" Type="Basic" />
+      <Channel Name="Reset" Num="11" inverted="False" Type="Basic" />
+      <Channel Name="Speed" Num="12" inverted="False" Type="Basic" />
+    </Channels>
+  </Fixture>
+</PimpMyLightFixture>

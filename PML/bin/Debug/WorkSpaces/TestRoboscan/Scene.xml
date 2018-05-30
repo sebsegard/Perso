@@ -1,0 +1,30 @@
+<PimpMyScenes>
+  <Fixture Name="TestRoboscan">
+    <Parameters NumAutoMode="0" />
+    <SubFixture>
+      <Fixture Name="Roboscan Pro 518">
+        <Poursuit Active="False" pt_A_X="40" pt_A_Y="40" pt_B_X="200" pt_B_Y="40" pt_C_X="200" pt_C_Y="200" pt_D_X="40" pt_D_Y="200" />
+        <Scenes RowCount="0" ColumnCount="0" />
+        <ChanParameters>
+          <ChanParameter Name="Strobe/Lamp/Reset" Inverted="False" />
+          <ChanParameter Name="Dimmer" Inverted="False" />
+          <ChanParameter Name="Color" Inverted="False" />
+          <ChanParameter Name="Gobos" Inverted="False" />
+          <ChanParameter Name="Effect" Inverted="False" />
+          <ChanParameter Name="Pan" Inverted="False" />
+          <ChanParameter Name="Tilt" Inverted="False" />
+        </ChanParameters>
+        <Parameters NumAutoMode="0" />
+      </Fixture>
+    </SubFixture>
+    <Scenes RowCount="0" ColumnCount="0" />
+  </Fixture>
+  <Keyboard />
+  <AutoMode>
+    <Auto Time="1000" Progressive="False" PanMin="0" PanMax="255" TiltMin="0" TiltMax="255">
+      <AutoPreset Time="1000" Progressive="False" />
+      <AutoPreset Time="1000" Progressive="False" />
+    </Auto>
+  </AutoMode>
+  <Snapshots />
+</PimpMyScenes>

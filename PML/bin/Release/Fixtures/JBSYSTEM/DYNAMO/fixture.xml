@@ -1,0 +1,34 @@
+<PimpMyLightFixture>
+  <Fixture Constructor="JBSYSTEM" PRODUCT="DYNAMO" img="" Name="" StartAddress="0" Type="Real">
+    <Channels>
+      <Channel Name="Pan" Num="1" inverted="False" Type="Pan" />
+      <Channel Name="Tilt" Num="2" inverted="False" Type="Tilt" />
+      <Channel Name="Shutter" Num="3" inverted="False" Type="Btn" RowCount="0" ColumnCount="0">
+        <btn value="0" img="Fixtures\JBSYSTEM\DYNAMO\img\812-gobo1.bmp" start="0" end="7" text="BlackOut" />
+        <btn value="8" img="Fixtures\JBSYSTEM\DYNAMO\img\812-gobo2.bmp" start="8" end="15" text="Open" />
+        <btn value="16" img="Fixtures\JBSYSTEM\DYNAMO\img\Strobe Slow.gif" start="16" end="53" text="Strob 1" />
+        <btn value="54" img="Fixtures\JBSYSTEM\DYNAMO\img\Strobe Med.GIF" start="54" end="91" text="Strob 2" />
+        <btn value="92" img="Fixtures\JBSYSTEM\DYNAMO\img\Strobe Fast.gif" start="92" end="131" text="Strob 3" />
+        <btn value="132" img="Fixtures\JBSYSTEM\DYNAMO\img\Shake Slow.bmp" start="132" end="169" text="Shaking 1" />
+        <btn value="170" img="Fixtures\JBSYSTEM\DYNAMO\img\Shake Med.bmp" start="170" end="207" text="Shaking 2" />
+        <btn value="208" img="Fixtures\JBSYSTEM\DYNAMO\img\Shake Fast.bmp" start="208" end="245" text="Shaking 3" />
+      </Channel>
+      <Channel Name="Gobo" Num="4" inverted="False" Type="Btn" RowCount="0" ColumnCount="0">
+        <btn value="0" img="Fixtures\JBSYSTEM\DYNAMO\img\812-gobo2.bmp" start="0" end="11" text="White" />
+        <btn value="12" img="Fixtures\JBSYSTEM\DYNAMO\img\JBSysDynamo 2.bmp" start="12" end="23" text="Yellow" />
+        <btn value="24" img="Fixtures\JBSYSTEM\DYNAMO\img\JBSysDynamo 1.bmp" start="24" end="34" text="Blue" />
+        <btn value="35" img="Fixtures\JBSYSTEM\DYNAMO\img\JBSysDynamo 4.bmp" start="35" end="46" text="Blue-Red-Green" />
+        <btn value="47" img="Fixtures\JBSYSTEM\DYNAMO\img\JBSysDynamo 3.bmp" start="47" end="58" text="Green" />
+        <btn value="59" img="Fixtures\JBSYSTEM\DYNAMO\img\JBSysDynamo 9.bmp" start="59" end="69" text="Pink" />
+        <btn value="70" img="Fixtures\JBSYSTEM\DYNAMO\img\JBSysDynamo 5.bmp" start="70" end="81" text="Red-Yellow-Green-Blue" />
+        <btn value="82" img="Fixtures\JBSYSTEM\DYNAMO\img\JBSysDynamo 8.bmp" start="82" end="93" text="Magenta" />
+        <btn value="94" img="Fixtures\JBSYSTEM\DYNAMO\img\JBSysDynamo 6.bmp" start="94" end="104" text="Red" />
+        <btn value="105" img="Fixtures\JBSYSTEM\DYNAMO\img\JBSysDynamo 7.bmp" start="105" end="116" text="Blue-Magenta" />
+        <btn value="117" img="Fixtures\JBSYSTEM\DYNAMO\img\JBSysDynamo 10.bmp" start="117" end="127" text="White2" />
+        <btn value="128" img="Fixtures\JBSYSTEM\DYNAMO\img\CW Slow.bmp" start="128" end="169" text="Slow Gobo change" />
+        <btn value="170" img="Fixtures\JBSYSTEM\DYNAMO\img\CW Medium.bmp" start="170" end="211" text="Med gobo change" />
+        <btn value="212" img="Fixtures\JBSYSTEM\DYNAMO\img\CW Fast.bmp" start="212" end="253" text="Fast gobo change" />
+      </Channel>
+    </Channels>
+  </Fixture>
+</PimpMyLightFixture>

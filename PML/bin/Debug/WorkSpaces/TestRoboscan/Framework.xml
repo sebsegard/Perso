@@ -1,0 +1,97 @@
+<DmxFramework>
+  <Workspace Name="TestRoboscan" />
+  <Parameters MaxRealCanal="170" />
+  <Fixture Name="TestRoboscan" Type="Virtual">
+    <SubFixtures>
+      <Fixture Constructor="Martin" PRODUCT="Roboscan Pro 518" img="" Name="Roboscan Pro 518" StartAddress="2" Type="Real">
+        <Channels>
+          <Channel Name="Strobe/Lamp/Reset" Num="1" Type="Btn" RowCount="10" ColumnCount="1">
+            <btn value="0" img="" start="0" end="5" text="Default" />
+            <btn value="6" img="Fixtures\Martin\Roboscan Pro 518\img\FanHat.BMP" start="6" end="10" text="Fan Low" />
+            <btn value="11" img="Fixtures\Martin\Roboscan Pro 518\img\STROBE_fast2.bmp" start="11" end="53" text="Strobe Fast" />
+            <btn value="54" img="Fixtures\Martin\Roboscan Pro 518\img\STROBE_med2.bmp" start="54" end="96" text="Strobe Med" />
+            <btn value="97" img="Fixtures\Martin\Roboscan Pro 518\img\STROBE_slow2.bmp" start="97" end="138" text="Strobe Slow" />
+            <btn value="139" img="Fixtures\Martin\Roboscan Pro 518\img\acrobat-auto-trig.bmp" start="139" end="170" text="Stand Alone; Auto" />
+            <btn value="171" img="Fixtures\Martin\Roboscan Pro 518\img\acrobat-music-trig.bmp" start="171" end="202" text="Stand Alone; Music" />
+            <btn value="203" img="Fixtures\Martin\Roboscan Pro 518\img\reset.bmp" start="203" end="235" text="Reset" />
+            <btn value="236" img="Fixtures\Martin\Roboscan Pro 518\img\lamp_on.bmp" start="236" end="252" text="Lamp ON" />
+            <btn value="253" img="Fixtures\Martin\Roboscan Pro 518\img\lamp_off.bmp" start="253" end="255" text="Lamp OFF" />
+          </Channel>
+          <Channel Name="Dimmer" Num="2" Type="Basic" />
+          <Channel Name="Color" Num="3" Type="Btn" RowCount="9" ColumnCount="1">
+            <btn value="0" img="Fixtures\Martin\Roboscan Pro 518\img\Blank.gif" start="0" end="3" text="White" />
+            <btn value="8" img="Fixtures\Martin\Roboscan Pro 518\img\00001.bmp" start="8" end="11" text="Pink" />
+            <btn value="16" img="Fixtures\Martin\Roboscan Pro 518\img\Magenta.bmp" start="16" end="19" text="Magenta" />
+            <btn value="24" img="Fixtures\Martin\Roboscan Pro 518\img\00003.bmp" start="24" end="27" text="Primary Red" />
+            <btn value="32" img="Fixtures\Martin\Roboscan Pro 518\img\00008.Bmp" start="32" end="35" text="Flame Red" />
+            <btn value="40" img="Fixtures\Martin\Roboscan Pro 518\img\Orange.bmp" start="40" end="43" text="Dark Orange" />
+            <btn value="48" img="Fixtures\Martin\Roboscan Pro 518\img\00005.bmp" start="48" end="51" text="Orange" />
+            <btn value="56" img="Fixtures\Martin\Roboscan Pro 518\img\00006.bmp" start="56" end="59" text="Yellow" />
+            <btn value="120" img="Fixtures\Martin\Roboscan Pro 518\img\UV.bmp" start="120" end="123" text="UVPass" />
+          </Channel>
+          <Channel Name="Gobos" Num="4" Type="Btn" RowCount="6" ColumnCount="1">
+            <btn value="0" img="Fixtures\Martin\Roboscan Pro 518\img\opengobo.1.gif" start="0" end="0" text="open" />
+            <btn value="25" img="Fixtures\Martin\Roboscan Pro 518\img\phones.1.gif" start="25" end="27" text="phones" />
+            <btn value="76" img="Fixtures\Martin\Roboscan Pro 518\img\pommesfrites.1.gif" start="76" end="78" text="Fries" />
+            <btn value="127" img="Fixtures\Martin\Roboscan Pro 518\img\squares.1.gif" start="127" end="129" text="Squares" />
+            <btn value="178" img="Fixtures\Martin\Roboscan Pro 518\img\thinbars.1.gif" start="178" end="180" text="bars" />
+            <btn value="229" img="Fixtures\Martin\Roboscan Pro 518\img\triangle.1.gif" start="229" end="231" text="triangle" />
+          </Channel>
+          <Channel Name="Effect" Num="5" Type="Btn" RowCount="4" ColumnCount="1">
+            <btn value="0" img="Fixtures\Martin\Roboscan Pro 518\img\Open.BMP" start="0" end="63" text="open" />
+            <btn value="64" img="Fixtures\Martin\Roboscan Pro 518\img\F1 15.bmp" start="64" end="127" text="5500 -&gt;3400KCTC Filter" />
+            <btn value="128" img="Fixtures\Martin\Roboscan Pro 518\img\Frost.bmp" start="128" end="191" text="Frost" />
+            <btn value="192" img="Fixtures\Martin\Roboscan Pro 518\img\prism_on.bmp" start="192" end="255" text="prism" />
+          </Channel>
+          <Channel Name="Pan" Num="6" Type="Pan" />
+          <Channel Name="Tilt" Num="7" Type="Tilt" />
+        </Channels>
+      </Fixture>
+      <Fixture Constructor="Martin" PRODUCT="Roboscan Pro 518" img="" Name="Roboscan Pro 518" StartAddress="9" Type="Real">
+        <Channels>
+          <Channel Name="Strobe/Lamp/Reset" Num="1" Type="Btn" RowCount="10" ColumnCount="1">
+            <btn value="0" img="" start="0" end="5" text="Default" />
+            <btn value="6" img="Fixtures\Martin\Roboscan Pro 518\img\FanHat.BMP" start="6" end="10" text="Fan Low" />
+            <btn value="11" img="Fixtures\Martin\Roboscan Pro 518\img\STROBE_fast2.bmp" start="11" end="53" text="Strobe Fast" />
+            <btn value="54" img="Fixtures\Martin\Roboscan Pro 518\img\STROBE_med2.bmp" start="54" end="96" text="Strobe Med" />
+            <btn value="97" img="Fixtures\Martin\Roboscan Pro 518\img\STROBE_slow2.bmp" start="97" end="138" text="Strobe Slow" />
+            <btn value="139" img="Fixtures\Martin\Roboscan Pro 518\img\acrobat-auto-trig.bmp" start="139" end="170" text="Stand Alone; Auto" />
+            <btn value="171" img="Fixtures\Martin\Roboscan Pro 518\img\acrobat-music-trig.bmp" start="171" end="202" text="Stand Alone; Music" />
+            <btn value="203" img="Fixtures\Martin\Roboscan Pro 518\img\reset.bmp" start="203" end="235" text="Reset" />
+            <btn value="236" img="Fixtures\Martin\Roboscan Pro 518\img\lamp_on.bmp" start="236" end="252" text="Lamp ON" />
+            <btn value="253" img="Fixtures\Martin\Roboscan Pro 518\img\lamp_off.bmp" start="253" end="255" text="Lamp OFF" />
+          </Channel>
+          <Channel Name="Dimmer" Num="2" Type="Basic" />
+          <Channel Name="Color" Num="3" Type="Btn" RowCount="9" ColumnCount="1">
+            <btn value="0" img="Fixtures\Martin\Roboscan Pro 518\img\Blank.gif" start="0" end="3" text="White" />
+            <btn value="8" img="Fixtures\Martin\Roboscan Pro 518\img\00001.bmp" start="8" end="11" text="Pink" />
+            <btn value="16" img="Fixtures\Martin\Roboscan Pro 518\img\Magenta.bmp" start="16" end="19" text="Magenta" />
+            <btn value="24" img="Fixtures\Martin\Roboscan Pro 518\img\00003.bmp" start="24" end="27" text="Primary Red" />
+            <btn value="32" img="Fixtures\Martin\Roboscan Pro 518\img\00008.Bmp" start="32" end="35" text="Flame Red" />
+            <btn value="40" img="Fixtures\Martin\Roboscan Pro 518\img\Orange.bmp" start="40" end="43" text="Dark Orange" />
+            <btn value="48" img="Fixtures\Martin\Roboscan Pro 518\img\00005.bmp" start="48" end="51" text="Orange" />
+            <btn value="56" img="Fixtures\Martin\Roboscan Pro 518\img\00006.bmp" start="56" end="59" text="Yellow" />
+            <btn value="120" img="Fixtures\Martin\Roboscan Pro 518\img\UV.bmp" start="120" end="123" text="UVPass" />
+          </Channel>
+          <Channel Name="Gobos" Num="4" Type="Btn" RowCount="6" ColumnCount="1">
+            <btn value="0" img="Fixtures\Martin\Roboscan Pro 518\img\opengobo.1.gif" start="0" end="0" text="open" />
+            <btn value="25" img="Fixtures\Martin\Roboscan Pro 518\img\phones.1.gif" start="25" end="27" text="phones" />
+            <btn value="76" img="Fixtures\Martin\Roboscan Pro 518\img\pommesfrites.1.gif" start="76" end="78" text="Fries" />
+            <btn value="127" img="Fixtures\Martin\Roboscan Pro 518\img\squares.1.gif" start="127" end="129" text="Squares" />
+            <btn value="178" img="Fixtures\Martin\Roboscan Pro 518\img\thinbars.1.gif" start="178" end="180" text="bars" />
+            <btn value="229" img="Fixtures\Martin\Roboscan Pro 518\img\triangle.1.gif" start="229" end="231" text="triangle" />
+          </Channel>
+          <Channel Name="Effect" Num="5" Type="Btn" RowCount="4" ColumnCount="1">
+            <btn value="0" img="Fixtures\Martin\Roboscan Pro 518\img\Open.BMP" start="0" end="63" text="open" />
+            <btn value="64" img="Fixtures\Martin\Roboscan Pro 518\img\F1 15.bmp" start="64" end="127" text="5500 -&gt;3400KCTC Filter" />
+            <btn value="128" img="Fixtures\Martin\Roboscan Pro 518\img\Frost.bmp" start="128" end="191" text="Frost" />
+            <btn value="192" img="Fixtures\Martin\Roboscan Pro 518\img\prism_on.bmp" start="192" end="255" text="prism" />
+          </Channel>
+          <Channel Name="Pan" Num="6" Type="Pan" />
+          <Channel Name="Tilt" Num="7" Type="Tilt" />
+        </Channels>
+      </Fixture>
+    </SubFixtures>
+    <Channels />
+  </Fixture>
+</DmxFramework>

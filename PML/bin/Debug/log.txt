@@ -1,0 +1,16 @@
+
+28/05/2018
+Value out of range
+   at DmxFramework.Channels.Channel.InternalChangeValue(Int32 pValue, Boolean pFromForcage, ChangeOrigin pOrigin) in D:\svn\PML\DmxFramework\Channels\Channel.cs:line 367
+   at DmxFramework.Channels.Channel.ForceValue(Int32 pValue, ChangeOrigin pOrigin) in D:\svn\PML\DmxFramework\Channels\Channel.cs:line 333
+   at DmxSoft.Control.DmxOutputCtrl.textBox1_KeyDown(Object sender, KeyEventArgs e) in D:\svn\PML\DmxSoft\Control\DmxOutputCtrl.cs:line 80
+   at System.Windows.Forms.Control.OnKeyDown(KeyEventArgs e)
+   at System.Windows.Forms.Control.ProcessKeyEventArgs(Message& m)
+   at System.Windows.Forms.Control.ProcessKeyMessage(Message& m)
+   at System.Windows.Forms.Control.WmKeyChar(Message& m)
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at System.Windows.Forms.TextBoxBase.WndProc(Message& m)
+   at System.Windows.Forms.TextBox.WndProc(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)

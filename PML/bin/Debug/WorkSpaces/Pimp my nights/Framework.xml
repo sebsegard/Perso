@@ -1,0 +1,1892 @@
+﻿<DmxFramework>
+  <Parameters MaxRealCanal ="170"/>
+  <Fixture Name="DJSEB LIGHT" Type="Virtual">
+    <SubFixtures>
+      <Fixture Name="PROJECTEUR ROBOTISES" Type="Virtual">
+        <SubFixtures>
+          <Fixture Name="SCANNER" Type="Virtual">
+            <SubFixtures>
+              <Fixture Name="DJSCAN" Type="Virtual">
+                <SubFixtures>
+                  <Fixture Name="DJSCAN1" Type="Real" Constructor="GHOST" PRODUCT="DJSCAN" StartAddress ="1" img="DJSCAN.gif">
+                    <Channels>
+                      <Channel Name="Pan" Type="Pan" Num="3" inverted="false"/>
+                      <Channel Name="Tilt" Type="Tilt" Num="4" inverted="false"/>
+                      <Channel Name="Gobo" Type="Btn" Num="1" inverted="false" RowCount ="5" ColumnCount="4">
+                        <btn value="0" start="0" end="10" img="Fixtures\\GHOST\\DJSCAN\\img\\Gobo_r1_c1.gif" text =""/>
+                        <btn value="10" start="10" end="20" img="Fixtures\\GHOST\\DJSCAN\\img\\Gobo_r1_c2.gif" text =""/>
+                        <btn value="20" start="20" end="30" img="Fixtures\\GHOST\\DJSCAN\\img\\Gobo_r1_c3.gif" text =""/>
+                        <btn value="30" start="30" end="40" img="Fixtures\\GHOST\\DJSCAN\\img\\Gobo_r1_c4.gif" text =""/>
+                        <btn value="40" start="40" end="50" img="Fixtures\\GHOST\\DJSCAN\\img\\Gobo_r1_c5.gif" text =""/>
+                        <btn value="50" start="50" end="60" img="Fixtures\\GHOST\\DJSCAN\\img\\Gobo_r1_c6.gif" text =""/>
+                        <btn value="60" start="60" end="70" img="Fixtures\\GHOST\\DJSCAN\\img\\Gobo_r1_c7.gif" text =""/>
+                        <btn value="70" start="70" end="80" img="Fixtures\\GHOST\\DJSCAN\\img\\Gobo_r1_c8.gif" text =""/>
+                        <btn value="80" start="80" end="90" img="Fixtures\\GHOST\\DJSCAN\\img\\Gobo_r1_c9.gif" text =""/>
+                        <btn value="90" start="90" end="100" img="Fixtures\\GHOST\\DJSCAN\\img\\Gobo_r1_c10.gif" text =""/>
+                        <btn value="100" start="100" end="110" img="Fixtures\\GHOST\\DJSCAN\\img\\Gobo_r2_c1.gif" text =""/>
+                        <btn value="110" start="110" end="120" img="Fixtures\\GHOST\\DJSCAN\\img\\Gobo_r2_c2.gif" text =""/>
+                         <btn value="120" start="120" end="130" img="Fixtures\\GHOST\\DJSCAN\\img\\Gobo_r2_c3.gif" text =""/>
+                         <btn value="130" start="130" end="140" img="Fixtures\\GHOST\\DJSCAN\\img\\Gobo_r2_c4.gif" text =""/>
+                        <btn value="140" start="140" end="150" img="Fixtures\\GHOST\\DJSCAN\\img\\Gobo_r2_c5.gif" text =""/>
+                        <btn value="150" start="150" end="160" img="Fixtures\\GHOST\\DJSCAN\\img\\00001.bmp" text =""/>
+                        <btn value="160" start="160" end="205" img="Fixtures\\GHOST\\DJSCAN\\img\\Gobo_r2_c7.bmp" text =""/>
+                        <btn value="205" start="205" end="250" img="Fixtures\\GHOST\\DJSCAN\\img\\Gobo_r2_c8.bmp" text =""/>
+                        <btn value="250" start="250" end="256" img="" text ="AUTO"/>
+                      </Channel>
+                      <Channel Name="Shutter" Type="Btn" Num="2" inverted="false" RowCount ="3" ColumnCount="2">
+                        <btn value="0" start="0" end="11" img="" text ="0"/>
+                        <btn value="11" start="11" end="100" img="" text ="1"/>
+                        <btn value="100" start="100" end="150" img="" text ="2"/>
+                        <btn value="150" start="150" end="200" img="" text ="3"/>
+                        <btn value="200" start="200" end="250" img="" text ="4"/>
+                        <btn value="250" start="250" end="256" img="" text ="5"/>
+                      </Channel>
+                    </Channels>
+                  </Fixture>
+                  <Fixture Name="DJSCAN2" Type="Real" Constructor="GHOST" PRODUCT="DJSCAN" StartAddress ="5" img="DJSCAN.gif">
+                    <Channels>
+                      <Channel Name="Pan" Type="Pan" Num="3" inverted="false"/>
+                      <Channel Name="Tilt" Type="Tilt" Num="4" inverted="false"/>
+                      <Channel Name="Gobo" Type="Btn" Num="1" inverted="false" RowCount ="5" ColumnCount="4">
+                        <btn value="0" start="0" end="10" img="Fixtures\\GHOST\\DJSCAN\\img\\Gobo_r1_c1.gif" text =""/>
+                        <btn value="10" start="10" end="20" img="Fixtures\\GHOST\\DJSCAN\\img\\Gobo_r1_c2.gif" text =""/>
+                        <btn value="20" start="20" end="30" img="Fixtures\\GHOST\\DJSCAN\\img\\Gobo_r1_c3.gif" text =""/>
+                        <btn value="30" start="30" end="40" img="Fixtures\\GHOST\\DJSCAN\\img\\Gobo_r1_c4.gif" text =""/>
+                        <btn value="40" start="40" end="50" img="Fixtures\\GHOST\\DJSCAN\\img\\Gobo_r1_c5.gif" text =""/>
+                        <btn value="50" start="50" end="60" img="Fixtures\\GHOST\\DJSCAN\\img\\Gobo_r1_c6.gif" text =""/>
+                        <btn value="60" start="60" end="70" img="Fixtures\\GHOST\\DJSCAN\\img\\Gobo_r1_c7.gif" text =""/>
+                        <btn value="70" start="70" end="80" img="Fixtures\\GHOST\\DJSCAN\\img\\Gobo_r1_c8.gif" text =""/>
+                        <btn value="80" start="80" end="90" img="Fixtures\\GHOST\\DJSCAN\\img\\Gobo_r1_c9.gif" text =""/>
+                        <btn value="90" start="90" end="100" img="Fixtures\\GHOST\\DJSCAN\\img\\Gobo_r1_c10.gif" text =""/>
+                        <btn value="100" start="100" end="110" img="Fixtures\\GHOST\\DJSCAN\\img\\Gobo_r2_c1.gif" text =""/>
+                        <btn value="110" start="110" end="120" img="Fixtures\\GHOST\\DJSCAN\\img\\Gobo_r2_c2.gif" text =""/>
+                        <btn value="120" start="120" end="130" img="Fixtures\\GHOST\\DJSCAN\\img\\Gobo_r2_c3.gif" text =""/>
+                        <btn value="130" start="130" end="140" img="Fixtures\\GHOST\\DJSCAN\\img\\Gobo_r2_c4.gif" text =""/>
+                        <btn value="140" start="140" end="150" img="Fixtures\\GHOST\\DJSCAN\\img\\Gobo_r2_c5.gif" text =""/>
+                        <btn value="150" start="150" end="160" img="Fixtures\\GHOST\\DJSCAN\\img\\00001.bmp" text =""/>
+                        <btn value="160" start="160" end="205" img="Fixtures\\GHOST\\DJSCAN\\img\\Gobo_r2_c7.bmp" text =""/>
+                        <btn value="205" start="205" end="250" img="Fixtures\\GHOST\\DJSCAN\\img\\Gobo_r2_c8.bmp" text =""/>
+                        <btn value="250" start="250" end="256" img="" text ="AUTO"/>
+                      </Channel>
+                      <Channel Name="Shutter" Type="Btn" Num="2" inverted="false" RowCount ="3" ColumnCount="2">
+                        <btn value="0" start="0" end="11" img="" text ="0"/>
+                        <btn value="11" start="11" end="100" img="" text ="1"/>
+                        <btn value="100" start="100" end="150" img="" text ="2"/>
+                        <btn value="150" start="150" end="200" img="" text ="3"/>
+                        <btn value="200" start="200" end="250" img="" text ="4"/>
+                        <btn value="250" start="250" end="256" img="" text ="5"/>
+                      </Channel>
+                    </Channels>
+                  </Fixture>
+                </SubFixtures>
+                <Channels>
+                  <Channel Name="Pan" Type="Pan" Num="3" VirtualType="Copy">
+                    <CopyTo Name="DJSCAN1" ChannelName="Pan"/>
+                    <CopyTo Name="DJSCAN2" ChannelName="Pan"/>
+                  </Channel>
+                  <Channel Name="Tilt" Type="Tilt" Num="4" VirtualType="Copy">
+                    <CopyTo Name="DJSCAN1" ChannelName="Tilt"/>
+                    <CopyTo Name="DJSCAN2" ChannelName="Tilt"/>
+                  </Channel>
+                  <Channel Name="Gobo" Type="Btn" Num="1" VirtualType="ByValue" RowCount ="5" ColumnCount="4">
+                    <btn value="0" start="0" end="10" img="Fixtures\\GHOST\\DJSCAN\\img\\Gobo_r1_c1.gif" text ="Black">
+                      <CopyTo Name="DJSCAN1" ChannelName="Gobo" Value="0"/>
+                      <CopyTo Name="DJSCAN2" ChannelName="Gobo" Value="0"/>
+                    </btn>
+                    <btn value="10" start="10" end="20" img="Fixtures\\GHOST\\DJSCAN\\img\\Gobo_r1_c2.gif" text ="White">
+                      <CopyTo Name="DJSCAN1" ChannelName="Gobo" Value="10"/>
+                      <CopyTo Name="DJSCAN2" ChannelName="Gobo" Value="10"/>
+                    </btn>
+                    <btn value="20" start="20" end="30" img="Fixtures\\GHOST\\DJSCAN\\img\\Gobo_r1_c3.gif" text ="Blue">
+                      <CopyTo Name="DJSCAN1" ChannelName="Gobo" Value="20"/>
+                      <CopyTo Name="DJSCAN2" ChannelName="Gobo" Value="20"/>
+                    </btn>
+                    <btn value="30" start="30" end="40" img="Fixtures\\GHOST\\DJSCAN\\img\\Gobo_r1_c4.gif" text ="Blue-Red">
+                      <CopyTo Name="DJSCAN1" ChannelName="Gobo" Value="30"/>
+                      <CopyTo Name="DJSCAN2" ChannelName="Gobo" Value="30"/>
+                    </btn>
+                    <btn value="40" start="40" end="50" img="Fixtures\\GHOST\\DJSCAN\\img\\Gobo_r1_c5.gif" text ="Green">
+                      <CopyTo Name="DJSCAN1" ChannelName="Gobo" Value="40"/>
+                      <CopyTo Name="DJSCAN2" ChannelName="Gobo" Value="40"/>
+                    </btn>
+                    <btn value="50" start="50" end="60" img="Fixtures\\GHOST\\DJSCAN\\img\\Gobo_r1_c6.gif" text ="Red">
+                      <CopyTo Name="DJSCAN1" ChannelName="Gobo" Value="50"/>
+                      <CopyTo Name="DJSCAN2" ChannelName="Gobo" Value="50"/>
+                    </btn>
+                    <btn value="60" start="60" end="70" img="Fixtures\\GHOST\\DJSCAN\\img\\Gobo_r1_c7.gif" text ="Yellow">
+                      <CopyTo Name="DJSCAN1" ChannelName="Gobo" Value="60"/>
+                      <CopyTo Name="DJSCAN2" ChannelName="Gobo" Value="60"/>
+                    </btn>
+                    <btn value="70" start="70" end="80" img="Fixtures\\GHOST\\DJSCAN\\img\\Gobo_r1_c8.gif" text ="Green2">
+                      <CopyTo Name="DJSCAN1" ChannelName="Gobo" Value="70"/>
+                      <CopyTo Name="DJSCAN2" ChannelName="Gobo" Value="70"/>
+                    </btn>
+                    <btn value="80" start="80" end="90" img="Fixtures\\GHOST\\DJSCAN\\img\\Gobo_r1_c9.gif" text ="Green-Magenta">
+                      <CopyTo Name="DJSCAN1" ChannelName="Gobo" Value="80"/>
+                      <CopyTo Name="DJSCAN2" ChannelName="Gobo" Value="80"/>
+                    </btn>
+                    <btn value="90" start="90" end="100" img="Fixtures\\GHOST\\DJSCAN\\img\\Gobo_r1_c10.gif" text ="Blue Circle">
+                      <CopyTo Name="DJSCAN1" ChannelName="Gobo" Value="90"/>
+                      <CopyTo Name="DJSCAN2" ChannelName="Gobo" Value="90"/>
+                    </btn>
+                    <btn value="100" start="100" end="110" img="Fixtures\\GHOST\\DJSCAN\\img\\Gobo_r2_c1.gif" text ="Orange">
+                      <CopyTo Name="DJSCAN1" ChannelName="Gobo" Value="100"/>
+                      <CopyTo Name="DJSCAN2" ChannelName="Gobo" Value="100"/>
+                    </btn>
+                    <btn value="110" start="110" end="120" img="Fixtures\\GHOST\\DJSCAN\\img\\Gobo_r2_c2.gif" text ="Green3">
+                      <CopyTo Name="DJSCAN1" ChannelName="Gobo" Value="110"/>
+                      <CopyTo Name="DJSCAN2" ChannelName="Gobo" Value="110"/>
+                    </btn>
+                    <btn value="120" start="120" end="130" img="Fixtures\\GHOST\\DJSCAN\\img\\Gobo_r2_c3.gif" text ="Yellow2">
+                      <CopyTo Name="DJSCAN1" ChannelName="Gobo" Value="120"/>
+                      <CopyTo Name="DJSCAN2" ChannelName="Gobo" Value="120"/>
+                    </btn>
+                    <btn value="130" start="130" end="140" img="Fixtures\\GHOST\\DJSCAN\\img\\Gobo_r2_c4.gif" text ="Heart">
+                      <CopyTo Name="DJSCAN1" ChannelName="Gobo" Value="130"/>
+                      <CopyTo Name="DJSCAN2" ChannelName="Gobo" Value="130"/>
+                    </btn>
+                    <btn value="140" start="140" end="150" img="Fixtures\\GHOST\\DJSCAN\\img\\Gobo_r2_c5.gif" text ="Hand">
+                      <CopyTo Name="DJSCAN1" ChannelName="Gobo" Value="140"/>
+                      <CopyTo Name="DJSCAN2" ChannelName="Gobo" Value="140"/>
+                    </btn>
+                    <btn value="150" start="150" end="160" img="Fixtures\\GHOST\\DJSCAN\\img\\00001.bmp" text ="Fast">
+                      <CopyTo Name="DJSCAN1" ChannelName="Gobo" Value="150"/>
+                      <CopyTo Name="DJSCAN2" ChannelName="Gobo" Value="150"/>
+                    </btn>
+                    <btn value="160" start="160" end="205" img="Fixtures\\GHOST\\DJSCAN\\img\\Gobo_r2_c7.bmp" text ="Slow">
+                      <CopyTo Name="DJSCAN1" ChannelName="Gobo" Value="160"/>
+                      <CopyTo Name="DJSCAN2" ChannelName="Gobo" Value="160"/>
+                    </btn>
+                    <btn value="205" start="205" end="250" img="Fixtures\\GHOST\\DJSCAN\\img\\Gobo_r2_c8.bmp" text ="Automatic">
+                      <CopyTo Name="DJSCAN1" ChannelName="Gobo" Value="205"/>
+                      <CopyTo Name="DJSCAN2" ChannelName="Gobo" Value="205"/>
+                    </btn>
+                    <btn value="250" start="250" end="256" img="" text ="AUTO">
+                      <CopyTo Name="DJSCAN1" ChannelName="Gobo" Value="250"/>
+                      <CopyTo Name="DJSCAN2" ChannelName="Gobo" Value="250"/>
+                    </btn>
+                  </Channel>
+                  <Channel Name="Shutter" Type="Btn" Num="2" VirtualType="ByValue" RowCount ="3" ColumnCount="2">
+                    <btn value="0" start="0" end="11" img="" text ="0">
+                      <CopyTo Name="DJSCAN1" ChannelName="Shutter" Value="0"/>
+                      <CopyTo Name="DJSCAN2" ChannelName="Shutter" Value="0"/>
+                    </btn>
+                    <btn value="11" start="11" end="100" img="" text ="1">
+                      <CopyTo Name="DJSCAN1" ChannelName="Shutter" Value="11"/>
+                      <CopyTo Name="DJSCAN2" ChannelName="Shutter" Value="11"/>
+                    </btn>
+                    <btn value="100" start="100" end="150" img="" text ="2">
+                      <CopyTo Name="DJSCAN1" ChannelName="Shutter" Value="100"/>
+                      <CopyTo Name="DJSCAN2" ChannelName="Shutter" Value="100"/>
+                    </btn>
+                    <btn value="150" start="150" end="200" img="" text ="3">
+                      <CopyTo Name="DJSCAN1" ChannelName="Shutter" Value="150"/>
+                      <CopyTo Name="DJSCAN2" ChannelName="Shutter" Value="150"/>
+                    </btn>
+                    <btn value="200" start="200" end="40" img="" text ="4">
+                      <CopyTo Name="DJSCAN1" ChannelName="Shutter" Value="200"/>
+                      <CopyTo Name="DJSCAN2" ChannelName="Shutter" Value="200"/>
+                    </btn>
+                    <btn value="250" start="200" end="256" img="" text ="5">
+                      <CopyTo Name="DJSCAN1" ChannelName="Shutter" Value="250"/>
+                      <CopyTo Name="DJSCAN2" ChannelName="Shutter" Value="250"/>
+                    </btn>
+                  </Channel>
+                </Channels>
+              </Fixture>
+              <Fixture Name="TheWinner" Type="Virtual">
+                <SubFixtures>
+                  <Fixture Name="THEWINNER1" Type="Real" Constructor="JBSYSTEM" PRODUCT="THE WINNER" StartAddress ="13" img="winnerNew.gif">
+                    <Channels>
+                      <Channel Name="Pan" Type="Pan" Num="4" inverted="true"/>
+                      <Channel Name="Tilt" Type="Tilt" Num="5" inverted="false"/>
+                      <Channel Name="Gobo" Type="Btn" Num="2" inverted="false" RowCount ="5" ColumnCount="4">
+                        <btn value="0" start="0" end="8" img="Fixtures\\JBSYSTEM\\THE WINNER\\img\\Black.bmp" text =""/>
+                        <btn value="8" start="8" end="16" img="Fixtures\\JBSYSTEM\\THE WINNER\\img\\Open.BMP" text =""/>
+                        <btn value="16" start="16" end="24" img="Fixtures\\JBSYSTEM\\THE WINNER\\img\\Beam8.bmp" text =""/>
+                        <btn value="24" start="24" end="32" img="Fixtures\\JBSYSTEM\\THE WINNER\\img\\inf diamond.bmp" text =""/>
+                        <btn value="32" start="32" end="40" img="Fixtures\\JBSYSTEM\\THE WINNER\\img\\circle.bmp" text =""/>
+                        <btn value="40" start="36" end="48" img="Fixtures\\JBSYSTEM\\THE WINNER\\img\\Phone.BMP" text =""/>
+                        <btn value="48" start="44" end="56" img="Fixtures\\JBSYSTEM\\THE WINNER\\img\\inf Shell.bmp" text =""/>
+                        <btn value="56" start="56" end="64" img="Fixtures\\JBSYSTEM\\THE WINNER\\img\\inf wheel.bmp" text =""/>
+                        <btn value="64" start="64" end="72" img="Fixtures\\JBSYSTEM\\THE WINNER\\img\\4Beam.BMP" text =""/>
+                        <btn value="72" start="72" end="80" img="Fixtures\\JBSYSTEM\\THE WINNER\\img\\inf Hand.bmp" text =""/>
+                        <btn value="80" start="80" end="88" img="Fixtures\\JBSYSTEM\\THE WINNER\\img\\inf sticks.bmp" text =""/>
+                        <btn value="88" start="88" end="96" img="Fixtures\\JBSYSTEM\\THE WINNER\\img\\inf fan.bmp" text =""/>
+                        <btn value="96" start="96" end="104" img="Fixtures\\JBSYSTEM\\THE WINNER\\img\\Geni_Spiral.bmp" text =""/>
+                        <btn value="104" start="104" end="112" img="Fixtures\\JBSYSTEM\\THE WINNER\\img\\inf multi dot.bmp" text =""/>
+                        <btn value="112" start="112" end="120" img="Fixtures\\JBSYSTEM\\THE WINNER\\img\\burst.bmp" text =""/>
+                        <btn value="120" start="120" end="160" img="Fixtures\\JBSYSTEM\\THE WINNER\\img\\Twist.gif" text =""/>
+                        <btn value="160" start="160" end="190" img="Fixtures\\JBSYSTEM\\THE WINNER\\img\\Random.bmp" text =""/>
+                        <btn value="190" start="190" end="220" img="Fixtures\\JBSYSTEM\\THE WINNER\\img\\Random.bmp" text =""/>
+                        <btn value="220" start="220" end="250" img="Fixtures\\JBSYSTEM\\THE WINNER\\img\\Random.bmp" text =""/>
+                        <btn value="250" start="250" end="256" img="Fixtures\\JBSYSTEM\\THE WINNER\\img\\Random.bmp" text =""/>
+                      </Channel>
+                      <Channel Name="Color" Type="Btn"    Num="3" inverted="false" RowCount ="4" ColumnCount="4">
+                        <btn value="0" start="0" end="11" img="Fixtures\\JBSYSTEM\\THE WINNER\\img\\White.bmp" text =""/>
+                        <btn value="11" start="11" end="22" img="Fixtures\\JBSYSTEM\\THE WINNER\\img\\Dark Green.bmp" text =""/>
+                        <btn value="22" start="22" end="33" img="Fixtures\\JBSYSTEM\\THE WINNER\\img\\LightOrange.bmp" text =""/>
+                        <btn value="33" start="33" end="44" img="Fixtures\\JBSYSTEM\\THE WINNER\\img\\lightblue.bmp" text =""/>
+                        <btn value="44" start="44" end="55" img="Fixtures\\JBSYSTEM\\THE WINNER\\img\\DarkYellow.bmp" text =""/>
+                        <btn value="55" start="55" end="66" img="Fixtures\\JBSYSTEM\\THE WINNER\\img\\Red.bmp" text =""/>
+                        <btn value="66" start="66" end="77" img="Fixtures\\JBSYSTEM\\THE WINNER\\img\\UV.bmp" text =""/>
+                        <btn value="77" start="77" end="88" img="Fixtures\\JBSYSTEM\\THE WINNER\\img\\Pink.bmp" text =""/>
+                        <btn value="88" start="88" end="99" img="Fixtures\\JBSYSTEM\\THE WINNER\\img\\lightgreen.bmp" text =""/>
+                        <btn value="99" start="99" end="110" img="Fixtures\\JBSYSTEM\\THE WINNER\\img\\Blue.bmp" text =""/>
+                        <btn value="110" start="110" end="121" img="Fixtures\\JBSYSTEM\\THE WINNER\\img\\Yellow.bmp" text =""/>
+                        <btn value="121" start="121" end="160" img="Fixtures\\JBSYSTEM\\THE WINNER\\img\\magenta.bmp" text =""/>
+                        <btn value="160" start="160" end="190" img="Fixtures\\JBSYSTEM\\THE WINNER\\img\\Rainbow.bmp" text =""/>
+                        <btn value="190" start="190" end="220" img="Fixtures\\JBSYSTEM\\THE WINNER\\img\\Rainbow.bmp" text =""/>
+                        <btn value="220" start="220" end="250" img="Fixtures\\JBSYSTEM\\THE WINNER\\img\\Rainbow.bmp" text =""/>
+                        <btn value="250" start="250" end="256" img="Fixtures\\JBSYSTEM\\THE WINNER\\img\\Rainbow.bmp" text =""/>
+                      </Channel>
+                      <Channel Name="Shutter" Type="Btn" Num="1" inverted="false" RowCount ="2" ColumnCount="2">
+                        <btn value="0" start="0" end="10" img="Fixtures\\Shutter\\STOP_.bmp" text =""/>
+                        <btn value="11" start="11" end="50" img="Fixtures\\Shutter\\Strobe Slow.gif" text =""/>
+                        <btn value="50" start="50" end="90" img="Fixtures\\Shutter\\Strobe Med.GIF" text =""/>
+                        <btn value="90" start="90" end="256" img="Fixtures\\Shutter\\Strobe Fast.gif" text =""/>
+                      </Channel>
+                    </Channels>
+                  </Fixture>
+                  <Fixture Name="THEWINNER2" Type="Real" Constructor="JBSYSTEM" PRODUCT="THE WINNER" StartAddress ="23" img="winnerNew.gif">
+                    <Channels>
+                      <Channel Name="Pan" Type="Pan" Num="4" inverted="true"/>
+                      <Channel Name="Tilt" Type="Tilt" Num="5" inverted="false"/>
+                      <Channel Name="Gobo" Type="Btn" Num="2" inverted="false" RowCount ="5" ColumnCount="4">
+                        <btn value="0" start="0" end="8" img="Fixtures\\JBSYSTEM\\THE WINNER\\img\\Black.bmp" text =""/>
+                        <btn value="8" start="8" end="16" img="Fixtures\\JBSYSTEM\\THE WINNER\\img\\Open.BMP" text =""/>
+                        <btn value="16" start="16" end="24" img="Fixtures\\JBSYSTEM\\THE WINNER\\img\\Beam8.bmp" text =""/>
+                        <btn value="24" start="24" end="32" img="Fixtures\\JBSYSTEM\\THE WINNER\\img\\inf diamond.bmp" text =""/>
+                        <btn value="32" start="32" end="40" img="Fixtures\\JBSYSTEM\\THE WINNER\\img\\circle.bmp" text =""/>
+                        <btn value="40" start="36" end="48" img="Fixtures\\JBSYSTEM\\THE WINNER\\img\\Phone.BMP" text =""/>
+                        <btn value="48" start="44" end="56" img="Fixtures\\JBSYSTEM\\THE WINNER\\img\\inf Shell.bmp" text =""/>
+                        <btn value="56" start="56" end="64" img="Fixtures\\JBSYSTEM\\THE WINNER\\img\\inf wheel.bmp" text =""/>
+                        <btn value="64" start="64" end="72" img="Fixtures\\JBSYSTEM\\THE WINNER\\img\\4Beam.BMP" text =""/>
+                        <btn value="72" start="72" end="80" img="Fixtures\\JBSYSTEM\\THE WINNER\\img\\inf Hand.bmp" text =""/>
+                        <btn value="80" start="80" end="88" img="Fixtures\\JBSYSTEM\\THE WINNER\\img\\inf sticks.bmp" text =""/>
+                        <btn value="88" start="88" end="96" img="Fixtures\\JBSYSTEM\\THE WINNER\\img\\inf fan.bmp" text =""/>
+                        <btn value="96" start="96" end="104" img="Fixtures\\JBSYSTEM\\THE WINNER\\img\\Geni_Spiral.bmp" text =""/>
+                        <btn value="104" start="104" end="112" img="Fixtures\\JBSYSTEM\\THE WINNER\\img\\inf multi dot.bmp" text =""/>
+                        <btn value="112" start="112" end="120" img="Fixtures\\JBSYSTEM\\THE WINNER\\img\\burst.bmp" text =""/>
+                        <btn value="120" start="120" end="160" img="Fixtures\\JBSYSTEM\\THE WINNER\\img\\Twist.gif" text =""/>
+                        <btn value="160" start="160" end="190" img="Fixtures\\JBSYSTEM\\THE WINNER\\img\\Random.bmp" text =""/>
+                        <btn value="190" start="190" end="220" img="Fixtures\\JBSYSTEM\\THE WINNER\\img\\Random.bmp" text =""/>
+                        <btn value="220" start="220" end="250" img="Fixtures\\JBSYSTEM\\THE WINNER\\img\\Random.bmp" text =""/>
+                        <btn value="250" start="250" end="256" img="Fixtures\\JBSYSTEM\\THE WINNER\\img\\Random.bmp" text =""/>
+                      </Channel>
+                      <Channel Name="Color" Type="Btn"    Num="3" inverted="false" RowCount ="4" ColumnCount="4">
+                        <btn value="0" start="0" end="11" img="Fixtures\\JBSYSTEM\\THE WINNER\\img\\White.bmp" text =""/>
+                        <btn value="11" start="11" end="22" img="Fixtures\\JBSYSTEM\\THE WINNER\\img\\Dark Green.bmp" text =""/>
+                        <btn value="22" start="22" end="33" img="Fixtures\\JBSYSTEM\\THE WINNER\\img\\LightOrange.bmp" text =""/>
+                        <btn value="33" start="33" end="44" img="Fixtures\\JBSYSTEM\\THE WINNER\\img\\lightblue.bmp" text =""/>
+                        <btn value="44" start="44" end="55" img="Fixtures\\JBSYSTEM\\THE WINNER\\img\\DarkYellow.bmp" text =""/>
+                        <btn value="55" start="55" end="66" img="Fixtures\\JBSYSTEM\\THE WINNER\\img\\Red.bmp" text =""/>
+                        <btn value="66" start="66" end="77" img="Fixtures\\JBSYSTEM\\THE WINNER\\img\\UV.bmp" text =""/>
+                        <btn value="77" start="77" end="88" img="Fixtures\\JBSYSTEM\\THE WINNER\\img\\Pink.bmp" text =""/>
+                        <btn value="88" start="88" end="99" img="Fixtures\\JBSYSTEM\\THE WINNER\\img\\lightgreen.bmp" text =""/>
+                        <btn value="99" start="99" end="110" img="Fixtures\\JBSYSTEM\\THE WINNER\\img\\Blue.bmp" text =""/>
+                        <btn value="110" start="110" end="121" img="Fixtures\\JBSYSTEM\\THE WINNER\\img\\Yellow.bmp" text =""/>
+                        <btn value="121" start="121" end="160" img="Fixtures\\JBSYSTEM\\THE WINNER\\img\\magenta.bmp" text =""/>
+                        <btn value="160" start="160" end="190" img="Fixtures\\JBSYSTEM\\THE WINNER\\img\\Rainbow.bmp" text =""/>
+                        <btn value="190" start="190" end="220" img="Fixtures\\JBSYSTEM\\THE WINNER\\img\\Rainbow.bmp" text =""/>
+                        <btn value="220" start="220" end="250" img="Fixtures\\JBSYSTEM\\THE WINNER\\img\\Rainbow.bmp" text =""/>
+                        <btn value="250" start="250" end="256" img="Fixtures\\JBSYSTEM\\THE WINNER\\img\\Rainbow.bmp" text =""/>
+                      </Channel>
+                      <Channel Name="Shutter" Type="Btn" Num="1" inverted="false" RowCount ="2" ColumnCount="2">
+                        <btn value="0" start="0" end="10" img="Fixtures\\Shutter\\STOP_.bmp" text =""/>
+                        <btn value="11" start="11" end="50" img="Fixtures\\Shutter\\Strobe Slow.gif" text =""/>
+                        <btn value="50" start="50" end="90" img="Fixtures\\Shutter\\Strobe Med.GIF" text =""/>
+                        <btn value="90" start="90" end="256" img="Fixtures\\Shutter\\Strobe Fast.gif" text =""/>
+                      </Channel>
+                    </Channels>
+                  </Fixture>
+                </SubFixtures>
+                <Channels>
+                  <Channel Name="Pan" Type="Pan" Num="3" VirtualType="Copy">
+                    <CopyTo Name="THEWINNER1" ChannelName="Pan"/>
+                    <CopyTo Name="THEWINNER2" ChannelName="Pan"/>
+                  </Channel>
+                  <Channel Name="Tilt" Type="Tilt" Num="4" VirtualType="Copy">
+                    <CopyTo Name="THEWINNER1" ChannelName="Tilt"/>
+                    <CopyTo Name="THEWINNER2" ChannelName="Tilt"/>
+                  </Channel>
+                  <Channel Name="Gobo" Type="Btn" Num="3" VirtualType="ByValue" RowCount ="5" ColumnCount="4">
+                    <btn value="0" start="0" end="8" img="Fixtures\\JBSYSTEM\\THE WINNER\\img\\Black.bmp" text ="Black">
+                      <CopyTo Name="THEWINNER1" ChannelName="Gobo" Value="0"/>
+                      <CopyTo Name="THEWINNER2" ChannelName="Gobo" Value="0"/>
+                    </btn>
+                    <btn value="8" start="8" end="16" img="Fixtures\\JBSYSTEM\\THE WINNER\\img\\Open.BMP" text ="Open">
+                      <CopyTo Name="THEWINNER1" ChannelName="Gobo" Value="8"/>
+                      <CopyTo Name="THEWINNER2" ChannelName="Gobo" Value="8"/>
+                    </btn>
+                    <btn value="16" start="16" end="24" img="Fixtures\\JBSYSTEM\\THE WINNER\\img\\Beam8.bmp" text ="Bead">
+                      <CopyTo Name="THEWINNER1" ChannelName="Gobo" Value="16"/>
+                      <CopyTo Name="THEWINNER2" ChannelName="Gobo" Value="16"/>
+                    </btn>
+                    <btn value="24" start="24" end="32" img="Fixtures\\JBSYSTEM\\THE WINNER\\img\\inf diamond.bmp" text ="Diamond">
+                      <CopyTo Name="THEWINNER1" ChannelName="Gobo" Value="24"/>
+                      <CopyTo Name="THEWINNER2" ChannelName="Gobo" Value="24"/>
+                    </btn>
+                    <btn value="32" start="32" end="40" img="Fixtures\\JBSYSTEM\\THE WINNER\\img\\circle.bmp" text ="Circle">
+                      <CopyTo Name="THEWINNER1" ChannelName="Gobo" Value="32"/>
+                      <CopyTo Name="THEWINNER2" ChannelName="Gobo" Value="32"/>
+                    </btn>
+                    <btn value="40" start="36" end="48" img="Fixtures\\JBSYSTEM\\THE WINNER\\img\\Phone.BMP" text ="Phone">
+                      <CopyTo Name="THEWINNER1" ChannelName="Gobo" Value="40"/>
+                      <CopyTo Name="THEWINNER2" ChannelName="Gobo" Value="40"/>
+                    </btn>
+                    <btn value="48" start="44" end="56" img="Fixtures\\JBSYSTEM\\THE WINNER\\img\\inf Shell.bmp" text ="Shell">
+                      <CopyTo Name="THEWINNER1" ChannelName="Gobo" Value="48"/>
+                      <CopyTo Name="THEWINNER2" ChannelName="Gobo" Value="48"/>
+                    </btn>
+                    <btn value="56" start="56" end="64" img="Fixtures\\JBSYSTEM\\THE WINNER\\img\\inf wheel.bmp" text ="wheel">
+                      <CopyTo Name="THEWINNER1" ChannelName="Gobo" Value="56"/>
+                      <CopyTo Name="THEWINNER2" ChannelName="Gobo" Value="56"/>
+                    </btn>
+                    <btn value="64" start="64" end="72" img="Fixtures\\JBSYSTEM\\THE WINNER\\img\\4Beam.BMP" text ="4beam">
+                      <CopyTo Name="THEWINNER1" ChannelName="Gobo" Value="64"/>
+                      <CopyTo Name="THEWINNER2" ChannelName="Gobo" Value="64"/>
+                    </btn>
+                    <btn value="72" start="72" end="80" img="Fixtures\\JBSYSTEM\\THE WINNER\\img\\inf Hand.bmp" text ="Hand">
+                      <CopyTo Name="THEWINNER1" ChannelName="Gobo" Value="72"/>
+                      <CopyTo Name="THEWINNER2" ChannelName="Gobo" Value="72"/>
+                    </btn>
+                    <btn value="80" start="80" end="88" img="Fixtures\\JBSYSTEM\\THE WINNER\\img\\inf sticks.bmp" text ="Sticks">
+                      <CopyTo Name="THEWINNER1" ChannelName="Gobo" Value="80"/>
+                      <CopyTo Name="THEWINNER2" ChannelName="Gobo" Value="80"/>
+                    </btn>
+                    <btn value="88" start="88" end="96" img="Fixtures\\JBSYSTEM\\THE WINNER\\img\\inf fan.bmp" text ="Fan">
+                      <CopyTo Name="THEWINNER1" ChannelName="Gobo" Value="88"/>
+                      <CopyTo Name="THEWINNER2" ChannelName="Gobo" Value="88"/>
+                    </btn>
+                    <btn value="96" start="96" end="104" img="Fixtures\\JBSYSTEM\\THE WINNER\\img\\Geni_Spiral.bmp" text ="Spiral">
+                      <CopyTo Name="THEWINNER1" ChannelName="Gobo" Value="96"/>
+                      <CopyTo Name="THEWINNER2" ChannelName="Gobo" Value="96"/>
+                    </btn>
+                    <btn value="104" start="104" end="112" img="Fixtures\\JBSYSTEM\\THE WINNER\\img\\inf multi dot.bmp" text ="Multi dot">
+                      <CopyTo Name="THEWINNER1" ChannelName="Gobo" Value="104"/>
+                      <CopyTo Name="THEWINNER2" ChannelName="Gobo" Value="104"/>
+                    </btn>
+                    <btn value="112" start="112" end="120" img="Fixtures\\JBSYSTEM\\THE WINNER\\img\\burst.bmp" text ="burst">
+                      <CopyTo Name="THEWINNER1" ChannelName="Gobo" Value="112"/>
+                      <CopyTo Name="THEWINNER2" ChannelName="Gobo" Value="112"/>
+                    </btn>
+                    <btn value="120" start="120" end="160" img="Fixtures\\JBSYSTEM\\THE WINNER\\img\\Twist.gif" text ="twist">
+                      <CopyTo Name="THEWINNER1" ChannelName="Gobo" Value="120"/>
+                      <CopyTo Name="THEWINNER2" ChannelName="Gobo" Value="120"/>
+                    </btn>
+                    <btn value="160" start="160" end="190" img="Fixtures\\JBSYSTEM\\THE WINNER\\img\\Random.bmp" text ="Random1">
+                      <CopyTo Name="THEWINNER1" ChannelName="Gobo" Value="160"/>
+                      <CopyTo Name="THEWINNER2" ChannelName="Gobo" Value="160"/>
+                    </btn>
+                    <btn value="190" start="190" end="220" img="Fixtures\\JBSYSTEM\\THE WINNER\\img\\Random.bmp" text ="Random2">
+                      <CopyTo Name="THEWINNER1" ChannelName="Gobo" Value="190"/>
+                      <CopyTo Name="THEWINNER2" ChannelName="Gobo" Value="190"/>
+                    </btn>
+                    <btn value="220" start="220" end="250" img="Fixtures\\JBSYSTEM\\THE WINNER\\img\\Random.bmp" text ="Random3">
+                      <CopyTo Name="THEWINNER1" ChannelName="Gobo" Value="220"/>
+                      <CopyTo Name="THEWINNER2" ChannelName="Gobo" Value="220"/>
+                    </btn>
+                    <btn value="250" start="250" end="256" img="Fixtures\\JBSYSTEM\\THE WINNER\\img\\Random.bmp" text ="Random4">
+                      <CopyTo Name="THEWINNER1" ChannelName="Gobo" Value="250"/>
+                      <CopyTo Name="THEWINNER2" ChannelName="Gobo" Value="250"/>
+                    </btn>
+                  </Channel>
+                  <Channel Name="Color" Type="Btn" Num="2" VirtualType="ByValue" RowCount ="5" ColumnCount="4">
+                    <btn value="0" start="0" end="11" img="Fixtures\\JBSYSTEM\\THE WINNER\\img\\White.bmp" text ="white">
+                      <CopyTo Name="THEWINNER1" ChannelName="Color" Value="0"/>
+                      <CopyTo Name="THEWINNER2" ChannelName="Color" Value="0"/>
+                    </btn>
+                    <btn value="11" start="11" end="22" img="Fixtures\\JBSYSTEM\\THE WINNER\\img\\Dark Green.bmp" text ="Dark Green">
+                      <CopyTo Name="THEWINNER1" ChannelName="Color" Value="11"/>
+                      <CopyTo Name="THEWINNER2" ChannelName="Color" Value="11"/>
+                    </btn>
+                    <btn value="22" start="22" end="33" img="Fixtures\\JBSYSTEM\\THE WINNER\\img\\LightOrange.bmp" text ="LightOrange">
+                      <CopyTo Name="THEWINNER1" ChannelName="Color" Value="22"/>
+                      <CopyTo Name="THEWINNER2" ChannelName="Color" Value="22"/>
+                    </btn>
+                    <btn value="33" start="33" end="44" img="Fixtures\\JBSYSTEM\\THE WINNER\\img\\lightblue.bmp" text ="lightblue">
+                      <CopyTo Name="THEWINNER1" ChannelName="Color" Value="33"/>
+                      <CopyTo Name="THEWINNER2" ChannelName="Color" Value="33"/>
+                    </btn>
+                    <btn value="44" start="44" end="55" img="Fixtures\\JBSYSTEM\\THE WINNER\\img\\DarkYellow.bmp" text ="DarkYellow">
+                      <CopyTo Name="THEWINNER1" ChannelName="Color" Value="44"/>
+                      <CopyTo Name="THEWINNER2" ChannelName="Color" Value="44"/>
+                    </btn>
+                    <btn value="55" start="55" end="66" img="Fixtures\\JBSYSTEM\\THE WINNER\\img\\Red.bmp" text ="Red">
+                      <CopyTo Name="THEWINNER1" ChannelName="Color" Value="55"/>
+                      <CopyTo Name="THEWINNER2" ChannelName="Color" Value="55"/>
+                    </btn>
+                    <btn value="66" start="66" end="77" img="Fixtures\\JBSYSTEM\\THE WINNER\\img\\UV.bmp" text ="UV">
+                      <CopyTo Name="THEWINNER1" ChannelName="Color" Value="66"/>
+                      <CopyTo Name="THEWINNER2" ChannelName="Color" Value="66"/>
+                    </btn>
+                    <btn value="77" start="77" end="88" img="Fixtures\\JBSYSTEM\\THE WINNER\\img\\Pink.bmp" text ="Pink">
+                      <CopyTo Name="THEWINNER1" ChannelName="Color" Value="77"/>
+                      <CopyTo Name="THEWINNER2" ChannelName="Color" Value="77"/>
+                    </btn>
+                    <btn value="88" start="88" end="99" img="Fixtures\\JBSYSTEM\\THE WINNER\\img\\lightgreen.bmp" text ="lightgreen">
+                      <CopyTo Name="THEWINNER1" ChannelName="Color" Value="88"/>
+                      <CopyTo Name="THEWINNER2" ChannelName="Color" Value="88"/>
+                    </btn>
+                    <btn value="99" start="99" end="110" img="Fixtures\\JBSYSTEM\\THE WINNER\\img\\Blue.bmp" text ="Blue">
+                      <CopyTo Name="THEWINNER1" ChannelName="Color" Value="99"/>
+                      <CopyTo Name="THEWINNER2" ChannelName="Color" Value="99"/>
+                    </btn>
+                    <btn value="110" start="110" end="121" img="Fixtures\\JBSYSTEM\\THE WINNER\\img\\Yellow.bmp" text ="Yellow">
+                      <CopyTo Name="THEWINNER1" ChannelName="Color" Value="110"/>
+                      <CopyTo Name="THEWINNER2" ChannelName="Color" Value="110"/>
+                    </btn>
+                    <btn value="121" start="121" end="160" img="Fixtures\\JBSYSTEM\\THE WINNER\\img\\magenta.bmp" text ="magenta">
+                      <CopyTo Name="THEWINNER1" ChannelName="Color" Value="121"/>
+                      <CopyTo Name="THEWINNER2" ChannelName="Color" Value="121"/>
+                    </btn>
+                    <btn value="160" start="160" end="190" img="Fixtures\\JBSYSTEM\\THE WINNER\\img\\Rainbow.bmp" text ="Rainbow1">
+                      <CopyTo Name="THEWINNER1" ChannelName="Color" Value="160"/>
+                      <CopyTo Name="THEWINNER2" ChannelName="Color" Value="160"/>
+                    </btn>
+                    <btn value="190" start="190" end="220" img="Fixtures\\JBSYSTEM\\THE WINNER\\img\\Rainbow.bmp" text ="Rainbow2">
+                      <CopyTo Name="THEWINNER1" ChannelName="Color" Value="190"/>
+                      <CopyTo Name="THEWINNER2" ChannelName="Color" Value="190"/>
+                    </btn>
+                    <btn value="220" start="220" end="250" img="Fixtures\\JBSYSTEM\\THE WINNER\\img\\Rainbow.bmp" text ="Rainbow3">
+                      <CopyTo Name="THEWINNER1" ChannelName="Color" Value="220"/>
+                      <CopyTo Name="THEWINNER2" ChannelName="Color" Value="220"/>
+                    </btn>
+                    <btn value="250" start="250" end="256" img="Fixtures\\JBSYSTEM\\THE WINNER\\img\\Rainbow.bmp" text ="Rainbow4">
+                      <CopyTo Name="THEWINNER1" ChannelName="Color" Value="250"/>
+                      <CopyTo Name="THEWINNER2" ChannelName="Color" Value="250"/>
+                    </btn>
+                  </Channel>
+                  <Channel Name="Shutter" Type="Btn" Num="1" VirtualType="ByValue" RowCount ="2" ColumnCount="2">
+                    <btn value="0" start="0" end="10" img="Fixtures\\Shutter\\STOP_.bmp" text ="">
+                      <CopyTo Name="THEWINNER1" ChannelName="Shutter" Value="0"/>
+                      <CopyTo Name="THEWINNER2" ChannelName="Shutter" Value="0"/>
+                    </btn>
+                    <btn value="11" start="11" end="50" img="Fixtures\\Shutter\\Strobe Slow.gif" text ="">
+                      <CopyTo Name="THEWINNER1" ChannelName="Shutter" Value="11"/>
+                      <CopyTo Name="THEWINNER2" ChannelName="Shutter" Value="11"/>
+                    </btn>
+                    <btn value="50" start="50" end="90" img="Fixtures\\Shutter\\Strobe Med.GIF" text ="">
+                      <CopyTo Name="THEWINNER1" ChannelName="Shutter" Value="20"/>
+                      <CopyTo Name="THEWINNER2" ChannelName="Shutter" Value="20"/>
+                    </btn>
+                    <btn value="90" start="90" end="256" img="Fixtures\\Shutter\\Strobe Fast.gif" text ="">
+                      <CopyTo Name="THEWINNER1" ChannelName="Shutter" Value="90"/>
+                      <CopyTo Name="THEWINNER2" ChannelName="Shutter" Value="90"/>
+                    </btn>
+                  </Channel>
+                </Channels>
+              </Fixture>
+              <Fixture Name="AS 250" Type="Virtual">
+                <SubFixtures>
+                  <Fixture Name="AS 250 1" Type="Real" Constructor="Sarde" PRODUCT="AS 250" StartAddress ="99" img="">
+                    <Channels>
+                      <Channel Name="Pan" Type="Pan" Num="5" inverted="true"/>
+                      <Channel Name="Tilt" Type="Tilt" Num="6" inverted="false"/>
+                      <Channel Name="Gobo" Type="Btn" Num="1" inverted="false"  RowCount ="5" ColumnCount="2">
+                        <btn value="0" start="0" end="25" img="" text ="0"/>
+                        <btn value="32" start="26" end="51" img="" text ="1"/>
+                        <btn value="65" start="52" end="77" img="" text ="2"/>
+                        <btn value="85" start="78" end="103" img="" text ="3"/>
+                        <btn value="110" start="104" end="129" img="" text ="4"/>
+                        <btn value="140" start="130" end="155" img="" text ="5"/>
+                        <btn value="160" start="156" end="181" img="" text ="6"/>
+                        <btn value="190" start="182" end="207" img="" text ="7"/>
+                        <btn value="220" start="208" end="249" img="" text ="8"/>
+                      </Channel>
+                      <Channel Name="Rotation" Type="Basic" Num="2" inverted="false"/>
+                      <Channel Name="Color" Type="Btn" Num="3" inverted="false"  RowCount ="5" ColumnCount="2">
+                        <btn value="0" start="0" end="25" img="Fixtures\\SARDE\\AS 250\\img\\Open.BMP" text ="Blanc"/>
+                        <btn value="45" start="26" end="51" img="Fixtures\\SARDE\\AS 250\\img\\Red 304.bmp" text ="Rouge"/>
+                        <btn value="65" start="52" end="77" img="Fixtures\\SARDE\\AS 250\\img\\Yellow.bmp" text ="Jaune"/>
+                        <btn value="90" start="78" end="103" img="Fixtures\\SARDE\\AS 250\\img\\Lichtgroen.bmp" text ="Vert"/>
+                        <btn value="115" start="104" end="129" img="Fixtures\\SARDE\\AS 250\\img\\magenta.bmp" text ="Magenta"/>
+                        <btn value="145" start="130" end="155" img="Fixtures\\SARDE\\AS 250\\img\\lightblue.bmp" text ="Bleu"/>
+                        <btn value="165" start="156" end="181" img="Fixtures\\SARDE\\AS 250\\img\\Orange 306.bmp" text ="Orange"/>
+                        <btn value="195" start="182" end="207" img="Fixtures\\SARDE\\AS 250\\img\\Green 201.bmp" text ="Vert"/>
+                        <btn value="220" start="208" end="233" img="Fixtures\\SARDE\\AS 250\\img\\Pink 312.bmp" text ="Rose"/>
+                        <btn value="255" start="234" end="256" img="Fixtures\\SARDE\\AS 250\\img\\Bleu.bmp" text ="Bleu"/>
+                      </Channel>
+                      <Channel Name="Shutter" Type="Btn" Num="4" inverted="false" RowCount ="6" ColumnCount="1">
+                        <btn value="0" start="0" end="30" img="" text ="OFF"/>
+                        <btn value="45" start="31" end="62" img="" text ="ON"/>
+                        <btn value="80" start="63" end="92" img="" text ="0"/>
+                        <btn value="110" start="93" end="124" img="" text ="1"/>
+                        <btn value="140" start="125" end="155" img="" text ="2"/>
+                        <btn value="220" start="200" end="250" img="" text ="3"/>
+                        <btn value="255" start="250" end="256" img="" text ="4"/>
+                      </Channel>
+                    </Channels>
+                  </Fixture>
+                  <Fixture Name="AS 250 2" Type="Real" Constructor="Sarde" PRODUCT="AS 250" StartAddress ="105" img="">
+                    <Channels>
+                      <Channel Name="Pan" Type="Pan" Num="5" inverted="true"/>
+                      <Channel Name="Tilt" Type="Tilt" Num="6" inverted="false"/>
+                      <Channel Name="Gobo" Type="Btn" Num="1" inverted="false"  RowCount ="5" ColumnCount="2">
+                        <btn value="0" start="0" end="25" img="" text ="0"/>
+                        <btn value="32" start="26" end="51" img="" text ="1"/>
+                        <btn value="65" start="52" end="77" img="" text ="2"/>
+                        <btn value="85" start="78" end="103" img="" text ="3"/>
+                        <btn value="110" start="104" end="129" img="" text ="4"/>
+                        <btn value="140" start="130" end="155" img="" text ="5"/>
+                        <btn value="160" start="156" end="181" img="" text ="6"/>
+                        <btn value="190" start="182" end="207" img="" text ="7"/>
+                        <btn value="220" start="208" end="249" img="" text ="8"/>
+                      </Channel>
+                      <Channel Name="Rotation" Type="Basic" Num="2" inverted="false"/>
+                      <Channel Name="Color" Type="Btn" Num="3" inverted="false"  RowCount ="5" ColumnCount="2">
+                        <btn value="0" start="0" end="25" img="Fixtures\\SARDE\\AS 250\\img\\Open.BMP" text ="Blanc"/>
+                        <btn value="45" start="26" end="51" img="Fixtures\\SARDE\\AS 250\\img\\Red 304.bmp" text ="Rouge"/>
+                        <btn value="65" start="52" end="77" img="Fixtures\\SARDE\\AS 250\\img\\Yellow.bmp" text ="Jaune"/>
+                        <btn value="90" start="78" end="103" img="Fixtures\\SARDE\\AS 250\\img\\Lichtgroen.bmp" text ="Vert"/>
+                        <btn value="115" start="104" end="129" img="Fixtures\\SARDE\\AS 250\\img\\magenta.bmp" text ="Magenta"/>
+                        <btn value="145" start="130" end="155" img="Fixtures\\SARDE\\AS 250\\img\\lightblue.bmp" text ="Bleu"/>
+                        <btn value="165" start="156" end="181" img="Fixtures\\SARDE\\AS 250\\img\\Orange 306.bmp" text ="Orange"/>
+                        <btn value="195" start="182" end="207" img="Fixtures\\SARDE\\AS 250\\img\\Green 201.bmp" text ="Vert"/>
+                        <btn value="220" start="208" end="233" img="Fixtures\\SARDE\\AS 250\\img\\Pink 312.bmp" text ="Rose"/>
+                        <btn value="255" start="234" end="256" img="Fixtures\\SARDE\\AS 250\\img\\Bleu.bmp" text ="Bleu"/>
+                      </Channel>
+                      <Channel Name="Shutter" Type="Btn" Num="4" inverted="false" RowCount ="6" ColumnCount="1">
+                        <btn value="0" start="0" end="30" img="" text ="OFF"/>
+                        <btn value="45" start="31" end="62" img="" text ="ON"/>
+                        <btn value="80" start="63" end="92" img="" text ="0"/>
+                        <btn value="110" start="93" end="124" img="" text ="1"/>
+                        <btn value="140" start="125" end="155" img="" text ="2"/>
+                        <btn value="220" start="200" end="250" img="" text ="3"/>
+                        <btn value="255" start="250" end="256" img="" text ="4"/>
+                      </Channel>
+                    </Channels>
+                  </Fixture>
+                  <Fixture Name="AS 250 3" Type="Real" Constructor="Sarde" PRODUCT="AS 250" StartAddress ="111" img="">
+                    <Channels>
+                      <Channel Name="Pan" Type="Pan" Num="5" inverted="true"/>
+                      <Channel Name="Tilt" Type="Tilt" Num="6" inverted="false"/>
+                      <Channel Name="Gobo" Type="Btn" Num="1" inverted="false"  RowCount ="5" ColumnCount="2">
+                        <btn value="0" start="0" end="25" img="" text ="0"/>
+                        <btn value="32" start="26" end="51" img="" text ="1"/>
+                        <btn value="65" start="52" end="77" img="" text ="2"/>
+                        <btn value="85" start="78" end="103" img="" text ="3"/>
+                        <btn value="110" start="104" end="129" img="" text ="4"/>
+                        <btn value="140" start="130" end="155" img="" text ="5"/>
+                        <btn value="160" start="156" end="181" img="" text ="6"/>
+                        <btn value="190" start="182" end="207" img="" text ="7"/>
+                        <btn value="220" start="208" end="249" img="" text ="8"/>
+                      </Channel>
+                      <Channel Name="Rotation" Type="Basic" Num="2" inverted="false"/>
+                      <Channel Name="Color" Type="Btn" Num="3" inverted="false"  RowCount ="5" ColumnCount="2">
+                        <btn value="0" start="0" end="25" img="Fixtures\\SARDE\\AS 250\\img\\Open.BMP" text ="Blanc"/>
+                        <btn value="45" start="26" end="51" img="Fixtures\\SARDE\\AS 250\\img\\Red 304.bmp" text ="Rouge"/>
+                        <btn value="65" start="52" end="77" img="Fixtures\\SARDE\\AS 250\\img\\Yellow.bmp" text ="Jaune"/>
+                        <btn value="90" start="78" end="103" img="Fixtures\\SARDE\\AS 250\\img\\Lichtgroen.bmp" text ="Vert"/>
+                        <btn value="115" start="104" end="129" img="Fixtures\\SARDE\\AS 250\\img\\magenta.bmp" text ="Magenta"/>
+                        <btn value="145" start="130" end="155" img="Fixtures\\SARDE\\AS 250\\img\\lightblue.bmp" text ="Bleu"/>
+                        <btn value="165" start="156" end="181" img="Fixtures\\SARDE\\AS 250\\img\\Orange 306.bmp" text ="Orange"/>
+                        <btn value="195" start="182" end="207" img="Fixtures\\SARDE\\AS 250\\img\\Green 201.bmp" text ="Vert"/>
+                        <btn value="220" start="208" end="233" img="Fixtures\\SARDE\\AS 250\\img\\Pink 312.bmp" text ="Rose"/>
+                        <btn value="255" start="234" end="256" img="Fixtures\\SARDE\\AS 250\\img\\Bleu.bmp" text ="Bleu"/>
+                      </Channel>
+                      <Channel Name="Shutter" Type="Btn" Num="4" inverted="false" RowCount ="6" ColumnCount="1">
+                        <btn value="0" start="0" end="30" img="" text ="OFF"/>
+                        <btn value="45" start="31" end="62" img="" text ="ON"/>
+                        <btn value="80" start="63" end="92" img="" text ="0"/>
+                        <btn value="110" start="93" end="124" img="" text ="1"/>
+                        <btn value="140" start="125" end="155" img="" text ="2"/>
+                        <btn value="220" start="200" end="250" img="" text ="3"/>
+                        <btn value="255" start="250" end="256" img="" text ="4"/>
+                      </Channel>
+                    </Channels>
+                  </Fixture>
+                  <Fixture Name="AS 250 4" Type="Real" Constructor="Sarde" PRODUCT="AS 250" StartAddress ="117" img="">
+                    <Channels>
+                      <Channel Name="Pan" Type="Pan" Num="5" inverted="true"/>
+                      <Channel Name="Tilt" Type="Tilt" Num="6" inverted="false"/>
+                      <Channel Name="Gobo" Type="Btn" Num="1" inverted="false"  RowCount ="5" ColumnCount="2">
+                        <btn value="0" start="0" end="25" img="" text ="0"/>
+                        <btn value="32" start="26" end="51" img="" text ="1"/>
+                        <btn value="65" start="52" end="77" img="" text ="2"/>
+                        <btn value="85" start="78" end="103" img="" text ="3"/>
+                        <btn value="110" start="104" end="129" img="" text ="4"/>
+                        <btn value="140" start="130" end="155" img="" text ="5"/>
+                        <btn value="160" start="156" end="181" img="" text ="6"/>
+                        <btn value="190" start="182" end="207" img="" text ="7"/>
+                        <btn value="220" start="208" end="249" img="" text ="8"/>
+                      </Channel>
+                      <Channel Name="Rotation" Type="Basic" Num="2" inverted="false"/>
+                      <Channel Name="Color" Type="Btn" Num="3" inverted="false"  RowCount ="5" ColumnCount="2">
+                        <btn value="0" start="0" end="25" img="Fixtures\\SARDE\\AS 250\\img\\Open.BMP" text ="Blanc"/>
+                        <btn value="45" start="26" end="51" img="Fixtures\\SARDE\\AS 250\\img\\Red 304.bmp" text ="Rouge"/>
+                        <btn value="65" start="52" end="77" img="Fixtures\\SARDE\\AS 250\\img\\Yellow.bmp" text ="Jaune"/>
+                        <btn value="90" start="78" end="103" img="Fixtures\\SARDE\\AS 250\\img\\Lichtgroen.bmp" text ="Vert"/>
+                        <btn value="115" start="104" end="129" img="Fixtures\\SARDE\\AS 250\\img\\magenta.bmp" text ="Magenta"/>
+                        <btn value="145" start="130" end="155" img="Fixtures\\SARDE\\AS 250\\img\\lightblue.bmp" text ="Bleu"/>
+                        <btn value="165" start="156" end="181" img="Fixtures\\SARDE\\AS 250\\img\\Orange 306.bmp" text ="Orange"/>
+                        <btn value="195" start="182" end="207" img="Fixtures\\SARDE\\AS 250\\img\\Green 201.bmp" text ="Vert"/>
+                        <btn value="220" start="208" end="233" img="Fixtures\\SARDE\\AS 250\\img\\Pink 312.bmp" text ="Rose"/>
+                        <btn value="255" start="234" end="256" img="Fixtures\\SARDE\\AS 250\\img\\Bleu.bmp" text ="Bleu"/>
+                      </Channel>
+                      <Channel Name="Shutter" Type="Btn" Num="4" inverted="false" RowCount ="6" ColumnCount="1">
+                        <btn value="0" start="0" end="30" img="" text ="OFF"/>
+                        <btn value="45" start="31" end="62" img="" text ="ON"/>
+                        <btn value="80" start="63" end="92" img="" text ="0"/>
+                        <btn value="110" start="93" end="124" img="" text ="1"/>
+                        <btn value="140" start="125" end="155" img="" text ="2"/>
+                        <btn value="220" start="200" end="250" img="" text ="3"/>
+                        <btn value="255" start="250" end="256" img="" text ="4"/>
+                      </Channel>
+                    </Channels>
+                  </Fixture>
+                </SubFixtures>
+                <Channels>
+                  <Channel Name="Pan" Type="Pan" Num="1" VirtualType="Copy">
+                    <CopyTo Name="AS 250 1" ChannelName="Pan"/>
+                    <CopyTo Name="AS 250 2" ChannelName="Pan"/>
+                    <CopyTo Name="AS 250 3" ChannelName="Pan"/>
+                    <CopyTo Name="AS 250 4" ChannelName="Pan"/>
+                  </Channel>
+                  <Channel Name="Tilt" Type="Tilt" Num="2" VirtualType="Copy">
+                    <CopyTo Name="AS 250 1" ChannelName="Tilt"/>
+                    <CopyTo Name="AS 250 2" ChannelName="Tilt"/>
+                    <CopyTo Name="AS 250 3" ChannelName="Tilt"/>
+                    <CopyTo Name="AS 250 4" ChannelName="Tilt"/>
+                  </Channel>
+                  <Channel Name="Gobo" Type="Btn" Num="3" VirtualType="ByValue" RowCount ="3" ColumnCount="2">
+                    <btn value="0" start="0" end="25" img="" text ="0">
+                      <CopyTo Name="AS 250 1" ChannelName="Gobo" Value="0"/>
+                      <CopyTo Name="AS 250 2" ChannelName="Gobo" Value="0"/>
+                      <CopyTo Name="AS 250 3" ChannelName="Gobo" Value="0"/>
+                      <CopyTo Name="AS 250 4" ChannelName="Gobo" Value="0"/>
+                    </btn>
+                    <btn value="32" start="26" end="51" img="" text ="1">
+                      <CopyTo Name="AS 250 1" ChannelName="Gobo" Value="32"/>
+                      <CopyTo Name="AS 250 2" ChannelName="Gobo" Value="32"/>
+                      <CopyTo Name="AS 250 3" ChannelName="Gobo" Value="32"/>
+                      <CopyTo Name="AS 250 4" ChannelName="Gobo" Value="32"/>
+                    </btn>
+                    <btn value="65" start="52" end="77" img="" text ="2">
+                      <CopyTo Name="AS 250 1" ChannelName="Gobo" Value="65"/>
+                      <CopyTo Name="AS 250 2" ChannelName="Gobo" Value="65"/>
+                      <CopyTo Name="AS 250 3" ChannelName="Gobo" Value="65"/>
+                      <CopyTo Name="AS 250 4" ChannelName="Gobo" Value="65"/>
+                    </btn>
+                    <btn value="85" start="78" end="103" img="" text ="3">
+                      <CopyTo Name="AS 250 1" ChannelName="Gobo" Value="85"/>
+                      <CopyTo Name="AS 250 2" ChannelName="Gobo" Value="85"/>
+                      <CopyTo Name="AS 250 3" ChannelName="Gobo" Value="85"/>
+                      <CopyTo Name="AS 250 4" ChannelName="Gobo" Value="85"/>
+                    </btn>
+                    <btn value="110" start="104" end="129" img="" text ="4">
+                      <CopyTo Name="AS 250 1" ChannelName="Gobo" Value="110"/>
+                      <CopyTo Name="AS 250 2" ChannelName="Gobo" Value="110"/>
+                      <CopyTo Name="AS 250 3" ChannelName="Gobo" Value="110"/>
+                      <CopyTo Name="AS 250 4" ChannelName="Gobo" Value="110"/>
+                    </btn>
+                    <btn value="140" start="130" end="155" img="" text ="5">
+                      <CopyTo Name="AS 250 1" ChannelName="Gobo" Value="140"/>
+                      <CopyTo Name="AS 250 2" ChannelName="Gobo" Value="140"/>
+                      <CopyTo Name="AS 250 3" ChannelName="Gobo" Value="140"/>
+                      <CopyTo Name="AS 250 4" ChannelName="Gobo" Value="140"/>
+                    </btn>
+                    <btn value="160" start="156" end="181" img="" text ="6">
+                      <CopyTo Name="AS 250 1" ChannelName="Gobo" Value="160"/>
+                      <CopyTo Name="AS 250 2" ChannelName="Gobo" Value="160"/>
+                      <CopyTo Name="AS 250 3" ChannelName="Gobo" Value="160"/>
+                      <CopyTo Name="AS 250 4" ChannelName="Gobo" Value="160"/>
+                    </btn>
+                    <btn value="190" start="182" end="207" img="" text ="7">
+                      <CopyTo Name="AS 250 1" ChannelName="Gobo" Value="190"/>
+                      <CopyTo Name="AS 250 2" ChannelName="Gobo" Value="190"/>
+                      <CopyTo Name="AS 250 3" ChannelName="Gobo" Value="190"/>
+                      <CopyTo Name="AS 250 4" ChannelName="Gobo" Value="190"/>
+                    </btn>
+                    <btn value="220" start="208" end="249" img="" text ="8">
+                      <CopyTo Name="AS 250 1" ChannelName="Gobo" Value="220"/>
+                      <CopyTo Name="AS 250 2" ChannelName="Gobo" Value="220"/>
+                      <CopyTo Name="AS 250 3" ChannelName="Gobo" Value="220"/>
+                      <CopyTo Name="AS 250 4" ChannelName="Gobo" Value="220"/>
+                    </btn>
+                  </Channel>
+                  <Channel Name="Rotation" Type="Basic" Num="4" VirtualType="Copy">
+                    <CopyTo Name="AS 250 1" ChannelName="Rotation"/>
+                    <CopyTo Name="AS 250 2" ChannelName="Rotation"/>
+                    <CopyTo Name="AS 250 3" ChannelName="Rotation"/>
+                    <CopyTo Name="AS 250 4" ChannelName="Rotation"/>
+                  </Channel>
+                  <Channel Name="Color" Type="Btn" Num="5" VirtualType="ByValue"  RowCount ="5" ColumnCount="3">
+                    <btn value="0" start="0" end="25" img="Fixtures\\SARDE\\AS 250\\img\\Open.BMP" text ="Blanc">
+                      <CopyTo Name="AS 250 1" ChannelName="Color" Value="0"/>
+                      <CopyTo Name="AS 250 2" ChannelName="Color" Value="0"/>
+                      <CopyTo Name="AS 250 3" ChannelName="Color" Value="0"/>
+                      <CopyTo Name="AS 250 4" ChannelName="Color" Value="0"/>
+                    </btn>
+                    <btn value="45" start="26" end="51" img="Fixtures\\SARDE\\AS 250\\img\\Red 304.bmp" text ="Rouge">
+                      <CopyTo Name="AS 250 1" ChannelName="Color" Value="45"/>
+                      <CopyTo Name="AS 250 2" ChannelName="Color" Value="45"/>
+                      <CopyTo Name="AS 250 3" ChannelName="Color" Value="45"/>
+                      <CopyTo Name="AS 250 4" ChannelName="Color" Value="45"/>
+                    </btn>
+                    <btn value="65" start="52" end="77" img="Fixtures\\SARDE\\AS 250\\img\\Yellow.bmp" text ="Jaune">
+                      <CopyTo Name="AS 250 1" ChannelName="Color" Value="65"/>
+                      <CopyTo Name="AS 250 2" ChannelName="Color" Value="65"/>
+                      <CopyTo Name="AS 250 3" ChannelName="Color" Value="65"/>
+                      <CopyTo Name="AS 250 4" ChannelName="Color" Value="65"/>
+                    </btn>
+                    <btn value="90" start="78" end="103" img="Fixtures\\SARDE\\AS 250\\img\\Lichtgroen.bmp" text ="Vert">
+                      <CopyTo Name="AS 250 1" ChannelName="Color" Value="90"/>
+                      <CopyTo Name="AS 250 2" ChannelName="Color" Value="90"/>
+                      <CopyTo Name="AS 250 3" ChannelName="Color" Value="90"/>
+                      <CopyTo Name="AS 250 4" ChannelName="Color" Value="90"/>
+                    </btn>
+                    <btn value="115" start="104" end="129" img="Fixtures\\SARDE\\AS 250\\img\\magenta.bmp" text ="Magenta">
+                      <CopyTo Name="AS 250 1" ChannelName="Color" Value="115"/>
+                      <CopyTo Name="AS 250 2" ChannelName="Color" Value="115"/>
+                      <CopyTo Name="AS 250 3" ChannelName="Color" Value="115"/>
+                      <CopyTo Name="AS 250 4" ChannelName="Color" Value="115"/>
+                    </btn>
+                    <btn value="145" start="130" end="155" img="Fixtures\\SARDE\\AS 250\\img\\lightblue.bmp" text ="Bleu">
+                      <CopyTo Name="AS 250 1" ChannelName="Color" Value="145"/>
+                      <CopyTo Name="AS 250 2" ChannelName="Color" Value="145"/>
+                      <CopyTo Name="AS 250 3" ChannelName="Color" Value="145"/>
+                      <CopyTo Name="AS 250 4" ChannelName="Color" Value="145"/>
+                    </btn>
+                    <btn value="165" start="156" end="181" img="Fixtures\\SARDE\\AS 250\\img\\Orange 306.bmp" text ="Orange">
+                      <CopyTo Name="AS 250 1" ChannelName="Color" Value="165"/>
+                      <CopyTo Name="AS 250 2" ChannelName="Color" Value="165"/>
+                      <CopyTo Name="AS 250 3" ChannelName="Color" Value="165"/>
+                      <CopyTo Name="AS 250 4" ChannelName="Color" Value="165"/>
+                    </btn>
+                    <btn value="195" start="182" end="207" img="Fixtures\\SARDE\\AS 250\\img\\Green 201.bmp" text ="Vert">
+                      <CopyTo Name="AS 250 1" ChannelName="Color" Value="195"/>
+                      <CopyTo Name="AS 250 2" ChannelName="Color" Value="195"/>
+                      <CopyTo Name="AS 250 3" ChannelName="Color" Value="195"/>
+                      <CopyTo Name="AS 250 4" ChannelName="Color" Value="195"/>
+                    </btn>
+                    <btn value="220" start="208" end="233" img="Fixtures\\SARDE\\AS 250\\img\\Pink 312.bmp" text ="Rose">
+                      <CopyTo Name="AS 250 1" ChannelName="Color" Value="220"/>
+                      <CopyTo Name="AS 250 2" ChannelName="Color" Value="220"/>
+                      <CopyTo Name="AS 250 3" ChannelName="Color" Value="220"/>
+                      <CopyTo Name="AS 250 4" ChannelName="Color" Value="220"/>
+                    </btn>
+                    <btn value="234" start="234" end="240" img="Fixtures\\SARDE\\AS 250\\img\\Bleu.bmp" text ="Bleu">
+                      <CopyTo Name="AS 250 1" ChannelName="Color" Value="255"/>
+                      <CopyTo Name="AS 250 2" ChannelName="Color" Value="255"/>
+                      <CopyTo Name="AS 250 3" ChannelName="Color" Value="255"/>
+                      <CopyTo Name="AS 250 4" ChannelName="Color" Value="255"/>
+                    </btn>
+                    <btn value="241" start="241" end="244" img="Fixtures\\SARDE\\AS 250\\img\\Red-blue.bmp" text ="BleuRouge">
+                      <CopyTo Name="AS 250 1" ChannelName="Color" Value="255"/>
+                      <CopyTo Name="AS 250 2" ChannelName="Color" Value="45"/>
+                      <CopyTo Name="AS 250 3" ChannelName="Color" Value="45"/>
+                      <CopyTo Name="AS 250 4" ChannelName="Color" Value="255"/>
+                    </btn>
+                    <btn value="245" start="245" end="249" img="Fixtures\\SARDE\\AS 250\\img\\blueandyellow.bmp" text ="BleuJaune">
+                      <CopyTo Name="AS 250 1" ChannelName="Color" Value="65"/>
+                      <CopyTo Name="AS 250 2" ChannelName="Color" Value="255"/>
+                      <CopyTo Name="AS 250 3" ChannelName="Color" Value="255"/>
+                      <CopyTo Name="AS 250 4" ChannelName="Color" Value="65"/>
+                    </btn>
+                    <btn value="250" start="250" end="255" img="Fixtures\\SARDE\\AS 250\\img\\Oranje-Geel.bmp" text ="OrangeJaune">
+                      <CopyTo Name="AS 250 1" ChannelName="Color" Value="165"/>
+                      <CopyTo Name="AS 250 2" ChannelName="Color" Value="65"/>
+                      <CopyTo Name="AS 250 3" ChannelName="Color" Value="65"/>
+                      <CopyTo Name="AS 250 4" ChannelName="Color" Value="165"/>
+                    </btn>
+                  </Channel>
+                  <Channel Name="Shutter" Type="Btn" Num="6" VirtualType="ByValue" RowCount ="6" ColumnCount="1">
+                    <btn value="0" start="0" end="30" img="" text ="OFF">
+                      <CopyTo Name="AS 250 1" ChannelName="Shutter" Value="0"/>
+                      <CopyTo Name="AS 250 2" ChannelName="Shutter" Value="0"/>
+                      <CopyTo Name="AS 250 3" ChannelName="Shutter" Value="0"/>
+                      <CopyTo Name="AS 250 4" ChannelName="Shutter" Value="0"/>
+                    </btn>
+                    <btn value="45" start="31" end="62" img="" text ="ON">
+                      <CopyTo Name="AS 250 1" ChannelName="Shutter" Value="45"/>
+                      <CopyTo Name="AS 250 2" ChannelName="Shutter" Value="45"/>
+                      <CopyTo Name="AS 250 3" ChannelName="Shutter" Value="45"/>
+                      <CopyTo Name="AS 250 4" ChannelName="Shutter" Value="45"/>
+                    </btn>
+                    <btn value="80" start="63" end="92" img="" text ="0">
+                      <CopyTo Name="AS 250 1" ChannelName="Shutter" Value="80"/>
+                      <CopyTo Name="AS 250 2" ChannelName="Shutter" Value="80"/>
+                      <CopyTo Name="AS 250 3" ChannelName="Shutter" Value="80"/>
+                      <CopyTo Name="AS 250 4" ChannelName="Shutter" Value="80"/>
+                    </btn>
+                    <btn value="110" start="93" end="124" img="" text ="1">
+                      <CopyTo Name="AS 250 1" ChannelName="Shutter" Value="110"/>
+                      <CopyTo Name="AS 250 2" ChannelName="Shutter" Value="110"/>
+                      <CopyTo Name="AS 250 3" ChannelName="Shutter" Value="110"/>
+                      <CopyTo Name="AS 250 4" ChannelName="Shutter" Value="110"/>
+                    </btn>
+                    <btn value="140" start="125" end="155" img="" text ="2">
+                      <CopyTo Name="AS 250 1" ChannelName="Shutter" Value="140"/>
+                      <CopyTo Name="AS 250 2" ChannelName="Shutter" Value="140"/>
+                      <CopyTo Name="AS 250 3" ChannelName="Shutter" Value="140"/>
+                      <CopyTo Name="AS 250 4" ChannelName="Shutter" Value="140"/>
+                    </btn>
+                    <btn value="220" start="200" end="250" img="" text ="3">
+                      <CopyTo Name="AS 250 1" ChannelName="Shutter" Value="220"/>
+                      <CopyTo Name="AS 250 2" ChannelName="Shutter" Value="220"/>
+                      <CopyTo Name="AS 250 3" ChannelName="Shutter" Value="220"/>
+                      <CopyTo Name="AS 250 4" ChannelName="Shutter" Value="220"/>
+                    </btn>
+                    <btn value="255" start="250" end="256" img="" text ="4">
+                      <CopyTo Name="AS 250 1" ChannelName="Shutter" Value="255"/>
+                      <CopyTo Name="AS 250 2" ChannelName="Shutter" Value="255"/>
+                      <CopyTo Name="AS 250 3" ChannelName="Shutter" Value="255"/>
+                      <CopyTo Name="AS 250 4" ChannelName="Shutter" Value="255"/>
+                    </btn>
+                  </Channel>
+                </Channels>
+              </Fixture>
+            </SubFixtures>
+            <Channels>
+              <Channel Name="Pan" Type="Pan" Num="1" VirtualType="Copy">
+                <CopyTo Name="TheWinner" ChannelName="Pan"/>
+                <CopyTo Name="DJSCAN" ChannelName="Pan"/>
+                <CopyTo Name="AS 250" ChannelName="Pan"/>
+              </Channel>
+              <Channel Name="Tilt" Type="Tilt" Num="2" VirtualType="Copy">
+                <CopyTo Name="DJSCAN" ChannelName="Tilt"/>
+                <CopyTo Name="TheWinner" ChannelName="Tilt"/>
+                <CopyTo Name="AS 250" ChannelName="Tilt"/>
+              </Channel>
+              <Channel Name="Gobo" Type="Btn" Num="3" VirtualType="ByValue" RowCount ="5" ColumnCount="4">
+                <btn value="0" start="0" end="10" img="Fixtures\\GHOST\\DJSCAN\\img\\Gobo_r1_c1.gif" text ="Black">
+                  <CopyTo Name="DJSCAN" ChannelName="Gobo" Value="0"/>
+                  <CopyTo Name="TheWinner" ChannelName="Gobo" Value="0"/>
+                  <CopyTo Name="TheWinner" ChannelName="Color" Value="0"/>
+                  <CopyTo Name="AS 250" ChannelName="Shutter" Value="0"/>
+                  <CopyTo Name="AS 250" ChannelName="Color" Value="0"/>
+                </btn>
+                <btn value="10" start="10" end="20" img="Fixtures\\GHOST\\DJSCAN\\img\\Gobo_r1_c2.gif" text ="White">
+                  <CopyTo Name="DJSCAN" ChannelName="Gobo" Value="10"/>
+                  <CopyTo Name="TheWinner" ChannelName="Gobo" Value="8"/>
+                  <CopyTo Name="TheWinner" ChannelName="Color" Value="0"/>
+                  <CopyTo Name="AS 250" ChannelName="Shutter" Value="45"/>
+                  <CopyTo Name="AS 250" ChannelName="Color" Value="0"/>
+                </btn>
+                <btn value="20" start="20" end="30" img="Fixtures\\GHOST\\DJSCAN\\img\\Gobo_r1_c3.gif" text ="Blue">
+                  <CopyTo Name="DJSCAN" ChannelName="Gobo" Value="20"/>
+                  <CopyTo Name="TheWinner" ChannelName="Gobo" Value="8"/>
+                  <CopyTo Name="TheWinner" ChannelName="Color" Value="99"/>
+                  <CopyTo Name="AS 250" ChannelName="Shutter" Value="45"/>
+                  <CopyTo Name="AS 250" ChannelName="Color" Value="234"/>
+                </btn>
+                <btn value="40" start="40" end="50" img="Fixtures\\GHOST\\DJSCAN\\img\\Gobo_r1_c5.gif" text ="Green">
+                  <CopyTo Name="DJSCAN" ChannelName="Gobo" Value="40"/>
+                  <CopyTo Name="TheWinner" ChannelName="Gobo" Value="48"/>
+                  <CopyTo Name="TheWinner" ChannelName="Color" Value="11"/>
+                  <CopyTo Name="AS 250" ChannelName="Shutter" Value="45"/>
+                  <CopyTo Name="AS 250" ChannelName="Color" Value="195"/>
+                </btn>
+                <btn value="50" start="50" end="60" img="Fixtures\\GHOST\\DJSCAN\\img\\Gobo_r1_c6.gif" text ="Red">
+                  <CopyTo Name="DJSCAN" ChannelName="Gobo" Value="50"/>
+                  <CopyTo Name="TheWinner" ChannelName="Gobo" Value="120"/>
+                  <CopyTo Name="TheWinner" ChannelName="Color" Value="55"/>
+                  <CopyTo Name="AS 250" ChannelName="Shutter" Value="45"/>
+                  <CopyTo Name="AS 250" ChannelName="Color" Value="45"/>
+                </btn>
+                <btn value="60" start="60" end="80" img="Fixtures\\GHOST\\DJSCAN\\img\\Gobo_r1_c7.gif" text ="Yellow">
+                  <CopyTo Name="DJSCAN" ChannelName="Gobo" Value="60"/>
+                  <CopyTo Name="TheWinner" ChannelName="Gobo" Value="64"/>
+                  <CopyTo Name="TheWinner" ChannelName="Color" Value="44"/>
+                  <CopyTo Name="AS 250" ChannelName="Shutter" Value="45"/>
+                  <CopyTo Name="AS 250" ChannelName="Color" Value="65"/>
+                </btn>
+                <btn value="80" start="80" end="90" img="Fixtures\\GHOST\\DJSCAN\\img\\Gobo_r1_c9.gif" text ="Magenta">
+                  <CopyTo Name="DJSCAN" ChannelName="Gobo" Value="80"/>
+                  <CopyTo Name="TheWinner" ChannelName="Gobo" Value="40"/>
+                  <CopyTo Name="TheWinner" ChannelName="Color" Value="33"/>
+                  <CopyTo Name="AS 250" ChannelName="Shutter" Value="45"/>
+                  <CopyTo Name="AS 250" ChannelName="Color" Value="115"/>
+                </btn>
+                <btn value="90" start="90" end="100" img="Fixtures\\GHOST\\DJSCAN\\img\\Gobo_r1_c10.gif" text ="BlueCircle">
+                  <CopyTo Name="DJSCAN" ChannelName="Gobo" Value="90"/>
+                  <CopyTo Name="TheWinner" ChannelName="Gobo" Value="32"/>
+                  <CopyTo Name="TheWinner" ChannelName="Color" Value="99"/>
+                  <CopyTo Name="AS 250" ChannelName="Shutter" Value="45"/>
+                  <CopyTo Name="AS 250" ChannelName="Color" Value="234"/>
+                  <CopyTo Name="AS 250" ChannelName="Gobo" Value="100"/>
+                </btn>
+                <btn value="100" start="100" end="110" img="Fixtures\\GHOST\\DJSCAN\\img\\Gobo_r2_c1.gif" text ="Orange">
+                  <CopyTo Name="DJSCAN" ChannelName="Gobo" Value="100"/>
+                  <CopyTo Name="TheWinner" ChannelName="Gobo" Value="24"/>
+                  <CopyTo Name="TheWinner" ChannelName="Color" Value="22"/>
+                  <CopyTo Name="AS 250" ChannelName="Shutter" Value="45"/>
+                  <CopyTo Name="AS 250" ChannelName="Color" Value="165"/>
+                </btn>
+                <btn value="110" start="110" end="140" img="Fixtures\\GHOST\\DJSCAN\\img\\Gobo_r2_c2.gif" text ="Green2">
+                  <CopyTo Name="DJSCAN" ChannelName="Gobo" Value="110"/>
+                  <CopyTo Name="TheWinner" ChannelName="Gobo" Value="104"/>
+                  <CopyTo Name="TheWinner" ChannelName="Color" Value="88"/>
+                  <CopyTo Name="AS 250" ChannelName="Shutter" Value="45"/>
+                  <CopyTo Name="AS 250" ChannelName="Color" Value="90"/>
+                </btn>
+                <btn value="140" start="140" end="160" img="Fixtures\\GHOST\\DJSCAN\\img\\Gobo_r2_c5.gif" text ="Pink">
+                  <CopyTo Name="DJSCAN" ChannelName="Gobo" Value="140"/>
+                  <CopyTo Name="TheWinner" ChannelName="Gobo" Value="72"/>
+                  <CopyTo Name="TheWinner" ChannelName="Color" Value="77"/>
+                  <CopyTo Name="AS 250" ChannelName="Shutter" Value="45"/>
+                  <CopyTo Name="AS 250" ChannelName="Color" Value="220"/>
+                </btn>
+                <btn value="160" start="160" end="205" img="Fixtures\\GHOST\\DJSCAN\\img\\Gobo_r2_c7.bmp" text ="Multi1">
+                  <CopyTo Name="DJSCAN" ChannelName="Gobo" Value="160"/>
+                  <CopyTo Name="TheWinner" ChannelName="Gobo" Value="160"/>
+                  <CopyTo Name="TheWinner" ChannelName="Color" Value="160"/>
+                  <CopyTo Name="AS 250" ChannelName="Shutter" Value="45"/>
+                  <CopyTo Name="AS 250" ChannelName="Color" Value="241"/>
+                </btn>
+                <btn value="205" start="205" end="250" img="Fixtures\\GHOST\\DJSCAN\\img\\Gobo_r2_c8.bmp" text ="Multi2">
+                  <CopyTo Name="DJSCAN" ChannelName="Gobo" Value="249"/>
+                  <CopyTo Name="TheWinner" ChannelName="Gobo" Value="250"/>
+                  <CopyTo Name="TheWinner" ChannelName="Color" Value="250"/>
+                  <CopyTo Name="AS 250" ChannelName="Shutter" Value="45"/>
+                  <CopyTo Name="AS 250" ChannelName="Color" Value="245"/>
+                </btn>
+                <btn value="251" start="251" end="253" img="Fixtures\\SARDE\\AS 250\\img\\Red-blue.bmp" text ="BleuRouge">
+                  <CopyTo Name="DJSCAN" ChannelName="Gobo" Value="20"/>
+                  <CopyTo Name="TheWinner" ChannelName="Gobo" Value="20"/>
+                  <CopyTo Name="TheWinner" ChannelName="Color" Value="55"/>
+                  <CopyTo Name="AS 250" ChannelName="Shutter" Value="45"/>
+                  <CopyTo Name="AS 250" ChannelName="Color" Value="242"/>
+                  </btn>
+                  <btn value="253" start="253" end="254" img="Fixtures\\SARDE\\AS 250\\img\\blueandyellow.bmp" text ="BleuJaune">
+                    <CopyTo Name="DJSCAN" ChannelName="Gobo" Value="60"/>
+                    <CopyTo Name="TheWinner" ChannelName="Gobo" Value="20"/>
+                    <CopyTo Name="TheWinner" ChannelName="Color" Value="99"/>
+                    <CopyTo Name="AS 250" ChannelName="Shutter" Value="45"/>
+                    <CopyTo Name="AS 250" ChannelName="Color" Value="247"/>
+                  </btn>
+                  <btn value="254" start="254" end="255" img="Fixtures\\SARDE\\AS 250\\img\\Oranje-Geel.bmp" text ="OrangeJaune">
+                    <CopyTo Name="DJSCAN" ChannelName="Gobo" Value="100"/>
+                    <CopyTo Name="TheWinner" ChannelName="Gobo" Value="20"/>
+                    <CopyTo Name="TheWinner" ChannelName="Color" Value="110"/>
+                    <CopyTo Name="AS 250" ChannelName="Shutter" Value="45"/>
+                    <CopyTo Name="AS 250" ChannelName="Color" Value="251"/>
+                  </btn>
+
+              </Channel>
+              <Channel Name="Shutter" Type="Basic" Num="4" VirtualType="Copy">
+                <CopyTo Name="DJSCAN" ChannelName="Shutter"/>
+                <CopyTo Name="TheWinner" ChannelName="Shutter"/>
+              </Channel>
+            </Channels>
+          </Fixture>
+
+          <Fixture Name="LYRES" Type="Virtual">
+            <SubFixtures>
+              <Fixture Name="iMove" Type="Virtual">
+                <SubFixtures>
+                  <Fixture Name="IMOVE1" Type="Real" Constructor="JBSYSTEM" PRODUCT="iMove 5s" StartAddress ="28" img="iMove 5s.gif">
+                    <Channels>
+                      <Channel Name="Pan" Type="Pan" Num="1" inverted="false"/>
+                      <Channel Name="Tilt" Type="Tilt" Num="2" inverted="false"/>
+                      <Channel Name="Gobo" Type="Btn" Num="4" inverted="false" RowCount ="5" ColumnCount="4">
+                        <btn value="0" start="0" end="9"    img="Fixtures\\JBSYSTEM\\iMove 5s\\img\\Open.BMP" text =""/>
+                        <btn value="9" start="9" end="16"   img="Fixtures\\JBSYSTEM\\iMove 5s\\img\\812-gobo11.bmp" text =""/>
+                        <btn value="18" start="18" end="24" img="Fixtures\\JBSYSTEM\\iMove 5s\\img\\3DNut.bmp" text =""/>
+                        <btn value="26" start="26" end="35" img="Fixtures\\JBSYSTEM\\iMove 5s\\img\\Virus.bmp" text =""/>
+                        <btn value="35" start="35" end="44" img="Fixtures\\JBSYSTEM\\iMove 5s\\img\\Web.bmp" text =""/>
+                        <btn value="44" start="44" end="52" img="Fixtures\\JBSYSTEM\\iMove 5s\\img\\drops.gif" text =""/>
+                        <btn value="52" start="52" end="60" img="Fixtures\\JBSYSTEM\\iMove 5s\\img\\15040011.bmp" text =""/>
+                        <btn value="60" start="60" end="69" img="Fixtures\\JBSYSTEM\\iMove 5s\\img\\inf diamond.bmp" text =""/>
+                        <btn value="69" start="69" end="77" img="Fixtures\\JBSYSTEM\\iMove 5s\\img\\Radio Active.gif" text =""/>
+                        <btn value="77" start="77" end="86" img="Fixtures\\JBSYSTEM\\iMove 5s\\img\\Wizard.BMP" text =""/>
+                        <btn value="86" start="86" end="94" img="Fixtures\\JBSYSTEM\\iMove 5s\\img\\812-gobo7.bmp" text =""/>
+                        <btn value="94" start="94" end="103" img="Fixtures\\JBSYSTEM\\iMove 5s\\img\\dotstripe.bmp" text =""/>
+                        <btn value="103" start="103" end="111" img="Fixtures\\JBSYSTEM\\iMove 5s\\img\\812-gobo10.bmp" text =""/>
+                        <btn value="111" start="111" end="120" img="Fixtures\\JBSYSTEM\\iMove 5s\\img\\Atomic.BMP" text =""/>
+                        <btn value="120" start="120" end="128" img="Fixtures\\JBSYSTEM\\iMove 5s\\img\\imove5.gif" text =""/>
+                        <btn value="128" start="128" end="200" img="Fixtures\\JBSYSTEM\\iMove 5s\\img\\Fast Gobochange.bmp" text =""/>
+                        <btn value="200" start="200" end="256" img="Fixtures\\JBSYSTEM\\iMove 5s\\img\\Slow Gobochange.bmp" text =""/>
+                      </Channel>
+                      <Channel Name="Color" Type="Btn"    Num="5" inverted="false" RowCount ="5" ColumnCount="4">
+                        <btn value="0"    start="0"   end="8"   img="Fixtures\\JBSYSTEM\\iMove 5s\\img\\White.bmp" text =""/>
+                        <btn value="8"    start="8"   end="16"  img="Fixtures\\JBSYSTEM\\iMove 5s\\img\\Green 201.bmp" text =""/>
+                        <btn value="16"   start="16"  end="23"  img="Fixtures\\JBSYSTEM\\iMove 5s\\img\\Green-Magenta.bmp" text =""/>
+                        <btn value="23"   start="23"  end="31"  img="Fixtures\\JBSYSTEM\\iMove 5s\\img\\magenta.bmp" text =""/>
+                        <btn value="31"   start="31"  end="38"  img="Fixtures\\JBSYSTEM\\iMove 5s\\img\\lightblue.bmp" text =""/>
+                        <btn value="38"   start="38"  end="46"  img="Fixtures\\JBSYSTEM\\iMove 5s\\img\\Amber.bmp" text =""/>
+                        <btn value="46"   start="46"  end="53"  img="Fixtures\\JBSYSTEM\\iMove 5s\\img\\Red 304.bmp" text =""/>
+                        <btn value="53"   start="53"  end="61"  img="Fixtures\\JBSYSTEM\\iMove 5s\\img\\Red-blue.bmp" text =""/>
+                        <btn value="61"   start="61"  end="68"  img="Fixtures\\JBSYSTEM\\iMove 5s\\img\\Bleu.bmp" text =""/>
+                        <btn value="68"   start="68"  end="76"  img="Fixtures\\JBSYSTEM\\iMove 5s\\img\\UV.bmp" text =""/>
+                        <btn value="76"   start="76"  end="83"  img="Fixtures\\JBSYSTEM\\iMove 5s\\img\\Lichtgroen.bmp" text =""/>
+                        <btn value="83"   start="83"  end="91"  img="Fixtures\\JBSYSTEM\\iMove 5s\\img\\Lichtgroen-Oranje.bmp" text =""/>
+                        <btn value="91"   start="91"  end="98"  img="Fixtures\\JBSYSTEM\\iMove 5s\\img\\Orange 306.bmp" text =""/>
+                        <btn value="98"   start="98"  end="106" img="Fixtures\\JBSYSTEM\\iMove 5s\\img\\Oranje-Geel.bmp" text =""/>
+                        <btn value="106"  start="106" end="113" img="Fixtures\\JBSYSTEM\\iMove 5s\\img\\Yellow.bmp" text =""/>
+                        <btn value="113"  start="113" end="121" img="Fixtures\\JBSYSTEM\\iMove 5s\\img\\Geel-Roze.bmp" text =""/>
+                        <btn value="121"  start="121" end="128" img="Fixtures\\JBSYSTEM\\iMove 5s\\img\\Pink 312.bmp" text =""/>
+                        <btn value="128"  start="128" end="200" img="Fixtures\\JBSYSTEM\\iMove 5s\\img\\RainbowFWD-fast.bmp" text =""/>
+                        <btn value="250"  start="200" end="256" img="Fixtures\\JBSYSTEM\\iMove 5s\\img\\RainbowFWD-slow.bmp" text =""/>
+                      </Channel>
+                      <Channel Name="Shutter" Type="Btn" Num="3" inverted="false" RowCount ="4" ColumnCount="2">
+                        <btn value="0" start="0" end="8" img="Fixtures\\Shutter\\lamp_off.bmp" text =""/>
+                        <btn value="8" start="8" end="16" img="Fixtures\\Shutter\\lamp_on.bmp" text =""/>
+                        <btn value="16" start="16" end="50" img="Fixtures\\Shutter\\Strobe Slow.gif" text =""/>
+                        <btn value="50" start="50" end="90" img="Fixtures\\Shutter\\Strobe Med.GIF" text =""/>
+                        <btn value="131" start="90" end="132" img="Fixtures\\Shutter\\Strobe Fast.gif" text =""/>
+                        <btn value="132" start="132" end="170" img="Fixtures\\Shutter\\Shake Slow.bmp" text =""/>
+                        <btn value="170" start="170" end="200" img="Fixtures\\Shutter\\Shake Med.bmp" text =""/>
+                        <btn value="247" start="200" end="248" img="Fixtures\\Shutter\\Shake Fast.bmp" text =""/>
+                     </Channel>
+                    </Channels>
+                  </Fixture>
+                  <Fixture Name="IMOVE2" Type="Real" Constructor="JBSYSTEM" PRODUCT="iMove 5s" StartAddress ="18" img="iMove 5s.gif">
+                    <Channels>
+                      <Channel Name="Pan" Type="Pan" Num="1" inverted="false"/>
+                      <Channel Name="Tilt" Type="Tilt" Num="2" inverted="false"/>
+                      <Channel Name="Gobo" Type="Btn" Num="4" inverted="false" RowCount ="5" ColumnCount="4">
+                        <btn value="0" start="0" end="9"    img="Fixtures\\JBSYSTEM\\iMove 5s\\img\\Open.BMP" text =""/>
+                        <btn value="9" start="9" end="16"   img="Fixtures\\JBSYSTEM\\iMove 5s\\img\\812-gobo11.bmp" text =""/>
+                        <btn value="18" start="18" end="24" img="Fixtures\\JBSYSTEM\\iMove 5s\\img\\3DNut.bmp" text =""/>
+                        <btn value="26" start="26" end="35" img="Fixtures\\JBSYSTEM\\iMove 5s\\img\\Virus.bmp" text =""/>
+                        <btn value="35" start="35" end="44" img="Fixtures\\JBSYSTEM\\iMove 5s\\img\\Web.bmp" text =""/>
+                        <btn value="44" start="44" end="52" img="Fixtures\\JBSYSTEM\\iMove 5s\\img\\drops.gif" text =""/>
+                        <btn value="52" start="52" end="60" img="Fixtures\\JBSYSTEM\\iMove 5s\\img\\15040011.bmp" text =""/>
+                        <btn value="60" start="60" end="69" img="Fixtures\\JBSYSTEM\\iMove 5s\\img\\inf diamond.bmp" text =""/>
+                        <btn value="69" start="69" end="77" img="Fixtures\\JBSYSTEM\\iMove 5s\\img\\Radio Active.gif" text =""/>
+                        <btn value="77" start="77" end="86" img="Fixtures\\JBSYSTEM\\iMove 5s\\img\\Wizard.BMP" text =""/>
+                        <btn value="86" start="86" end="94" img="Fixtures\\JBSYSTEM\\iMove 5s\\img\\812-gobo7.bmp" text =""/>
+                        <btn value="94" start="94" end="103" img="Fixtures\\JBSYSTEM\\iMove 5s\\img\\dotstripe.bmp" text =""/>
+                        <btn value="103" start="103" end="111" img="Fixtures\\JBSYSTEM\\iMove 5s\\img\\812-gobo10.bmp" text =""/>
+                        <btn value="111" start="111" end="120" img="Fixtures\\JBSYSTEM\\iMove 5s\\img\\Atomic.BMP" text =""/>
+                        <btn value="120" start="120" end="128" img="Fixtures\\JBSYSTEM\\iMove 5s\\img\\imove5.gif" text =""/>
+                        <btn value="128" start="128" end="200" img="Fixtures\\JBSYSTEM\\iMove 5s\\img\\Fast Gobochange.bmp" text =""/>
+                        <btn value="200" start="200" end="256" img="Fixtures\\JBSYSTEM\\iMove 5s\\img\\Slow Gobochange.bmp" text =""/>
+                      </Channel>
+                      <Channel Name="Color" Type="Btn"    Num="5" inverted="false" RowCount ="5" ColumnCount="4">
+                        <btn value="0"    start="0"   end="8"   img="Fixtures\\JBSYSTEM\\iMove 5s\\img\\White.bmp" text =""/>
+                        <btn value="8"    start="8"   end="16"  img="Fixtures\\JBSYSTEM\\iMove 5s\\img\\Green 201.bmp" text =""/>
+                        <btn value="16"   start="16"  end="23"  img="Fixtures\\JBSYSTEM\\iMove 5s\\img\\Green-Magenta.bmp" text =""/>
+                        <btn value="23"   start="23"  end="31"  img="Fixtures\\JBSYSTEM\\iMove 5s\\img\\magenta.bmp" text =""/>
+                        <btn value="31"   start="31"  end="38"  img="Fixtures\\JBSYSTEM\\iMove 5s\\img\\lightblue.bmp" text =""/>
+                        <btn value="38"   start="38"  end="46"  img="Fixtures\\JBSYSTEM\\iMove 5s\\img\\Amber.bmp" text =""/>
+                        <btn value="46"   start="46"  end="53"  img="Fixtures\\JBSYSTEM\\iMove 5s\\img\\Red 304.bmp" text =""/>
+                        <btn value="53"   start="53"  end="61"  img="Fixtures\\JBSYSTEM\\iMove 5s\\img\\Red-blue.bmp" text =""/>
+                        <btn value="61"   start="61"  end="68"  img="Fixtures\\JBSYSTEM\\iMove 5s\\img\\Bleu.bmp" text =""/>
+                        <btn value="68"   start="68"  end="76"  img="Fixtures\\JBSYSTEM\\iMove 5s\\img\\UV.bmp" text =""/>
+                        <btn value="76"   start="76"  end="83"  img="Fixtures\\JBSYSTEM\\iMove 5s\\img\\Lichtgroen.bmp" text =""/>
+                        <btn value="83"   start="83"  end="91"  img="Fixtures\\JBSYSTEM\\iMove 5s\\img\\Lichtgroen-Oranje.bmp" text =""/>
+                        <btn value="91"   start="91"  end="98"  img="Fixtures\\JBSYSTEM\\iMove 5s\\img\\Orange 306.bmp" text =""/>
+                        <btn value="98"   start="98"  end="106" img="Fixtures\\JBSYSTEM\\iMove 5s\\img\\Oranje-Geel.bmp" text =""/>
+                        <btn value="106"  start="106" end="113" img="Fixtures\\JBSYSTEM\\iMove 5s\\img\\Yellow.bmp" text =""/>
+                        <btn value="113"  start="113" end="121" img="Fixtures\\JBSYSTEM\\iMove 5s\\img\\Geel-Roze.bmp" text =""/>
+                        <btn value="121"  start="121" end="128" img="Fixtures\\JBSYSTEM\\iMove 5s\\img\\Pink 312.bmp" text =""/>
+                        <btn value="128"  start="128" end="200" img="Fixtures\\JBSYSTEM\\iMove 5s\\img\\RainbowFWD-fast.bmp" text =""/>
+                        <btn value="250"  start="200" end="256" img="Fixtures\\JBSYSTEM\\iMove 5s\\img\\RainbowFWD-slow.bmp" text =""/>
+                      </Channel>
+                      <Channel Name="Shutter" Type="Btn" Num="3" inverted="false" RowCount ="4" ColumnCount="2">
+                        <btn value="0" start="0" end="8" img="Fixtures\\Shutter\\lamp_off.bmp" text =""/>
+                        <btn value="8" start="8" end="16" img="Fixtures\\Shutter\\lamp_on.bmp" text =""/>
+                        <btn value="16" start="16" end="50" img="Fixtures\\Shutter\\Strobe Slow.gif" text =""/>
+                        <btn value="50" start="50" end="90" img="Fixtures\\Shutter\\Strobe Med.GIF" text =""/>
+                        <btn value="131" start="90" end="132" img="Fixtures\\Shutter\\Strobe Fast.gif" text =""/>
+                        <btn value="132" start="132" end="170" img="Fixtures\\Shutter\\Shake Slow.bmp" text =""/>
+                        <btn value="170" start="170" end="200" img="Fixtures\\Shutter\\Shake Med.bmp" text =""/>
+                        <btn value="247" start="200" end="248" img="Fixtures\\Shutter\\Shake Fast.bmp" text =""/>
+                      </Channel>
+                    </Channels>
+                  </Fixture>
+                </SubFixtures>
+                <Channels>
+                  <Channel Name="Pan" Type="Pan" Num="3" VirtualType="Copy">
+                    <CopyTo Name="IMOVE1" ChannelName="Pan"/>
+                    <CopyTo Name="IMOVE2" ChannelName="Pan"/>
+                  </Channel>
+                  <Channel Name="Tilt" Type="Tilt" Num="4" VirtualType="Copy">
+                    <CopyTo Name="IMOVE1" ChannelName="Tilt"/>
+                    <CopyTo Name="IMOVE2" ChannelName="Tilt"/>
+                  </Channel>
+                  <Channel Name="Gobo" Type="Btn" Num="3" VirtualType="ByValue" RowCount ="5" ColumnCount="4">
+                    <btn value="0" start="0" end="9"    img="Fixtures\\JBSYSTEM\\iMove 5s\\img\\Open.BMP" text ="">
+                      <CopyTo Name="IMOVE1" ChannelName="Gobo" Value ="0"/>
+                      <CopyTo Name="IMOVE2" ChannelName="Gobo" Value ="0"/>
+                    </btn>
+                    <btn value="9" start="9" end="16"   img="Fixtures\\JBSYSTEM\\iMove 5s\\img\\812-gobo11.bmp" text ="">
+                      <CopyTo Name="IMOVE1" ChannelName="Gobo" Value ="9"/>
+                      <CopyTo Name="IMOVE2" ChannelName="Gobo" Value ="9"/>
+                    </btn>
+                    <btn value="18" start="18" end="24" img="Fixtures\\JBSYSTEM\\iMove 5s\\img\\3DNut.bmp" text ="">
+                      <CopyTo Name="IMOVE1" ChannelName="Gobo" Value ="18"/>
+                      <CopyTo Name="IMOVE2" ChannelName="Gobo" Value ="18"/>
+                    </btn>
+                    <btn value="26" start="26" end="35" img="Fixtures\\JBSYSTEM\\iMove 5s\\img\\Virus.bmp" text ="">
+                      <CopyTo Name="IMOVE1" ChannelName="Gobo" Value ="26"/>
+                      <CopyTo Name="IMOVE2" ChannelName="Gobo" Value ="26"/>
+                    </btn>
+                    <btn value="35" start="35" end="44" img="Fixtures\\JBSYSTEM\\iMove 5s\\img\\Web.bmp" text ="">
+                      <CopyTo Name="IMOVE1" ChannelName="Gobo" Value ="35"/>
+                      <CopyTo Name="IMOVE2" ChannelName="Gobo" Value ="35"/>
+                    </btn>
+                    <btn value="44" start="44" end="52" img="Fixtures\\JBSYSTEM\\iMove 5s\\img\\drops.gif" text ="">
+                      <CopyTo Name="IMOVE1" ChannelName="Gobo" Value ="44"/>
+                      <CopyTo Name="IMOVE2" ChannelName="Gobo" Value ="44"/>
+                    </btn>
+                    <btn value="52" start="52" end="60" img="Fixtures\\JBSYSTEM\\iMove 5s\\img\\15040011.bmp" text ="">
+                      <CopyTo Name="IMOVE1" ChannelName="Gobo" Value ="52"/>
+                      <CopyTo Name="IMOVE2" ChannelName="Gobo" Value ="52"/>
+                    </btn>
+                    <btn value="60" start="60" end="69" img="Fixtures\\JBSYSTEM\\iMove 5s\\img\\inf diamond.bmp" text ="">
+                      <CopyTo Name="IMOVE1" ChannelName="Gobo" Value ="60"/>
+                      <CopyTo Name="IMOVE2" ChannelName="Gobo" Value ="60"/>
+                    </btn>
+                    <btn value="69" start="69" end="77" img="Fixtures\\JBSYSTEM\\iMove 5s\\img\\Radio Active.gif" text ="">
+                      <CopyTo Name="IMOVE1" ChannelName="Gobo" Value ="69"/>
+                      <CopyTo Name="IMOVE2" ChannelName="Gobo" Value ="69"/>
+                    </btn>
+                    <btn value="77" start="77" end="86" img="Fixtures\\JBSYSTEM\\iMove 5s\\img\\Wizard.BMP" text ="">
+                      <CopyTo Name="IMOVE1" ChannelName="Gobo" Value ="77"/>
+                      <CopyTo Name="IMOVE2" ChannelName="Gobo" Value ="77"/>
+                    </btn>
+                    <btn value="86" start="86" end="94" img="Fixtures\\JBSYSTEM\\iMove 5s\\img\\812-gobo7.bmp" text ="">
+                      <CopyTo Name="IMOVE1" ChannelName="Gobo" Value ="86"/>
+                      <CopyTo Name="IMOVE1" ChannelName="Gobo" Value ="86"/>
+                    </btn>
+                    <btn value="94" start="94" end="103" img="Fixtures\\JBSYSTEM\\iMove 5s\\img\\dotstripe.bmp" text ="">
+                      <CopyTo Name="IMOVE1" ChannelName="Gobo" Value ="94"/>
+                      <CopyTo Name="IMOVE2" ChannelName="Gobo" Value ="94"/>
+                    </btn>
+                    <btn value="103" start="103" end="111" img="Fixtures\\JBSYSTEM\\iMove 5s\\img\\812-gobo10.bmp" text ="">
+                      <CopyTo Name="IMOVE1" ChannelName="Gobo" Value ="103"/>
+                      <CopyTo Name="IMOVE2" ChannelName="Gobo" Value ="103"/>
+                    </btn>
+                    <btn value="111" start="111" end="120" img="Fixtures\\JBSYSTEM\\iMove 5s\\img\\Atomic.BMP" text ="">
+                      <CopyTo Name="IMOVE1" ChannelName="Gobo" Value ="111"/>
+                      <CopyTo Name="IMOVE2" ChannelName="Gobo" Value ="111"/>
+                    </btn>
+                    <btn value="120" start="120" end="128" img="Fixtures\\JBSYSTEM\\iMove 5s\\img\\imove5.gif" text ="">
+                      <CopyTo Name="IMOVE1" ChannelName="Gobo" Value ="120"/>
+                      <CopyTo Name="IMOVE2" ChannelName="Gobo" Value ="120"/>
+                    </btn>
+                    <btn value="128" start="128" end="200" img="Fixtures\\JBSYSTEM\\iMove 5s\\img\\Fast Gobochange.bmp" text ="">
+                      <CopyTo Name="IMOVE1" ChannelName="Gobo" Value ="128"/>
+                      <CopyTo Name="IMOVE2" ChannelName="Gobo" Value ="128"/>
+                    </btn>
+                    <btn value="200" start="200" end="256" img="Fixtures\\JBSYSTEM\\iMove 5s\\img\\Slow Gobochange.bmp" text ="">
+                      <CopyTo Name="IMOVE1" ChannelName="Gobo" Value ="200"/>
+                      <CopyTo Name="IMOVE2" ChannelName="Gobo" Value ="200"/>
+                    </btn>
+                  </Channel>
+                  <Channel Name="Color" Type="Btn" Num="2" VirtualType="ByValue" RowCount ="5" ColumnCount="4">
+                    <btn value="0"    start="0"   end="8"   img="Fixtures\\JBSYSTEM\\iMove 5s\\img\\White.bmp" text ="">
+                      <CopyTo Name="IMOVE1" ChannelName="Color" Value="0"/>
+                      <CopyTo Name="IMOVE2" ChannelName="Color" Value="0"/>
+                    </btn>
+                    <btn value="8"    start="8"   end="16"  img="Fixtures\\JBSYSTEM\\iMove 5s\\img\\Green 201.bmp" text ="">
+                      <CopyTo Name="IMOVE1" ChannelName="Color" Value="8"/>
+                      <CopyTo Name="IMOVE2" ChannelName="Color" Value="8"/>
+                    </btn>
+                    <btn value="16"   start="16"  end="23"  img="Fixtures\\JBSYSTEM\\iMove 5s\\img\\Green-Magenta.bmp" text ="">
+                      <CopyTo Name="IMOVE1" ChannelName="Color" Value="16"/>
+                      <CopyTo Name="IMOVE2" ChannelName="Color" Value="16"/>
+                    </btn>
+                    <btn value="23"   start="23"  end="31"  img="Fixtures\\JBSYSTEM\\iMove 5s\\img\\magenta.bmp" text ="">
+                      <CopyTo Name="IMOVE1" ChannelName="Color" Value="23"/>
+                      <CopyTo Name="IMOVE2" ChannelName="Color" Value="23"/>
+                    </btn>
+                    <btn value="31"   start="31"  end="38"  img="Fixtures\\JBSYSTEM\\iMove 5s\\img\\lightblue.bmp" text ="">
+                      <CopyTo Name="IMOVE1" ChannelName="Color" Value="31"/>
+                      <CopyTo Name="IMOVE2" ChannelName="Color" Value="31"/>
+                    </btn>
+                    <btn value="38"   start="38"  end="46"  img="Fixtures\\JBSYSTEM\\iMove 5s\\img\\Amber.bmp" text ="">
+                      <CopyTo Name="IMOVE1" ChannelName="Color" Value="38"/>
+                      <CopyTo Name="IMOVE2" ChannelName="Color" Value="38"/>
+                    </btn>
+                    <btn value="46"   start="46"  end="53"  img="Fixtures\\JBSYSTEM\\iMove 5s\\img\\Red 304.bmp" text ="">
+                      <CopyTo Name="IMOVE1" ChannelName="Color" Value="46"/>
+                      <CopyTo Name="IMOVE2" ChannelName="Color" Value="46"/>
+                    </btn>
+                    <btn value="53"   start="53"  end="61"  img="Fixtures\\JBSYSTEM\\iMove 5s\\img\\Red-blue.bmp" text ="">
+                      <CopyTo Name="IMOVE1" ChannelName="Color" Value="53"/>
+                      <CopyTo Name="IMOVE2" ChannelName="Color" Value="53"/>
+                    </btn>
+                    <btn value="61"   start="61"  end="68"  img="Fixtures\\JBSYSTEM\\iMove 5s\\img\\Bleu.bmp" text ="">
+                      <CopyTo Name="IMOVE1" ChannelName="Color" Value="61"/>
+                      <CopyTo Name="IMOVE2" ChannelName="Color" Value="61"/>
+                    </btn>
+                    <btn value="68"   start="68"  end="76"  img="Fixtures\\JBSYSTEM\\iMove 5s\\img\\UV.bmp" text ="">
+                      <CopyTo Name="IMOVE1" ChannelName="Color" Value="68"/>
+                      <CopyTo Name="IMOVE2" ChannelName="Color" Value="68"/>
+                    </btn>
+                    <btn value="76"   start="76"  end="83"  img="Fixtures\\JBSYSTEM\\iMove 5s\\img\\Lichtgroen.bmp" text ="">
+                      <CopyTo Name="IMOVE1" ChannelName="Color" Value="73"/>
+                      <CopyTo Name="IMOVE2" ChannelName="Color" Value="73"/>
+                    </btn>
+                    <btn value="83"   start="83"  end="91"  img="Fixtures\\JBSYSTEM\\iMove 5s\\img\\Lichtgroen-Oranje.bmp" text ="">
+                      <CopyTo Name="IMOVE1" ChannelName="Color" Value="83"/>
+                      <CopyTo Name="IMOVE2" ChannelName="Color" Value="83"/>
+                    </btn>
+                    <btn value="91"   start="91"  end="98"  img="Fixtures\\JBSYSTEM\\iMove 5s\\img\\Orange 306.bmp" text ="">
+                      <CopyTo Name="IMOVE1" ChannelName="Color" Value="91"/>
+                      <CopyTo Name="IMOVE2" ChannelName="Color" Value="91"/>
+                    </btn>
+                    <btn value="98"   start="98"  end="106" img="Fixtures\\JBSYSTEM\\iMove 5s\\img\\Oranje-Geel.bmp" text ="">
+                      <CopyTo Name="IMOVE1" ChannelName="Color" Value="98"/>
+                      <CopyTo Name="IMOVE2" ChannelName="Color" Value="98"/>
+                    </btn>
+                    <btn value="106"  start="106" end="113" img="Fixtures\\JBSYSTEM\\iMove 5s\\img\\Yellow.bmp" text ="">
+                      <CopyTo Name="IMOVE1" ChannelName="Color" Value="106"/>
+                      <CopyTo Name="IMOVE2" ChannelName="Color" Value="106"/>
+                    </btn>
+                    <btn value="113"  start="113" end="121" img="Fixtures\\JBSYSTEM\\iMove 5s\\img\\Geel-Roze.bmp" text ="">
+                      <CopyTo Name="IMOVE1" ChannelName="Color" Value="113"/>
+                      <CopyTo Name="IMOVE2" ChannelName="Color" Value="113"/>
+                    </btn>
+                    <btn value="121"  start="121" end="128" img="Fixtures\\JBSYSTEM\\iMove 5s\\img\\Pink 312.bmp" text ="">
+                      <CopyTo Name="IMOVE1" ChannelName="Color" Value="121"/>
+                      <CopyTo Name="IMOVE2" ChannelName="Color" Value="121"/>
+                    </btn>
+                    <btn value="128"  start="128" end="200" img="Fixtures\\JBSYSTEM\\iMove 5s\\img\\RainbowFWD-fast.bmp" text ="">
+                      <CopyTo Name="IMOVE1" ChannelName="Color" Value="128"/>
+                      <CopyTo Name="IMOVE2" ChannelName="Color" Value="128"/>
+                    </btn>
+                    <btn value="250"  start="200" end="256" img="Fixtures\\JBSYSTEM\\iMove 5s\\img\\RainbowFWD-slow.bmp" text ="">
+                      <CopyTo Name="IMOVE1" ChannelName="Color" Value="250"/>
+                      <CopyTo Name="IMOVE2" ChannelName="Color" Value="250"/>
+                    </btn>
+                  </Channel>
+                  <Channel Name="Shutter" Type="Btn" Num="1" VirtualType="ByValue" RowCount ="4" ColumnCount="2">
+                    <btn value="0" start="0" end="8" img="Fixtures\\Shutter\\lamp_off.bmp" text ="">
+                      <CopyTo Name="IMOVE1" ChannelName="Shutter" Value="0"/>
+                      <CopyTo Name="IMOVE2" ChannelName="Shutter" Value="0"/>
+                    </btn>
+                    <btn value="8" start="8" end="16" img="Fixtures\\Shutter\\lamp_on.bmp" text ="">
+                      <CopyTo Name="IMOVE1" ChannelName="Shutter" Value="8"/>
+                      <CopyTo Name="IMOVE2" ChannelName="Shutter" Value="8"/>
+                    </btn>
+                    <btn value="16" start="16" end="50" img="Fixtures\\Shutter\\Strobe Slow.gif" text ="">
+                      <CopyTo Name="IMOVE1" ChannelName="Shutter" Value="16"/>
+                      <CopyTo Name="IMOVE2" ChannelName="Shutter" Value="16"/>
+                    </btn>
+                    <btn value="50" start="50" end="90" img="Fixtures\\Shutter\\Strobe Med.GIF" text ="">
+                      <CopyTo Name="IMOVE1" ChannelName="Shutter" Value="50"/>
+                      <CopyTo Name="IMOVE2" ChannelName="Shutter" Value="50"/>
+                    </btn>
+                    <btn value="131" start="90" end="132" img="Fixtures\\Shutter\\Strobe Fast.gif" text ="">
+                      <CopyTo Name="IMOVE1" ChannelName="Shutter" Value="131"/>
+                      <CopyTo Name="IMOVE2" ChannelName="Shutter" Value="131"/>
+                    </btn>
+                    <btn value="132" start="132" end="170" img="Fixtures\\Shutter\\Shake Slow.bmp" text ="">
+                      <CopyTo Name="IMOVE1" ChannelName="Shutter" Value="132"/>
+                      <CopyTo Name="IMOVE2" ChannelName="Shutter" Value="132"/>
+                    </btn>
+                    <btn value="170" start="170" end="200" img="Fixtures\\Shutter\\Shake Med.bmp" text ="">
+                      <CopyTo Name="IMOVE1" ChannelName="Shutter" Value="170"/>
+                      <CopyTo Name="IMOVE2" ChannelName="Shutter" Value="170"/>
+                    </btn>
+                    <btn value="247" start="200" end="248" img="Fixtures\\Shutter\\Shake Fast.bmp" text ="">
+                      <CopyTo Name="IMOVE1" ChannelName="Shutter" Value="247"/>
+                      <CopyTo Name="IMOVE2" ChannelName="Shutter" Value="247"/>
+                    </btn>
+                  </Channel>
+                </Channels>
+              </Fixture>
+              </SubFixtures>
+            <Channels>
+              <Channel Name="Pan" Type="Pan" Num="3" VirtualType="Copy" RowCount ="1" >
+                <CopyTo Name="iMove" ChannelName="Pan"/>
+              </Channel>
+              <Channel Name="Tilt" Type="Tilt" Num="4" VirtualType="Copy" RowCount ="1" >
+                <CopyTo Name="iMove" ChannelName="Tilt"/>
+              </Channel>
+              <Channel Name="Gobo" Type="Btn" Num="3" VirtualType="ByValue" RowCount ="5" ColumnCount="4">
+                <btn value="0" start="0" end="9"    img="Fixtures\\JBSYSTEM\\iMove 5s\\img\\Open.BMP" text ="">
+                  <CopyTo Name="iMove" ChannelName="Gobo" Value ="0"/>
+                </btn>
+                <btn value="9" start="9" end="16"   img="Fixtures\\JBSYSTEM\\iMove 5s\\img\\812-gobo11.bmp" text ="">
+                  <CopyTo Name="iMove" ChannelName="Gobo" Value ="9"/>
+                </btn>
+                <btn value="18" start="18" end="24" img="Fixtures\\JBSYSTEM\\iMove 5s\\img\\3DNut.bmp" text ="">
+                  <CopyTo Name="iMove" ChannelName="Gobo" Value ="18"/>
+                </btn>
+                <btn value="26" start="26" end="35" img="Fixtures\\JBSYSTEM\\iMove 5s\\img\\Virus.bmp" text ="">
+                  <CopyTo Name="iMove" ChannelName="Gobo" Value ="26"/>
+                </btn>
+                <btn value="35" start="35" end="44" img="Fixtures\\JBSYSTEM\\iMove 5s\\img\\Web.bmp" text ="">
+                  <CopyTo Name="iMove" ChannelName="Gobo" Value ="35"/>
+                </btn>
+                <btn value="44" start="44" end="52" img="Fixtures\\JBSYSTEM\\iMove 5s\\img\\drops.gif" text ="">
+                  <CopyTo Name="iMove" ChannelName="Gobo" Value ="44"/>
+                </btn>
+                <btn value="52" start="52" end="60" img="Fixtures\\JBSYSTEM\\iMove 5s\\img\\15040011.bmp" text ="">
+                  <CopyTo Name="iMove" ChannelName="Gobo" Value ="52"/>
+                </btn>
+                <btn value="60" start="60" end="69" img="Fixtures\\JBSYSTEM\\iMove 5s\\img\\inf diamond.bmp" text ="">
+                  <CopyTo Name="iMove" ChannelName="Gobo" Value ="60"/>
+                </btn>
+                <btn value="69" start="69" end="77" img="Fixtures\\JBSYSTEM\\iMove 5s\\img\\Radio Active.gif" text ="">
+                  <CopyTo Name="iMove" ChannelName="Gobo" Value ="69"/>
+                </btn>
+                <btn value="77" start="77" end="86" img="Fixtures\\JBSYSTEM\\iMove 5s\\img\\Wizard.BMP" text ="">
+                  <CopyTo Name="iMove" ChannelName="Gobo" Value ="77"/>
+                </btn>
+                <btn value="86" start="86" end="94" img="Fixtures\\JBSYSTEM\\iMove 5s\\img\\812-gobo7.bmp" text ="">
+                  <CopyTo Name="iMove" ChannelName="Gobo" Value ="86"/>
+                </btn>
+                <btn value="94" start="94" end="103" img="Fixtures\\JBSYSTEM\\iMove 5s\\img\\dotstripe.bmp" text ="">
+                  <CopyTo Name="iMove" ChannelName="Gobo" Value ="94"/>
+                </btn>
+                <btn value="103" start="103" end="111" img="Fixtures\\JBSYSTEM\\iMove 5s\\img\\812-gobo10.bmp" text ="">
+                  <CopyTo Name="iMove" ChannelName="Gobo" Value ="103"/>
+                </btn>
+                <btn value="111" start="111" end="120" img="Fixtures\\JBSYSTEM\\iMove 5s\\img\\Atomic.BMP" text ="">
+                  <CopyTo Name="iMove" ChannelName="Gobo" Value ="111"/>
+                </btn>
+                <btn value="120" start="120" end="128" img="Fixtures\\JBSYSTEM\\iMove 5s\\img\\imove5.gif" text ="">
+                  <CopyTo Name="iMove" ChannelName="Gobo" Value ="120"/>
+                </btn>
+                <btn value="128" start="128" end="200" img="Fixtures\\JBSYSTEM\\iMove 5s\\img\\Fast Gobochange.bmp" text ="">
+                  <CopyTo Name="iMove" ChannelName="Gobo" Value ="128"/>
+                </btn>
+                <btn value="200" start="200" end="256" img="Fixtures\\JBSYSTEM\\iMove 5s\\img\\Slow Gobochange.bmp" text ="">
+                  <CopyTo Name="iMove" ChannelName="Gobo" Value ="200"/>
+                </btn>
+              </Channel>
+              <Channel Name="Color" Type="Btn" Num="2" VirtualType="ByValue" RowCount ="5" ColumnCount="4">
+                <btn value="0"    start="0"   end="8"   img="Fixtures\\JBSYSTEM\\iMove 5s\\img\\White.bmp" text ="">
+                  <CopyTo Name="iMove" ChannelName="Color" Value="0"/>
+                </btn>
+                <btn value="8"    start="8"   end="16"  img="Fixtures\\JBSYSTEM\\iMove 5s\\img\\Green 201.bmp" text ="">
+                  <CopyTo Name="iMove" ChannelName="Color" Value="8"/>
+                </btn>
+                <btn value="16"   start="16"  end="23"  img="Fixtures\\JBSYSTEM\\iMove 5s\\img\\Green-Magenta.bmp" text ="">
+                  <CopyTo Name="iMove" ChannelName="Color" Value="16"/>
+                </btn>
+                <btn value="23"   start="23"  end="31"  img="Fixtures\\JBSYSTEM\\iMove 5s\\img\\magenta.bmp" text ="">
+                  <CopyTo Name="iMove" ChannelName="Color" Value="23"/>
+                </btn>
+                <btn value="31"   start="31"  end="38"  img="Fixtures\\JBSYSTEM\\iMove 5s\\img\\lightblue.bmp" text ="">
+                  <CopyTo Name="iMove" ChannelName="Color" Value="31"/>
+                </btn>
+                <btn value="38"   start="38"  end="46"  img="Fixtures\\JBSYSTEM\\iMove 5s\\img\\Amber.bmp" text ="">
+                  <CopyTo Name="iMove" ChannelName="Color" Value="38"/>
+                </btn>
+                <btn value="46"   start="46"  end="53"  img="Fixtures\\JBSYSTEM\\iMove 5s\\img\\Red 304.bmp" text ="">
+                  <CopyTo Name="iMove" ChannelName="Color" Value="46"/>
+                </btn>
+                <btn value="53"   start="53"  end="61"  img="Fixtures\\JBSYSTEM\\iMove 5s\\img\\Red-blue.bmp" text ="">
+                  <CopyTo Name="iMove" ChannelName="Color" Value="53"/>
+                </btn>
+                <btn value="61"   start="61"  end="68"  img="Fixtures\\JBSYSTEM\\iMove 5s\\img\\Bleu.bmp" text ="">
+                  <CopyTo Name="iMove" ChannelName="Color" Value="61"/>
+                </btn>
+                <btn value="68"   start="68"  end="76"  img="Fixtures\\JBSYSTEM\\iMove 5s\\img\\UV.bmp" text ="">
+                  <CopyTo Name="iMove" ChannelName="Color" Value="68"/>
+                </btn>
+                <btn value="76"   start="76"  end="83"  img="Fixtures\\JBSYSTEM\\iMove 5s\\img\\Lichtgroen.bmp" text ="">
+                  <CopyTo Name="iMove" ChannelName="Color" Value="73"/>
+                </btn>
+                <btn value="83"   start="83"  end="91"  img="Fixtures\\JBSYSTEM\\iMove 5s\\img\\Lichtgroen-Oranje.bmp" text ="">
+                  <CopyTo Name="iMove" ChannelName="Color" Value="83"/>
+                </btn>
+                <btn value="91"   start="91"  end="98"  img="Fixtures\\JBSYSTEM\\iMove 5s\\img\\Orange 306.bmp" text ="">
+                  <CopyTo Name="iMove" ChannelName="Color" Value="91"/>
+                </btn>
+                <btn value="98"   start="98"  end="106" img="Fixtures\\JBSYSTEM\\iMove 5s\\img\\Oranje-Geel.bmp" text ="">
+                  <CopyTo Name="iMove" ChannelName="Color" Value="98"/>
+                </btn>
+                <btn value="106"  start="106" end="113" img="Fixtures\\JBSYSTEM\\iMove 5s\\img\\Yellow.bmp" text ="">
+                  <CopyTo Name="iMove" ChannelName="Color" Value="106"/>
+                </btn>
+                <btn value="113"  start="113" end="121" img="Fixtures\\JBSYSTEM\\iMove 5s\\img\\Geel-Roze.bmp" text ="">
+                  <CopyTo Name="iMove" ChannelName="Color" Value="113"/>
+                </btn>
+                <btn value="121"  start="121" end="128" img="Fixtures\\JBSYSTEM\\iMove 5s\\img\\Pink 312.bmp" text ="">
+                  <CopyTo Name="iMove" ChannelName="Color" Value="121"/>
+                </btn>
+                <btn value="128"  start="128" end="200" img="Fixtures\\JBSYSTEM\\iMove 5s\\img\\RainbowFWD-fast.bmp" text ="">
+                  <CopyTo Name="iMove" ChannelName="Color" Value="128"/>
+                </btn>
+                <btn value="250"  start="200" end="256" img="Fixtures\\JBSYSTEM\\iMove 5s\\img\\RainbowFWD-slow.bmp" text ="">
+                  <CopyTo Name="iMove" ChannelName="Color" Value="250"/>
+                </btn>
+              </Channel>
+              <Channel Name="Shutter" Type="Btn" Num="1" VirtualType="ByValue" RowCount ="4" ColumnCount="2">
+                <btn value="0" start="0" end="8" img="Fixtures\\Shutter\\lamp_off.bmp" text ="">
+                  <CopyTo Name="iMove" ChannelName="Shutter" Value="0"/>
+                </btn>
+                <btn value="8" start="8" end="16" img="Fixtures\\Shutter\\lamp_on.bmp" text ="">
+                  <CopyTo Name="iMove" ChannelName="Shutter" Value="8"/>
+                </btn>
+                <btn value="16" start="16" end="50" img="Fixtures\\Shutter\\Strobe Slow.gif" text ="">
+                  <CopyTo Name="iMove" ChannelName="Shutter" Value="16"/>
+                </btn>
+                <btn value="50" start="50" end="90" img="Fixtures\\Shutter\\Strobe Med.GIF" text ="">
+                  <CopyTo Name="iMove" ChannelName="Shutter" Value="50"/>
+                </btn>
+                <btn value="131" start="90" end="132" img="Fixtures\\Shutter\\Strobe Fast.gif" text ="">
+                  <CopyTo Name="iMove" ChannelName="Shutter" Value="131"/>
+                </btn>
+                <btn value="132" start="132" end="170" img="Fixtures\\Shutter\\Shake Slow.bmp" text ="">
+                  <CopyTo Name="iMove" ChannelName="Shutter" Value="132"/>
+                </btn>
+                <btn value="170" start="170" end="200" img="Fixtures\\Shutter\\Shake Med.bmp" text ="">
+                  <CopyTo Name="iMove" ChannelName="Shutter" Value="170"/>
+                </btn>
+                <btn value="247" start="200" end="248" img="Fixtures\\Shutter\\Shake Fast.bmp" text ="">
+                  <CopyTo Name="iMove" ChannelName="Shutter" Value="247"/>
+                </btn>
+              </Channel>
+            </Channels>
+          </Fixture>
+        </SubFixtures>
+        <Channels>
+          <Channel Name="Pan" Type="Pan" Num="3" VirtualType="Copy">
+            <CopyTo Name="SCANNER" ChannelName="Pan"/>
+            <CopyTo Name="LYRES" ChannelName="Pan"/>
+          </Channel>
+          <Channel Name="Tilt" Type="Tilt" Num="4" VirtualType="Copy">
+            <CopyTo Name="SCANNER" ChannelName="Tilt"/>
+            <CopyTo Name="LYRES" ChannelName="Tilt"/>
+          </Channel>
+          <Channel Name="Gobo" Type="Btn" Num="3" VirtualType="ByValue" RowCount ="5" ColumnCount="4">
+            <btn value="0" start="0" end="10" img="Fixtures\\GHOST\\DJSCAN\\img\\Gobo_r1_c1.gif" text ="">
+              <CopyTo Name="SCANNER" ChannelName="Gobo" Value="0"/>
+              <CopyTo Name="LYRES" ChannelName="Gobo" Value="0"/>
+              <CopyTo Name="LYRES" ChannelName="Color" Value="0"/>
+              <CopyTo Name="LYRES" ChannelName="Shutter" Value="0"/>
+            </btn>
+            <btn value="10" start="10" end="20" img="Fixtures\\GHOST\\DJSCAN\\img\\Gobo_r1_c2.gif" text ="">
+              <CopyTo Name="SCANNER" ChannelName="Gobo" Value="10"/>
+              <CopyTo Name="LYRES" ChannelName="Gobo" Value="0"/>
+              <CopyTo Name="LYRES" ChannelName="Color" Value="0"/>
+              <CopyTo Name="LYRES" ChannelName="Shutter" Value="8"/>
+            </btn>
+            <btn value="20" start="20" end="30" img="Fixtures\\GHOST\\DJSCAN\\img\\Gobo_r1_c3.gif" text ="">
+              <CopyTo Name="SCANNER" ChannelName="Gobo" Value="20"/>
+              <CopyTo Name="LYRES" ChannelName="Gobo" Value="0"/>
+              <CopyTo Name="LYRES" ChannelName="Color" Value="31"/>
+              <CopyTo Name="LYRES" ChannelName="Shutter" Value="8"/>
+            </btn>
+            <btn value="40" start="40" end="50" img="Fixtures\\GHOST\\DJSCAN\\img\\Gobo_r1_c5.gif" text ="">
+              <CopyTo Name="SCANNER" ChannelName="Gobo" Value="40"/>
+              <CopyTo Name="LYRES" ChannelName="Gobo" Value="35"/>
+              <CopyTo Name="LYRES" ChannelName="Color" Value="8"/>
+              <CopyTo Name="LYRES" ChannelName="Shutter" Value="8"/>
+            </btn>
+            <btn value="50" start="50" end="60" img="Fixtures\\GHOST\\DJSCAN\\img\\Gobo_r1_c6.gif" text ="">
+              <CopyTo Name="SCANNER" ChannelName="Gobo" Value="50"/>
+              <CopyTo Name="LYRES" ChannelName="Gobo" Value="26"/>
+              <CopyTo Name="LYRES" ChannelName="Color" Value="46"/>
+              <CopyTo Name="LYRES" ChannelName="Shutter" Value="8"/>
+            </btn>
+            <btn value="60" start="60" end="80" img="Fixtures\\GHOST\\DJSCAN\\img\\Gobo_r1_c7.gif" text ="">
+              <CopyTo Name="SCANNER" ChannelName="Gobo" Value="60"/>
+              <CopyTo Name="LYRES" ChannelName="Gobo" Value="94"/>
+              <CopyTo Name="LYRES" ChannelName="Color" Value="91"/>
+              <CopyTo Name="LYRES" ChannelName="Shutter" Value="8"/>
+            </btn>
+            <btn value="80" start="80" end="90" img="Fixtures\\GHOST\\DJSCAN\\img\\Gobo_r1_c9.gif" text ="">
+              <CopyTo Name="SCANNER" ChannelName="Gobo" Value="80"/>
+              <CopyTo Name="LYRES" ChannelName="Gobo" Value="9"/>
+              <CopyTo Name="LYRES" ChannelName="Color" Value="31"/>
+              <CopyTo Name="LYRES" ChannelName="Shutter" Value="8"/>
+            </btn>
+            <btn value="90" start="90" end="100" img="Fixtures\\GHOST\\DJSCAN\\img\\Gobo_r1_c10.gif" text ="">
+              <CopyTo Name="SCANNER" ChannelName="Gobo" Value="90"/>
+              <CopyTo Name="LYRES" ChannelName="Gobo" Value="103"/>
+              <CopyTo Name="LYRES" ChannelName="Color" Value="31"/>
+              <CopyTo Name="LYRES" ChannelName="Shutter" Value="8"/>
+            </btn>
+            <btn value="100" start="100" end="110" img="Fixtures\\GHOST\\DJSCAN\\img\\Gobo_r2_c1.gif" text ="">
+              <CopyTo Name="SCANNER" ChannelName="Gobo" Value="100"/>
+              <CopyTo Name="LYRES" ChannelName="Gobo" Value="60"/>
+              <CopyTo Name="LYRES" ChannelName="Color" Value="91"/>
+              <CopyTo Name="LYRES" ChannelName="Shutter" Value="8"/>
+            </btn>
+            <btn value="110" start="110" end="140" img="Fixtures\\GHOST\\DJSCAN\\img\\Gobo_r2_c2.gif" text ="">
+              <CopyTo Name="SCANNER" ChannelName="Gobo" Value="110"/>
+              <CopyTo Name="LYRES" ChannelName="Gobo" Value="52"/>
+              <CopyTo Name="LYRES" ChannelName="Color" Value="76"/>
+              <CopyTo Name="LYRES" ChannelName="Shutter" Value="8"/>
+            </btn>
+            <btn value="140" start="140" end="160" img="Fixtures\\GHOST\\DJSCAN\\img\\Gobo_r2_c5.gif" text ="">
+              <CopyTo Name="SCANNER" ChannelName="Gobo" Value="140"/>
+              <CopyTo Name="LYRES" ChannelName="Gobo" Value="69"/>
+              <CopyTo Name="LYRES" ChannelName="Color" Value="121"/>
+              <CopyTo Name="LYRES" ChannelName="Shutter" Value="8"/>
+            </btn>
+            <btn value="160" start="160" end="205" img="Fixtures\\GHOST\\DJSCAN\\img\\Gobo_r2_c7.bmp" text ="">
+              <CopyTo Name="SCANNER" ChannelName="Gobo" Value="160"/>
+              <CopyTo Name="LYRES" ChannelName="Gobo" Value="160"/>
+              <CopyTo Name="LYRES" ChannelName="Color" Value="160"/>
+              <CopyTo Name="LYRES" ChannelName="Shutter" Value="8"/>
+            </btn>
+            <btn value="205" start="205" end="250" img="Fixtures\\GHOST\\DJSCAN\\img\\Gobo_r2_c8.bmp" text ="">
+              <CopyTo Name="SCANNER" ChannelName="Gobo" Value="249"/>
+              <CopyTo Name="LYRES" ChannelName="Gobo" Value="250"/>
+              <CopyTo Name="LYRES" ChannelName="Color" Value="250"/>
+              <CopyTo Name="LYRES" ChannelName="Shutter" Value="8"/>
+            </btn>
+          </Channel>
+          <Channel Name="Shutter" Type="Basic" Num="4" VirtualType="Copy">
+            <CopyTo Name="SCANNER" ChannelName="Shutter"/>
+            <CopyTo Name="LYRES" ChannelName="Shutter"/>
+          </Channel>
+        </Channels>
+      </Fixture>
+      <Fixture Name="LASER" Type="Virtual">
+        <SubFixtures>
+          <Fixture Name="GORDON30_1" Type="Real" Constructor="GHOST" PRODUCT="GREEN 30" StartAddress ="9" img="G30.jpg">
+            <Channels>
+              <Channel Name="Mode" Type="Btn" Num="1" inverted="false" RowCount ="3" ColumnCount="1">
+                <btn value="0"    start="0"   end="75"   img="" text ="OFF"/>
+                <btn value="75"    start="75"   end="120"   img="" text ="DMX"/>
+                <btn value="200"    start="120"   end="256"   img="" text ="AUTO"/>
+              </Channel>
+              <Channel Name="Gobo" Type="List" Num="2" inverted="false">
+                <btn value="0"    start="0"   end="10"   img="" text ="POINT"/>
+                <btn value="10"    start="10"   end="20"   img="" text ="LIGNE HORIZONTALE"/>
+                <btn value="20"    start="20"   end="30"   img="" text ="LIGNE VERTICALE"/>
+                <btn value="30"    start="30"   end="40"   img="" text ="LIGNE HORIZONTALE ARRONDIE"/>
+                <btn value="40"    start="40"   end="50"   img="" text ="VAGUE VERTICALE"/>
+                <btn value="50"    start="50"   end="60"   img="" text ="CERCLE"/>
+                <btn value="60"    start="60"   end="70"   img="" text ="POINT PUIS LIGNE HORIZONTALE"/>
+                <btn value="70"    start="70"   end="80"   img="" text ="POINT PUIS LIGNE VERTICALE"/>
+                <btn value="80"    start="80"   end="90"   img="" text ="CARRE"/>
+                <btn value="90"    start="90"   end="100"   img="" text ="LIGNE DE POINT HORIZONTALE"/>
+                <btn value="100"    start="100"   end="110"   img="" text ="PAPILLON"/>
+                <btn value="110"    start="110"   end="120"   img="" text ="CARRER DE POINT"/>
+                <btn value="120"    start="120"   end="130"   img="" text ="TRAPÈZE"/>
+                <btn value="130"    start="130"   end="140"   img="" text ="FEUILLE DE HOUX QUI TOURNE"/>
+                <btn value="140"    start="140"   end="150"   img="" text ="GRAND TRIANGLE"/>
+                <btn value="150"    start="150"   end="160"   img="" text ="CARRÉ CHANGEMENT SYMÉTRIQUE"/>
+                <btn value="160"    start="160"   end="170"   img="" text ="LIGNE VERTICALE ET HORIZONTALE"/>
+                <btn value="170"    start="170"   end="180"   img="" text ="CARRE DÉPLACEMENT VERTICALE ET SYMÉTRIQUE"/>
+                <btn value="180"    start="180"   end="190"   img="" text ="INDÉFINIS"/>
+                <btn value="190"    start="190"   end="200"   img="" text ="LIGNE HORIZONTALE ET VERTICALE"/>
+                <btn value="200"    start="200"   end="210"   img="" text ="VAGUE VERTICALE"/>
+                <btn value="210"    start="210"   end="220"   img="" text ="DEUX LIGNE VERTICALE"/>
+                <btn value="220"    start="220"   end="230"   img="" text ="DEUX LIGNE DE POINT VERTICALE"/>
+                <btn value="230"    start="230"   end="240"   img="" text ="TROIS LIGNE DE POINT HORIZONTALE"/>
+                <btn value="240"    start="240"   end="256"   img="" text ="240 A 255 INDÉFINIS"/>               
+              </Channel>
+              <Channel Name="Vitesse1" Type="Basic" Num="3" inverted="false"/>
+              <Channel Name="Vitesse2" Type="Basic" Num="4" inverted="false"/>
+            </Channels>
+          </Fixture>
+          <Fixture Name="LASER MAC 4" Type="Real" Constructor="MAC MAH" PRODUCT="LASER MAC IV" StartAddress ="75" img="G30.jpg">
+            <Channels>
+              <Channel Name="Mode" Type="Btn" Num="1" inverted="false" RowCount ="5" ColumnCount="1">
+                <btn value="0"    start="0"   end="63"   img="" text ="MUSIC"/>
+                <btn value="63"    start="63"   end="126"   img="" text ="AUTO"/>
+                <btn value="126"    start="126"   end="189"   img="" text ="MANUAL MODE"/>
+                <btn value="189"    start="189"   end="252"   img="" text ="DMX MODE"/>
+                <btn value="252"    start="252"   end="255"   img="" text ="ONE BEAM"/>
+              </Channel>
+              <Channel Name="On/OFF" Type="Btn" Num="2" inverted="false" RowCount ="2" ColumnCount="1">
+                <btn value="0"    start="0"   end="127"   img="" text ="OFF"/>
+                <btn value="128"    start="128"   end="255"   img="" text ="ON"/>
+              </Channel>
+              <Channel Name="Gobo" Type="List" Num="3" inverted="false">
+                <btn value="00"    start="0"   end="13"   img="" text ="GOBO 1"/>
+                <btn value="13"    start="13"   end="26"   img="" text ="GOBO 2"/>
+                <btn value="26"    start="26"   end="39"   img="" text ="GOBO 3"/>
+                <btn value="39"    start="39"   end="52"   img="" text ="GOBO 4"/>
+                <btn value="52"    start="52"   end="65"   img="" text ="GOBO 5"/>
+                <btn value="65"    start="65"   end="78"   img="" text ="GOBO 6"/>
+                <btn value="78"    start="78"   end="91"   img="" text ="GOBO 7"/>
+                <btn value="91"    start="91"   end="104"   img="" text ="GOBO 8"/>
+                <btn value="104"    start="104"   end="117"   img="" text ="GOBO 9"/>
+                <btn value="117"    start="117"   end="130"   img="" text ="GOBO 10"/>
+                <btn value="130"    start="130"   end="143"   img="" text ="GOBO 11"/>
+                <btn value="143"    start="143"   end="156"   img="" text ="GOBO 12"/>
+                <btn value="156"    start="156"   end="169"   img="" text ="GOBO 13"/>
+                <btn value="169"    start="169"   end="182"   img="" text ="GOBO 14"/>
+                <btn value="182"    start="182"   end="195"   img="" text ="GOBO 15"/>
+                <btn value="195"    start="195"   end="208"   img="" text ="GOBO 16"/>
+                <btn value="208"    start="208"   end="221"   img="" text ="GOBO 17"/>
+                <btn value="221"    start="221"   end="234"   img="" text ="GOBO 18"/>
+                <btn value="234"    start="234"   end="247"   img="" text ="GOBO 19"/>
+                <btn value="247"    start="247"   end="255"   img="" text ="GOBO 20"/>
+              </Channel>
+              <Channel Name="Roll" Type="Btn" Num="4" inverted="false" RowCount ="5" ColumnCount="1">
+                <btn value="0"    start="0"   end="64"   img="" text ="Without"/>
+                <btn value="64"    start="64"   end="128"   img="" text ="Horizontal"/>
+                <btn value="128"    start="128"   end="191"   img="" text ="Vertical"/>
+                <btn value="191"    start="191"   end="255"   img="" text ="H and V"/>
+              </Channel>
+              <Channel Name="Rotation" Type="Basic" Num="5" inverted="false"/>
+              <Channel Name="Vitesse" Type="Basic" Num="6" inverted="false"/>
+            </Channels>
+          </Fixture>
+        </SubFixtures>
+        <Channels>
+          <Channel Name="Mode" Type="Btn" Num="1"  VirtualType="ByValue" RowCount ="5" ColumnCount="1">
+            <btn value="0" start="0" end="50" img="" text ="OFF">
+              <CopyTo Name="GORDON30_1" ChannelName="Mode" Value="0"/>
+              <CopyTo Name="LASER MAC 4" ChannelName="On/OFF" Value="0"/>
+              <CopyTo Name="LASER MAC 4" ChannelName="Mode" Value="189"/>
+              <CopyTo Name="LASER MAC 4" ChannelName="Gobo" Value="0"/>
+              <CopyTo Name="LASER MAC 4" ChannelName="Roll" Value="0"/>
+              <CopyTo Name="LASER MAC 4" ChannelName="Rotation" Value="0"/>
+              <CopyTo Name="LASER MAC 4" ChannelName="Vitesse" Value="0"/>
+            </btn>
+            <btn value="51" start="51" end="200" img="" text ="PLAFOND">
+              <CopyTo Name="GORDON30_1" ChannelName="Mode" Value="75"/>
+              <CopyTo Name="GORDON30_1" ChannelName="Gobo" Value="10"/>
+              <CopyTo Name="LASER MAC 4" ChannelName="On/OFF" Value="189"/>
+              <CopyTo Name="LASER MAC 4" ChannelName="Mode" Value="189"/>
+              <CopyTo Name="LASER MAC 4" ChannelName="Gobo" Value="0"/>
+              <CopyTo Name="LASER MAC 4" ChannelName="Roll" Value="0"/>
+              <CopyTo Name="LASER MAC 4" ChannelName="Rotation" Value="0"/>
+              <CopyTo Name="LASER MAC 4" ChannelName="Vitesse" Value="0"/>
+            </btn>
+            <btn value="201" start="201" end="255" img="" text ="AUTO">
+              <CopyTo Name="GORDON30_1" ChannelName="Mode" Value="200"/>
+              <CopyTo Name="LASER MAC 4" ChannelName="On/OFF" Value="189"/>
+              <CopyTo Name="LASER MAC 4" ChannelName="Mode" Value="0"/>
+              <CopyTo Name="LASER MAC 4" ChannelName="Gobo" Value="0"/>
+              <CopyTo Name="LASER MAC 4" ChannelName="Roll" Value="0"/>
+              <CopyTo Name="LASER MAC 4" ChannelName="Rotation" Value="0"/>
+              <CopyTo Name="LASER MAC 4" ChannelName="Vitesse" Value="0"/>
+            </btn>
+          </Channel>
+        </Channels>
+      </Fixture>
+      <Fixture Name="STROBOSCOPE" Type="Virtual">
+        <SubFixtures>
+          <Fixture Name="STROB1" Type="Real" Constructor="MAC MAH" PRODUCT="FL1800D " StartAddress ="33" img="S15D.jpg">
+            <Channels>
+              <Channel Name="Rate" Type="Basic" Num="1" inverted="false"/>
+              <Channel Name="Intensity" Type="Basic" Num="2" inverted="false"/>
+            </Channels>
+          </Fixture>
+        </SubFixtures>
+        <Channels>
+          <Channel Name="Rate" Type="Basic" Num="1" VirtualType="Copy">
+            <CopyTo Name="STROB1" ChannelName="Rate"/>
+          </Channel>
+          <Channel Name="Intensity" Type="Basic" Num="1" VirtualType="Copy">
+            <CopyTo Name="STROB1" ChannelName="Intensity"/>
+          </Channel>
+        </Channels>
+      </Fixture>
+      <Fixture Name="Projecteurs LED" Type="Virtual">
+        <SubFixtures>
+          <Fixture Name="LED_1" Type="Real" Constructor="GHOST" PRODUCT="PAR56 LED" StartAddress ="35" img="PAR56LED.jpg">
+            <Channels>
+              <Channel Name="Auto" Type="Basic" Num="1" inverted="false"/>
+              <Channel Name="R" Type="Basic" Num="2" inverted="false"/>
+              <Channel Name="G" Type="Basic" Num="3" inverted="false"/>
+              <Channel Name="B" Type="Basic" Num="4" inverted="false"/>
+              <Channel Name="Music" Type="Basic" Num="5" inverted="false"/>
+            </Channels>
+          </Fixture>
+          <Fixture Name="LED_2" Type="Real" Constructor="GHOST" PRODUCT="PAR56 LED" StartAddress ="40" img="PAR56LED.jpg">
+            <Channels>
+              <Channel Name="Auto" Type="Basic" Num="1" inverted="false"/>
+              <Channel Name="R" Type="Basic" Num="2" inverted="false"/>
+              <Channel Name="G" Type="Basic" Num="3" inverted="false"/>
+              <Channel Name="B" Type="Basic" Num="4" inverted="false"/>
+              <Channel Name="Music" Type="Basic" Num="5" inverted="false"/>
+            </Channels>
+          </Fixture>
+          <Fixture Name="LED_3" Type="Real" Constructor="GHOST" PRODUCT="PAR56 LED" StartAddress ="45" img="PAR56LED.jpg">
+            <Channels>
+              <Channel Name="Auto" Type="Basic" Num="1" inverted="false"/>
+              <Channel Name="R" Type="Basic" Num="2" inverted="false"/>
+              <Channel Name="G" Type="Basic" Num="3" inverted="false"/>
+              <Channel Name="B" Type="Basic" Num="4" inverted="false"/>
+              <Channel Name="Music" Type="Basic" Num="5" inverted="false"/>
+            </Channels>
+          </Fixture>
+          <Fixture Name="LED_4" Type="Real" Constructor="GHOST" PRODUCT="PAR56 LED" StartAddress ="50" img="PAR56LED.jpg">
+            <Channels>
+              <Channel Name="Auto" Type="Basic" Num="1" inverted="false"/>
+              <Channel Name="R" Type="Basic" Num="2" inverted="false"/>
+              <Channel Name="G" Type="Basic" Num="3" inverted="false"/>
+              <Channel Name="B" Type="Basic" Num="4" inverted="false"/>
+              <Channel Name="Music" Type="Basic" Num="5" inverted="false"/>
+            </Channels>
+          </Fixture>
+          <Fixture Name="LED_5" Type="Real" Constructor="GHOST" PRODUCT="PAR56 LED" StartAddress ="55" img="PAR56LED.jpg">
+            <Channels>
+              <Channel Name="Auto" Type="Basic" Num="1" inverted="false"/>
+              <Channel Name="R" Type="Basic" Num="2" inverted="false"/>
+              <Channel Name="G" Type="Basic" Num="3" inverted="false"/>
+              <Channel Name="B" Type="Basic" Num="4" inverted="false"/>
+              <Channel Name="Music" Type="Basic" Num="5" inverted="false"/>
+            </Channels>
+          </Fixture>
+          <Fixture Name="LED_6" Type="Real" Constructor="GHOST" PRODUCT="PAR56 LED" StartAddress ="60" img="PAR56LED.jpg">
+            <Channels>
+              <Channel Name="Auto" Type="Basic" Num="1" inverted="false"/>
+              <Channel Name="R" Type="Basic" Num="2" inverted="false"/>
+              <Channel Name="G" Type="Basic" Num="3" inverted="false"/>
+              <Channel Name="B" Type="Basic" Num="4" inverted="false"/>
+              <Channel Name="Music" Type="Basic" Num="5" inverted="false"/>
+            </Channels>
+          </Fixture>
+          <Fixture Name="LED_7" Type="Real" Constructor="GHOST" PRODUCT="PAR56 LED" StartAddress ="65" img="PAR56LED.jpg">
+            <Channels>
+              <Channel Name="Auto" Type="Basic" Num="1" inverted="false"/>
+              <Channel Name="R" Type="Basic" Num="2" inverted="false"/>
+              <Channel Name="G" Type="Basic" Num="3" inverted="false"/>
+              <Channel Name="B" Type="Basic" Num="4" inverted="false"/>
+              <Channel Name="Music" Type="Basic" Num="5" inverted="false"/>
+            </Channels>
+          </Fixture>
+          <Fixture Name="LED_8" Type="Real" Constructor="GHOST" PRODUCT="PAR56 LED" StartAddress ="70" img="PAR56LED.jpg">
+            <Channels>
+              <Channel Name="Auto" Type="Basic" Num="1" inverted="false"/>
+              <Channel Name="R" Type="Basic" Num="2" inverted="false"/>
+              <Channel Name="G" Type="Basic" Num="3" inverted="false"/>
+              <Channel Name="B" Type="Basic" Num="4" inverted="false"/>
+              <Channel Name="Music" Type="Basic" Num="5" inverted="false"/>
+            </Channels>
+          </Fixture>
+        </SubFixtures>
+        <Channels>
+          <Channel Name="Auto" Type="Basic" Num="1" VirtualType="Copy">
+            <CopyTo Name="LED_1" ChannelName="Auto"/>
+            <CopyTo Name="LED_2" ChannelName="Auto"/>
+            <CopyTo Name="LED_3" ChannelName="Auto"/>
+            <CopyTo Name="LED_4" ChannelName="Auto"/>
+            <CopyTo Name="LED_5" ChannelName="Auto"/>
+            <CopyTo Name="LED_6" ChannelName="Auto"/>
+            <CopyTo Name="LED_7" ChannelName="Auto"/>
+            <CopyTo Name="LED_8" ChannelName="Auto"/>
+          </Channel>
+          <Channel Name="R" Type="Basic" Num="2" VirtualType="Copy">
+            <CopyTo Name="LED_1" ChannelName="R"/>
+            <CopyTo Name="LED_2" ChannelName="R"/>
+            <CopyTo Name="LED_3" ChannelName="R"/>
+            <CopyTo Name="LED_4" ChannelName="R"/>
+            <CopyTo Name="LED_5" ChannelName="R"/>
+            <CopyTo Name="LED_6" ChannelName="R"/>
+            <CopyTo Name="LED_7" ChannelName="R"/>
+            <CopyTo Name="LED_8" ChannelName="R"/>
+          </Channel>
+          <Channel Name="G" Type="Basic" Num="3" VirtualType="Copy">
+            <CopyTo Name="LED_1" ChannelName="G"/>
+            <CopyTo Name="LED_2" ChannelName="G"/>
+            <CopyTo Name="LED_3" ChannelName="G"/>
+            <CopyTo Name="LED_4" ChannelName="G"/>
+            <CopyTo Name="LED_5" ChannelName="G"/>
+            <CopyTo Name="LED_6" ChannelName="G"/>
+            <CopyTo Name="LED_7" ChannelName="G"/>
+            <CopyTo Name="LED_8" ChannelName="G"/>
+          </Channel>
+          <Channel Name="B" Type="Basic" Num="4" VirtualType="Copy">
+            <CopyTo Name="LED_1" ChannelName="B"/>
+            <CopyTo Name="LED_2" ChannelName="B"/>
+            <CopyTo Name="LED_3" ChannelName="B"/>
+            <CopyTo Name="LED_4" ChannelName="B"/>
+            <CopyTo Name="LED_5" ChannelName="B"/>
+            <CopyTo Name="LED_6" ChannelName="B"/>
+            <CopyTo Name="LED_7" ChannelName="B"/>
+            <CopyTo Name="LED_8" ChannelName="B"/>
+          </Channel>
+          <Channel Name="Music" Type="Basic" Num="5" VirtualType="Copy">
+            <CopyTo Name="LED_1" ChannelName="Music"/>
+            <CopyTo Name="LED_2" ChannelName="Music"/>
+            <CopyTo Name="LED_3" ChannelName="Music"/>
+            <CopyTo Name="LED_4" ChannelName="Music"/>
+            <CopyTo Name="LED_5" ChannelName="Music"/>
+            <CopyTo Name="LED_6" ChannelName="Music"/>
+            <CopyTo Name="LED_7" ChannelName="Music"/>
+            <CopyTo Name="LED_8" ChannelName="Music"/>
+          </Channel>
+        </Channels>
+      </Fixture>
+      <Fixture Name="SUNLED" Type="Virtual">
+        <SubFixtures>
+          <Fixture Name="SUNLED1" Type="Real" Constructor="GHOST" PRODUCT="BIG SUNLED" StartAddress ="81" img="G30.jpg">
+            <Channels>
+              <Channel Name="Mode" Type="Basic" Num="1" inverted="false"></Channel>
+              <Channel Name="Clus1" Type="Basic" Num="2" inverted="false"></Channel>
+              <Channel Name="Clus2" Type="Basic" Num="3" inverted="false"></Channel>
+              <Channel Name="Clus3" Type="Basic" Num="4" inverted="false"></Channel>
+              <Channel Name="Clus4" Type="Basic" Num="5" inverted="false"></Channel>
+              <Channel Name="Clus5" Type="Basic" Num="6" inverted="false"></Channel>
+              <Channel Name="Clus6" Type="Basic" Num="7" inverted="false"></Channel>
+              <Channel Name="Clus7" Type="Basic" Num="8" inverted="false"></Channel>
+              <Channel Name="Stobe" Type="Basic" Num="9" inverted="false"></Channel>
+            </Channels>
+          </Fixture>
+          <Fixture Name="SUNLED2" Type="Real" Constructor="GHOST" PRODUCT="BIG SUNLED" StartAddress ="90" img="G30.jpg">
+            <Channels>
+              <Channel Name="Mode" Type="Basic" Num="1" inverted="false"></Channel>
+              <Channel Name="Clus1" Type="Basic" Num="2" inverted="false"></Channel>
+              <Channel Name="Clus2" Type="Basic" Num="3" inverted="false"></Channel>
+              <Channel Name="Clus3" Type="Basic" Num="4" inverted="false"></Channel>
+              <Channel Name="Clus4" Type="Basic" Num="5" inverted="false"></Channel>
+              <Channel Name="Clus5" Type="Basic" Num="6" inverted="false"></Channel>
+              <Channel Name="Clus6" Type="Basic" Num="7" inverted="false"></Channel>
+              <Channel Name="Clus7" Type="Basic" Num="8" inverted="false"></Channel>
+              <Channel Name="Stobe" Type="Basic" Num="9" inverted="false"></Channel>
+            </Channels>
+          </Fixture>
+        </SubFixtures>
+        <Channels>
+          <Channel Name="Mode" Type="Basic" Num="1" VirtualType="Copy">
+            <CopyTo Name="SUNLED1" ChannelName="Mode"/>
+            <CopyTo Name="SUNLED2" ChannelName="Mode"/>
+          </Channel>
+          <Channel Name="Clus1" Type="Basic" Num="2" VirtualType="Copy">
+            <CopyTo Name="SUNLED1" ChannelName="Clus1"/>
+            <CopyTo Name="SUNLED2" ChannelName="Clus1"/>
+          </Channel>
+          <Channel Name="Clus2" Type="Basic" Num="3" VirtualType="Copy">
+            <CopyTo Name="SUNLED1" ChannelName="Clus2"/>
+            <CopyTo Name="SUNLED2" ChannelName="Clus2"/>
+          </Channel>
+          <Channel Name="Clus3" Type="Basic" Num="4" VirtualType="Copy">
+            <CopyTo Name="SUNLED1" ChannelName="Clus3"/>
+            <CopyTo Name="SUNLED2" ChannelName="Clus3"/>
+          </Channel>
+          <Channel Name="Clus4" Type="Basic" Num="5" VirtualType="Copy">
+            <CopyTo Name="SUNLED1" ChannelName="Clus4"/>
+            <CopyTo Name="SUNLED2" ChannelName="Clus4"/>
+          </Channel>
+          <Channel Name="Clus5" Type="Basic" Num="6" VirtualType="Copy">
+            <CopyTo Name="SUNLED1" ChannelName="Clus5"/>
+            <CopyTo Name="SUNLED2" ChannelName="Clus5"/>
+          </Channel>
+          <Channel Name="Clus6" Type="Basic" Num="7" VirtualType="Copy">
+            <CopyTo Name="SUNLED1" ChannelName="Clus6"/>
+            <CopyTo Name="SUNLED2" ChannelName="Clus6"/>
+          </Channel>
+          <Channel Name="Clus7" Type="Basic" Num="8" VirtualType="Copy">
+            <CopyTo Name="SUNLED1" ChannelName="Clus7"/>
+            <CopyTo Name="SUNLED2" ChannelName="Clus7"/>
+          </Channel>
+          <Channel Name="Stobe" Type="Basic" Num="9" VirtualType="Copy">
+            <CopyTo Name="SUNLED1" ChannelName="Stobe"/>
+            <CopyTo Name="SUNLED2" ChannelName="Stobe"/>
+          </Channel>
+        </Channels>
+      </Fixture>
+      <Fixture Name="DMX BAR" Type="Virtual">
+        <SubFixtures>
+          <Fixture Name="BAR1" Type="Real" Constructor="JBSYSTEM" PRODUCT="DMX BAR " StartAddress ="123" img="">
+            <Channels>
+              <Channel Name="Chan1" Type="Basic" Num="1" inverted="false"/>
+              <Channel Name="Chan2" Type="Basic" Num="2" inverted="false"/>
+              <Channel Name="Chan3" Type="Basic" Num="3" inverted="false"/>
+              <Channel Name="Chan4" Type="Basic" Num="4" inverted="false"/>
+            </Channels>
+          </Fixture>
+        </SubFixtures>
+        <Channels>
+          <Channel Name="Chan1" Type="Basic" Num="1" VirtualType="Copy">
+            <CopyTo Name="BAR1" ChannelName="Chan1"/>
+          </Channel>
+          <Channel Name="Chan2" Type="Basic" Num="2" VirtualType="Copy">
+            <CopyTo Name="BAR1" ChannelName="Chan2"/>
+          </Channel>
+          <Channel Name="Chan3" Type="Basic" Num="3" VirtualType="Copy">
+            <CopyTo Name="BAR1" ChannelName="Chan3"/>
+          </Channel>
+          <Channel Name="Chan4" Type="Basic" Num="4" VirtualType="Copy">
+            <CopyTo Name="BAR1" ChannelName="Chan4"/>
+          </Channel>
+        </Channels>
+      </Fixture>
+    </SubFixtures>
+    <Channels></Channels>
+  </Fixture>
+</DmxFramework>

@@ -1,0 +1,10 @@
+<PimpMyLightFixture>
+  <Fixture Constructor="MAC MAH" PRODUCT="FL1800D" img="">
+    <Channels>
+      <Channel Name="qreg" Num="1" inverted="False" Type="Pan" />
+      <Channel Name="sd" Num="1" inverted="False" Type="Btn" RowCount="0" ColumnCount="0">
+        <btn value="0" img="Fixtures\MAC MAH\FL1800D\img\00011.bmp" start="0" end="254" text="Value 0" />
+      </Channel>
+    </Channels>
+  </Fixture>
+</PimpMyLightFixture>

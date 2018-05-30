@@ -1,0 +1,23 @@
+
+17/11/2012
+L'index était hors limites. Il ne doit pas être négatif et doit être inférieur à la taille de la collection.
+Nom du paramètre : index
+   à System.Collections.ArrayList.get_Item(Int32 index)
+   à System.Windows.Forms.DataGridViewRowCollection.SharedRow(Int32 rowIndex)
+   à System.Windows.Forms.DataGridViewRowCollection.get_Item(Int32 index)
+   à DmxSoft.Control.StepEditorCtrl.setDmxValuesToolStripMenuItem_Click(Object sender, EventArgs e) dans D:\PML\PML\DmxSoft\Control\StepEditorCtrl.cs:ligne 206
+   à DmxSoft.Control.StepEditorCtrl.importStripButton2_Click(Object sender, EventArgs e) dans D:\PML\PML\DmxSoft\Control\StepEditorCtrl.cs:ligne 213
+   à System.Windows.Forms.ToolStripItem.RaiseEvent(Object key, EventArgs e)
+   à System.Windows.Forms.ToolStripButton.OnClick(EventArgs e)
+   à System.Windows.Forms.ToolStripItem.HandleClick(EventArgs e)
+   à System.Windows.Forms.ToolStripItem.HandleMouseUp(MouseEventArgs e)
+   à System.Windows.Forms.ToolStripItem.FireEventInteractive(EventArgs e, ToolStripItemEventType met)
+   à System.Windows.Forms.ToolStripItem.FireEvent(EventArgs e, ToolStripItemEventType met)
+   à System.Windows.Forms.ToolStrip.OnMouseUp(MouseEventArgs mea)
+   à System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   à System.Windows.Forms.Control.WndProc(Message& m)
+   à System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   à System.Windows.Forms.ToolStrip.WndProc(Message& m)
+   à System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   à System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   à System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)

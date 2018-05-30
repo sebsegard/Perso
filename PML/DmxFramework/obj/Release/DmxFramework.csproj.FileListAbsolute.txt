@@ -1,0 +1,10 @@
+D:\PML\PML\bin\Release\DmxFramework.dll
+D:\PML\PML\bin\Release\DmxFramework.pdb
+D:\PML\PML\DmxFramework\obj\Release\ResolveAssemblyReference.cache
+D:\PML\PML\DmxFramework\obj\Release\DmxFramework.dll
+D:\PML\PML\DmxFramework\obj\Release\DmxFramework.pdb
+C:\Users\ssegard\Documents\GitHub\Perso\PML\bin\Release\DmxFramework.dll
+C:\Users\ssegard\Documents\GitHub\Perso\PML\bin\Release\DmxFramework.pdb
+C:\Users\ssegard\Documents\GitHub\Perso\PML\DmxFramework\obj\Release\DmxFramework.csprojResolveAssemblyReference.cache
+C:\Users\ssegard\Documents\GitHub\Perso\PML\DmxFramework\obj\Release\DmxFramework.dll
+C:\Users\ssegard\Documents\GitHub\Perso\PML\DmxFramework\obj\Release\DmxFramework.pdb

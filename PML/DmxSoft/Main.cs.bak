@@ -1,0 +1,229 @@
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Text;
+using System.IO;
+using System.Windows.Forms;
+using WeifenLuo.WinFormsUI.Docking;
+
+namespace DmxSoft
+{
+    
+    
+    public partial class Main : System.Windows.Forms.Form   
+    {
+        public const string DockConfigFile = "pml.config"; 
+        Forms.Explorer mExplorer = null;
+        public static DmxFramework.Framework mFrameWork = new DmxFramework.Framework();
+
+        public static DmxOption Options = new DmxOption();
+        
+        public Main()
+        {
+            InitializeComponent();
+            Application.ThreadException += new System.Threading.ThreadExceptionEventHandler(Application_ThreadException);
+            System.Windows.Forms.Control.CheckForIllegalCrossThreadCalls = false;
+
+            try
+            {
+
+                mFrameWork.StartDmxDevice();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("could not start dmx interface\r\n" + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+
+            mFrameWork.StartKeybordListening();
+            
+            try
+            {
+                mFrameWork.LoadXml();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("could not load configuration\r\n"+ex.Message,"Error",MessageBoxButtons.OK,MessageBoxIcon.Error);
+                return;
+            }
+
+            //this.dockPanel1.SaveAsXml("pml.config");
+            //this.dockPanel1.LoadFromXml("pml.config");
+
+
+            if (File.Exists(DockConfigFile))
+            {
+                this.dockPanel1.LoadFromXml(DockConfigFile, new DeserializeDockContent(GetContentFromPersistString));
+            }
+            else
+            {
+                mExplorer = new DmxSoft.Forms.Explorer(mFrameWork);
+                mExplorer.DockPanel = dockPanel1;
+                mExplorer.DockState = WeifenLuo.WinFormsUI.Docking.DockState.DockLeft;
+                mExplorer.Show();
+            }
+
+
+
+
+        }
+
+        void Application_ThreadException(object sender, System.Threading.ThreadExceptionEventArgs e)
+        {
+            MessageBox.Show(this, "You should restart Pimp My Lights", "Unexpected error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            
+            TextWriter txt = new StreamWriter("log.txt",false);
+            txt.WriteLine("");
+            txt.WriteLine(DateTime.Now.ToShortDateString());
+            txt.WriteLine(e.Exception.Message);
+            txt.WriteLine(e.Exception.StackTrace);
+            txt.Close();
+        }
+
+        private void dmxOutPutToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            //mDmxOutput.Show();
+        }
+
+        private void explorerToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (mExplorer != null)
+                mExplorer.Show();
+            else
+            {
+                mExplorer = new DmxSoft.Forms.Explorer(mFrameWork);
+                mExplorer.DockPanel = dockPanel1;
+                mExplorer.DockState = WeifenLuo.WinFormsUI.Docking.DockState.DockLeft;
+                mExplorer.Show();
+            }
+        }
+
+        private void chansonsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            DmxSoft.Forms.Chansons chans = new DmxSoft.Forms.Chansons();
+            chans.DockPanel = dockPanel1;
+            chans.Show();
+        }
+
+        private void sceneToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void connectToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            mFrameWork.Outputs.Connect();
+
+        }
+
+        private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Forms.About about = new DmxSoft.Forms.About();
+            about.Show();
+        }
+
+        private void Main_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            mFrameWork.Exit();
+            this.dockPanel1.SaveAsXml("pml.config");
+        }
+
+        private void Main_KeyDown(object sender, KeyEventArgs e)
+        {
+            mFrameWork.KeyBord.PressKey(e);
+        }
+
+        private void beatDetectionToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Forms.BeatDetectionConfiguration dlg = new DmxSoft.Forms.BeatDetectionConfiguration(DmxFramework.Framework.beatDetection);
+            dlg.Show();
+        }
+
+        private void optionsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Forms.Options opt = new DmxSoft.Forms.Options();
+            opt.Show();
+        }
+
+        private void automaticModeToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Forms.AutoModeConfiguration dlg = new DmxSoft.Forms.AutoModeConfiguration();
+            dlg.Show();
+        }
+
+        private void keyborToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Forms.KeybordConfiguration dlg = new DmxSoft.Forms.KeybordConfiguration();
+            dlg.DockPanel = dockPanel1;
+            dlg.Show();
+        }
+
+        private void Main_KeyUp(object sender, KeyEventArgs e)
+        {
+            mFrameWork.KeyBord.KeyUp(e);
+        }
+
+
+        private IDockContent GetContentFromPersistString(string persistString)
+        {
+            //if (persistString == typeof(DummySolutionExplorer).ToString())
+            //    return m_solutionExplorer;
+            //else if (persistString == typeof(DummyPropertyWindow).ToString())
+            //    return m_propertyWindow;
+            //else if (persistString == typeof(DummyToolbox).ToString())
+            //    return m_toolbox;
+            //else if (persistString == typeof(DummyOutputWindow).ToString())
+            //    return m_outputWindow;
+            //else if (persistString == typeof(DummyTaskList).ToString())
+            //    return m_taskList;
+            //else
+            //{
+            //    string[] parsedStrings = persistString.Split(new char[] { ',' });
+            //    if (parsedStrings.Length != 3)
+            //        return null;
+
+            //    if (parsedStrings[0] != typeof(DummyDoc).ToString())
+            //        return null;
+
+            //    DummyDoc dummyDoc = new DummyDoc();
+            //    if (parsedStrings[1] != string.Empty)
+            //        dummyDoc.FileName = parsedStrings[1];
+            //    if (parsedStrings[2] != string.Empty)
+            //        dummyDoc.Text = parsedStrings[2];
+
+            //    return dummyDoc;
+            //}
+            if (persistString == typeof(Forms.Explorer).ToString())
+            {
+                mExplorer = new DmxSoft.Forms.Explorer(mFrameWork);
+                return mExplorer;
+            }
+            else
+            {
+                string[] parsedStrings = persistString.Split(new char[] { ',' });
+                if (parsedStrings[0] == typeof(Forms.AdvancedForm).ToString())
+                {
+                    if (parsedStrings.Length > 1)
+                        return new Forms.AdvancedForm(mFrameWork.GetFixtureFromPath(parsedStrings[1]));
+                }
+                else if (parsedStrings[0] == typeof(Forms.ScenePlayer).ToString())
+                {
+                    if (parsedStrings.Length > 1)
+                        return new Forms.ScenePlayer(mFrameWork.GetFixtureFromPath(parsedStrings[1]));
+                }
+                else if (parsedStrings[0] == typeof(Forms.DmxOutPut).ToString())
+                {
+                    if (parsedStrings.Length > 1)
+                        return new Forms.DmxOutPut(mFrameWork.GetFixtureFromPath(parsedStrings[1]));
+                    else
+                        return new Forms.DmxOutPut(mFrameWork);
+                }
+
+            }
+            return null;
+        }
+       
+        
+    }
+}

@@ -1,0 +1,27 @@
+<PimpMyLightFixture>
+  <Fixture Constructor="Martin" PRODUCT="Roboscan Pro 518" img="" Name="" StartAddress="0" Type="Real">
+    <Channels>
+      <Channel Name="Strobe/Lamp/Reset" Num="1" Type="Basic" />
+      <Channel Name="Dimmer" Num="2" Type="Btn" RowCount="11" ColumnCount="1">
+        <btn value="0" img="" start="0" end="22" text="0 %" />
+        <btn value="23" img="" start="23" end="45" text="10%" />
+        <btn value="46" img="" start="46" end="68" text="20%" />
+        <btn value="69" img="" start="69" end="91" text="30%" />
+        <btn value="92" img="" start="92" end="114" text="40%" />
+        <btn value="115" img="" start="115" end="137" text="50%" />
+        <btn value="138" img="" start="138" end="160" text="60%" />
+        <btn value="161" img="" start="161" end="199" text="70%" />
+        <btn value="200" img="" start="200" end="230" text="80%" />
+        <btn value="230" img="" start="230" end="240" text="90%" />
+        <btn value="240" img="" start="240" end="255" text="100%" />
+      </Channel>
+      <Channel Name="Color" Num="3" Type="Basic" />
+      <Channel Name="Gobos" Num="4" Type="Basic" />
+      <Channel Name="Effect" Num="5" Type="Basic" />
+      <Channel Name="Pan" Num="6" Type="Pan" />
+      <Channel Name="Tilt" Num="8" Type="Tilt" />
+      <Channel Name="Pan fine" Num="7" Type="Basic" />
+      <Channel Name="Tilt fin" Num="9" Type="Basic" />
+    </Channels>
+  </Fixture>
+</PimpMyLightFixture>

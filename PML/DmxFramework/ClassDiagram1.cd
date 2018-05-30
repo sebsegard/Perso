@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" GroupingSetting="Access">
+  <Font Name="Tahoma" Size="8.25" />
+  <Class Name="DmxFramework.DmxOutput">
+    <Position X="3" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>DmxOutput.cs</FileName>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAIgAAAAACAAEAAAAQAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Interfaces" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="DmxFramework.Framework">
+    <Position X="0.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Framework.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="mOutput" />
+    </ShowAsAssociation>
+    <Compartments>
+      <Compartment Name="Public" Collapsed="true" />
+    </Compartments>
+  </Class>
+  <Class Name="DmxFramework.Interface.DmxInterface">
+    <Position X="6.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Interface\DmxInterface.cs</FileName>
+      <HashCode>AAQAIAAAAAAAAABAEAAIgIQAAAABCAAAAAgAQAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <Compartments>
+      <Compartment Name="Public" Collapsed="true" />
+      <Compartment Name="Protected" Collapsed="true" />
+    </Compartments>
+  </Class>
+  <Class Name="DmxFramework.Interface.Velleman" Collapsed="true">
+    <Position X="6.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Interface\Velleman.cs</FileName>
+      <HashCode>AAQAAAABAACCAAAAAAABAIAAAAAACAAAAAAAQAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+</ClassDiagram>

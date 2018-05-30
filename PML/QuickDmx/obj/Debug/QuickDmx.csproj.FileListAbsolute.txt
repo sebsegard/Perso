@@ -1,0 +1,15 @@
+C:\download\quickdmx-21703\Sources\QuickDmx\bin\Debug\Proxymity.QuickDmx.dll
+C:\download\quickdmx-21703\Sources\QuickDmx\bin\Debug\Proxymity.QuickDmx.pdb
+C:\download\quickdmx-21703\Sources\QuickDmx\obj\Debug\ResolveAssemblyReference.cache
+C:\download\quickdmx-21703\Sources\QuickDmx\obj\Debug\Proxymity.QuickDmx.dll
+C:\download\quickdmx-21703\Sources\QuickDmx\obj\Debug\Proxymity.QuickDmx.pdb
+D:\PML\PML\QuickDmx\bin\Debug\Proxymity.QuickDmx.dll
+D:\PML\PML\QuickDmx\bin\Debug\Proxymity.QuickDmx.pdb
+D:\PML\PML\QuickDmx\obj\Debug\ResolveAssemblyReference.cache
+D:\PML\PML\QuickDmx\obj\Debug\Proxymity.QuickDmx.dll
+D:\PML\PML\QuickDmx\obj\Debug\Proxymity.QuickDmx.pdb
+D:\svn\PML\QuickDmx\bin\Debug\Proxymity.QuickDmx.dll
+D:\svn\PML\QuickDmx\bin\Debug\Proxymity.QuickDmx.pdb
+D:\svn\PML\QuickDmx\obj\Debug\Proxymity.QuickDmx.dll
+D:\svn\PML\QuickDmx\obj\Debug\Proxymity.QuickDmx.pdb
+D:\svn\PML\QuickDmx\obj\Debug\QuickDmx.csprojResolveAssemblyReference.cache

@@ -1,0 +1,10 @@
+..\bin\Debug\DmxFramework.dll
+..\bin\Debug\DmxFramework.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\DmxFramework.dll
+obj\Debug\DmxFramework.pdb
+..\bin\Release\DmxFramework.dll
+..\bin\Release\DmxFramework.pdb
+obj\Release\ResolveAssemblyReference.cache
+obj\Release\DmxFramework.dll
+obj\Release\DmxFramework.pdb

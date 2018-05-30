@@ -1,0 +1,37 @@
+<PimpMyLightFixture>
+  <Fixture Constructor="GHOST" PRODUCT="DJSCAN" img="DJSCAN.gif">
+    <Channels>
+      <Channel Name="Pan" Type="Pan" Num="3" inverted="true"/>
+      <Channel Name="Tilt" Type="Tilt" Num="4" inverted="false"/>
+      <Channel Name="Gobo" Type="Btn" Num="1" inverted="false" RowCount ="5" ColumnCount="4">
+        <btn value="0" start="0" end="10" img="Fixtures\\GHOST\\DJSCAN\\img\\Gobo_r1_c1.gif" text =""/>
+        <btn value="10" start="10" end="20" img="Fixtures\\GHOST\\DJSCAN\\img\\Gobo_r1_c2.gif" text =""/>
+        <btn value="20" start="20" end="30" img="Fixtures\\GHOST\\DJSCAN\\img\\Gobo_r1_c3.gif" text =""/>
+        <btn value="30" start="30" end="40" img="Fixtures\\GHOST\\DJSCAN\\img\\Gobo_r1_c4.gif" text =""/>
+        <btn value="40" start="40" end="50" img="Fixtures\\GHOST\\DJSCAN\\img\\Gobo_r1_c5.gif" text =""/>
+        <btn value="50" start="50" end="60" img="Fixtures\\GHOST\\DJSCAN\\img\\Gobo_r1_c6.gif" text =""/>
+        <btn value="60" start="60" end="70" img="Fixtures\\GHOST\\DJSCAN\\img\\Gobo_r1_c7.gif" text =""/>
+        <btn value="70" start="70" end="80" img="Fixtures\\GHOST\\DJSCAN\\img\\Gobo_r1_c8.gif" text =""/>
+        <btn value="80" start="80" end="90" img="Fixtures\\GHOST\\DJSCAN\\img\\Gobo_r1_c9.gif" text =""/>
+        <btn value="90" start="90" end="100" img="Fixtures\\GHOST\\DJSCAN\\img\\Gobo_r1_c10.gif" text =""/>
+        <btn value="100" start="100" end="110" img="Fixtures\\GHOST\\DJSCAN\\img\\Gobo_r2_c1.gif" text =""/>
+        <btn value="110" start="110" end="120" img="Fixtures\\GHOST\\DJSCAN\\img\\Gobo_r2_c2.gif" text =""/>
+        <btn value="120" start="120" end="130" img="Fixtures\\GHOST\\DJSCAN\\img\\Gobo_r2_c3.gif" text =""/>
+        <btn value="130" start="130" end="140" img="Fixtures\\GHOST\\DJSCAN\\img\\Gobo_r2_c4.gif" text =""/>
+        <btn value="140" start="140" end="150" img="Fixtures\\GHOST\\DJSCAN\\img\\Gobo_r2_c5.gif" text =""/>
+        <btn value="150" start="150" end="160" img="Fixtures\\GHOST\\DJSCAN\\img\\00001.bmp" text =""/>
+        <btn value="160" start="160" end="205" img="Fixtures\\GHOST\\DJSCAN\\img\\Gobo_r2_c7.bmp" text =""/>
+        <btn value="205" start="205" end="250" img="Fixtures\\GHOST\\DJSCAN\\img\\Gobo_r2_c8.bmp" text =""/>
+        <btn value="250" start="250" end="256" img="" text ="AUTO"/>
+      </Channel>
+      <Channel Name="Shutter" Type="Btn" Num="2" inverted="false" RowCount ="3" ColumnCount="2">
+        <btn value="0" start="0" end="11" img="" text ="0"/>
+        <btn value="11" start="11" end="100" img="" text ="1"/>
+        <btn value="100" start="100" end="150" img="" text ="2"/>
+        <btn value="150" start="150" end="200" img="" text ="3"/>
+        <btn value="200" start="200" end="250" img="" text ="4"/>
+        <btn value="250" start="250" end="256" img="" text ="5"/>
+      </Channel>
+    </Channels>
+  </Fixture>
+</PimpMyLightFixture>

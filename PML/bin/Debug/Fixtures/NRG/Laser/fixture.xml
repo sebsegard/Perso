@@ -1,0 +1,31 @@
+<PimpMyLightFixture>
+  <Fixture Constructor="NRG" PRODUCT="Laser" img="" Name="" StartAddress="0" Type="Real">
+    <Channels>
+      <Channel Name="Control" Num="1" inverted="False" Type="List">
+        <btn value="0" img="" start="0" end="49" text="Auto-Sound" />
+        <btn value="50" img="" start="50" end="99" text="Auto-auto" />
+        <btn value="100" img="" start="100" end="149" text="Auto-Animation" />
+        <btn value="150" img="" start="150" end="199" text="Manu-Sound" />
+        <btn value="200" img="" start="200" end="255" text="Manu-Auto" />
+      </Channel>
+      <Channel Name="Blanking" Num="2" inverted="False" Type="List">
+        <btn value="0" img="" start="0" end="15" text="OFF" />
+        <btn value="16" img="" start="16" end="25" text="No blanking" />
+        <btn value="26" img="" start="26" end="135" text="Wave" />
+        <btn value="136" img="" start="136" end="245" text="Flash" />
+        <btn value="246" img="" start="246" end="255" text="Fix" />
+      </Channel>
+      <Channel Name="Pattern1" Num="3" inverted="False" Type="Basic" />
+      <Channel Name="Pattern2" Num="4" inverted="False" Type="Basic" />
+      <Channel Name="V move" Num="5" inverted="False" Type="Basic" />
+      <Channel Name="H Move" Num="6" inverted="False" Type="Basic" />
+      <Channel Name="V Roll" Num="7" inverted="False" Type="Basic" />
+      <Channel Name="H Roll" Num="8" inverted="False" Type="Basic" />
+      <Channel Name="Rotation" Num="9" inverted="False" Type="Basic" />
+      <Channel Name="Zoom" Num="10" inverted="False" Type="Basic" />
+      <Channel Name="Size" Num="11" inverted="False" Type="Basic" />
+      <Channel Name="Dot view" Num="12" inverted="False" Type="Basic" />
+      <Channel Name="Slaw draw" Num="13" inverted="False" Type="Basic" />
+    </Channels>
+  </Fixture>
+</PimpMyLightFixture>

@@ -1,0 +1,317 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{6722DE2A-B78B-474E-928C-0428503B6342}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DmxCreator</RootNamespace>
+    <AssemblyName>DmxCreator</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <TargetFrameworkProfile />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Constant.cs" />
+    <Compile Include="Control\ChannelCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Control\ChannelCtrl.Designer.cs">
+      <DependentUpon>ChannelCtrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Control\Channels\AddRealChannelDlg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Control\Channels\AddRealChannelDlg.Designer.cs">
+      <DependentUpon>AddRealChannelDlg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Control\Channels\AddSeveralValuesDlg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Control\Channels\AddSeveralValuesDlg.Designer.cs">
+      <DependentUpon>AddSeveralValuesDlg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Control\Channels\ChanBtn.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Control\Channels\ChanBtn.Designer.cs">
+      <DependentUpon>ChanBtn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Control\Channels\ChanMain.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Control\Channels\ChanMain.Designer.cs">
+      <DependentUpon>ChanMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Control\Channels\SelectSubChannelDlg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Control\Channels\SelectSubChannelDlg.Designer.cs">
+      <DependentUpon>SelectSubChannelDlg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Control\DmxAdressCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Control\DmxAdressCtrl.Designer.cs">
+      <DependentUpon>DmxAdressCtrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Control\FixtureConfCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Control\FixtureConfCtrl.Designer.cs">
+      <DependentUpon>FixtureConfCtrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Control\FixtureCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Control\FixtureCtrl.Designer.cs">
+      <DependentUpon>FixtureCtrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Control\FixtureTree.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Control\FixtureTree.Designer.cs">
+      <DependentUpon>FixtureTree.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Control\FolderExplorer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Control\FolderExplorer.Designer.cs">
+      <DependentUpon>FolderExplorer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Control\WorkspaceTree.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Control\WorkspaceTree.Designer.cs">
+      <DependentUpon>WorkspaceTree.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialog\AddCompanie.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialog\AddCompanie.Designer.cs">
+      <DependentUpon>AddCompanie.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialog\AddRealFixture.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialog\AddRealFixture.Designer.cs">
+      <DependentUpon>AddRealFixture.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialog\AddFixture.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialog\AddFixture.Designer.cs">
+      <DependentUpon>AddFixture.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialog\NewWorskpace.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialog\NewWorskpace.Designer.cs">
+      <DependentUpon>NewWorskpace.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialog\DmxAddresses.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialog\DmxAddresses.Designer.cs">
+      <DependentUpon>DmxAddresses.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialog\ImageBrowser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialog\ImageBrowser.Designer.cs">
+      <DependentUpon>ImageBrowser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialog\OpenWorkspaceDlg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialog\OpenWorkspaceDlg.Designer.cs">
+      <DependentUpon>OpenWorkspaceDlg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main.Designer.cs">
+      <DependentUpon>Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Control\ChannelCtrl.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ChannelCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Control\Channels\AddRealChannelDlg.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>AddRealChannelDlg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Control\Channels\AddSeveralValuesDlg.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>AddSeveralValuesDlg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Control\Channels\ChanBtn.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ChanBtn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Control\Channels\ChanMain.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ChanMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Control\Channels\SelectSubChannelDlg.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>SelectSubChannelDlg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Control\DmxAdressCtrl.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>DmxAdressCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Control\FixtureConfCtrl.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FixtureConfCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Control\FixtureCtrl.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FixtureCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Control\FixtureTree.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FixtureTree.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Control\FolderExplorer.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FolderExplorer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Control\WorkspaceTree.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>WorkspaceTree.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialog\AddCompanie.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>AddCompanie.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialog\AddRealFixture.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>AddRealFixture.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialog\AddFixture.resx">
+      <DependentUpon>AddFixture.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialog\NewWorskpace.resx">
+      <DependentUpon>NewWorskpace.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialog\DmxAddresses.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>DmxAddresses.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialog\ImageBrowser.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ImageBrowser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialog\OpenWorkspaceDlg.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>OpenWorkspaceDlg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DmxFramework\DmxFramework.csproj">
+      <Project>{52726C60-8647-4AD3-8FC7-2EF0D557165D}</Project>
+      <Name>DmxFramework</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

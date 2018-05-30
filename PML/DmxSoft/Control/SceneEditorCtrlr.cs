@@ -1,0 +1,265 @@
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Drawing;
+using System.Data;
+using System.Text;
+using System.Windows.Forms;
+using DmxFramework;
+using DmxFramework.Fixtures;
+using DmxFramework.Channels;
+using DmxFramework.Scene;
+
+namespace DmxSoft.Control
+{
+    public delegate void OnScenePropertiesChangedHandler();
+
+    public partial class SceneEditorCtrlr : UserControl
+    {
+        Fixture mFixture;
+        Scene mScene;
+        bool mInitPhase;
+        
+        public event OnScenePropertiesChangedHandler OnScenePropertiesChanged;
+
+        public SceneEditorCtrlr()
+        {
+            InitializeComponent();
+            mInitPhase = false;
+        }
+
+        public void SetScene(Fixture pFixture, Scene pScene)
+        {
+            mInitPhase = true;
+            this.stepEditorCtrl1.SetScene(pFixture, pScene);
+            mFixture = pFixture;
+            mScene = pScene;
+            
+            this.txt_SceneName.Text = mScene.Name;
+            this.txt_Category.Text = mScene.Category;
+            this.txt_StepTime.Text = mScene.StepTime + "";
+            this.txt_WaitTime.Text = mScene.WaitingTime + "";
+            this.chk_loop.Checked = mScene.Loop;
+            this.chk_PlayAttStart.Checked = mScene.AutoStart;
+            this.treeView1.Nodes.Clear();
+            RefreshChannelListe(this.treeView1.Nodes,mFixture,mFixture.Name);
+            this.treeView1.ExpandAll();
+            if (pScene.Channels.Count == 0)
+                this.stepEditorCtrl1.Enabled = false;
+
+            if (pScene.MusicBeat)
+                this.chk_Musical.Checked = true;
+            else if (pScene.KeyBeat)
+                this.chk_KeyBeat.Checked = true;
+            else
+                this.chk_Manual.Checked = true;
+
+            mInitPhase = false;
+        }
+
+
+       
+
+        private void RefreshChannelListe(TreeNodeCollection pNodes,Fixture pFixture,string Path)
+        {
+            TreeNode FixtureNode;
+            if (pFixture.Type == FixtureType.Virtual)
+            {
+                FixtureNode = new TreeNode(pFixture.Name);
+                
+                pNodes.Add(FixtureNode);
+
+                foreach (Fixture fix in ((VirtualFixture)pFixture).SubFixture)
+                    RefreshChannelListe(FixtureNode.Nodes, fix, Path + "/" + fix.Name);
+            }
+            else
+            {
+                FixtureNode = new TreeNode(pFixture.Name);
+                pNodes.Add(FixtureNode);
+            }
+            foreach (Channel chan in pFixture.Channels)
+            {
+                TreeNode node = new TreeNode(chan.Name);
+                node.Tag = chan;
+                string path = Path+"/"+chan.Name;
+                node.ForeColor = Color.Blue;
+                foreach (string name in mScene.ChannelNames)
+                {
+                    if (name == path)
+                    {
+                        node.Checked = true;
+                        break;
+                    }
+                }
+                FixtureNode.Nodes.Add(node);
+            }
+        }
+
+
+        #region scene properties events
+
+        private void txt_SceneName_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode != Keys.Enter)
+                return;
+            ValidSceneProperties();
+        }
+
+        private void txt_StepTime_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode != Keys.Enter)
+                return;
+            ValidSceneProperties();
+        }
+
+        private void txt_WaitTime_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode != Keys.Enter)
+                return;
+            ValidSceneProperties();
+        }
+
+        private void txt_Category_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode != Keys.Enter)
+                return;
+            ValidSceneProperties();
+        }
+
+        private void treeView1_BeforeCheck(object sender, TreeViewCancelEventArgs e)
+        {
+            if (e.Node.Tag == null)
+            {
+                e.Cancel = true;
+                return;
+            }
+            if (e.Node.Checked)
+            {
+                if (MessageBox.Show("Are you sur to remove the channel from the scene ? \r\nIt is irreversible", "Are you sur ??", MessageBoxButtons.OKCancel, MessageBoxIcon.Warning) != DialogResult.OK)
+                {
+                    e.Cancel = true;
+                    return;
+                }
+                else
+                {
+                    mScene.RemoveChannel((Channel)e.Node.Tag);
+                    if(mScene.Channels.Count == 0)
+                        this.stepEditorCtrl1.Enabled = false;
+                }
+            }
+            else
+            {
+                mScene.AddChannel((Channel)e.Node.Tag, e.Node.FullPath);
+                if (mScene.Channels.Count != 0)
+                    this.stepEditorCtrl1.Enabled = true;
+            }
+            this.stepEditorCtrl1.SetScene(mFixture, mScene);
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            foreach (Channel chan in mFixture.Channels)
+                chan.UnforceValue();
+
+            mScene.Play();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            mScene.Remove();
+        }
+
+        private void textBox1_Leave(object sender, EventArgs e)
+        {
+            ValidSceneProperties();
+        }
+
+        private void txt_SceneName_Leave(object sender, EventArgs e)
+        {
+            ValidSceneProperties();
+        }
+
+        private void txt_StepTime_Leave(object sender, EventArgs e)
+        {
+            ValidSceneProperties();
+        }
+
+        private void txt_WaitTime_Leave(object sender, EventArgs e)
+        {
+            ValidSceneProperties();
+        }
+
+        private void ValidSceneProperties()
+        {
+            //si on est en phase d'init on fait rien.
+            if (mInitPhase)
+                return;
+            
+            bool AdviseTree = false;
+
+
+            mScene.WaitingTime = Convert.ToInt32(this.txt_WaitTime.Text);
+            mScene.StepTime = Convert.ToInt32(this.txt_StepTime.Text);
+            mScene.Loop = this.chk_loop.Checked;
+            mScene.AutoStart = this.chk_PlayAttStart.Checked;
+
+            if (mScene.Category != this.txt_Category.Text)
+            {
+                AdviseTree = true;
+                mScene.Category = this.txt_Category.Text;
+            }
+
+            if (mScene.Name != this.txt_SceneName.Text)
+            {
+               AdviseTree = true;
+               mScene.Name = this.txt_SceneName.Text;
+            }
+
+            if(AdviseTree)
+                OnScenePropertiesChanged();
+        }
+
+
+        #endregion
+
+        private void chk_loop_CheckedChanged(object sender, EventArgs e)
+        {
+            ValidSceneProperties();
+        }
+
+        private void chk_PlayAttStart_CheckedChanged(object sender, EventArgs e)
+        {
+            ValidSceneProperties();
+        }
+
+        private void chk_Musical_CheckedChanged(object sender, EventArgs e)
+        {
+            mScene.MusicBeat = true;
+            mScene.KeyBeat = false;
+            this.txt_WaitTime.Enabled = false;
+            this.txt_StepTime.Enabled = false;
+        }
+
+        private void chk_Manual_CheckedChanged(object sender, EventArgs e)
+        {
+            mScene.MusicBeat = false;
+            mScene.KeyBeat = false;
+            this.txt_WaitTime.Enabled = true;
+            this.txt_StepTime.Enabled = true;
+        }
+
+        private void chk_KeyBeat_CheckedChanged(object sender, EventArgs e)
+        {
+            mScene.MusicBeat = false;
+            mScene.KeyBeat = true;
+            this.txt_WaitTime.Enabled = false;
+            this.txt_StepTime.Enabled = false;
+        }
+
+       
+
+        
+
+
+    }
+}

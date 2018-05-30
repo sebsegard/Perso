@@ -1,0 +1,1640 @@
+<PimpMyScenes>
+  <Fixture Name="DJSEB LIGHT">
+    <SubFixture>
+      <Fixture Name="PROJECTEUR ROBOTISES">
+        <SubFixture>
+          <Fixture Name="SCANNER">
+            <SubFixture>
+              <Fixture Name="DJSCAN">
+                <SubFixture>
+                  <Fixture Name="DJSCAN1">
+                    <Poursuit Active="False" pt_A_X="76" pt_A_Y="102" pt_B_X="213" pt_B_Y="128" pt_C_X="202" pt_C_Y="166" pt_D_X="89" pt_D_Y="177" />
+                    <Scenes RowCount="0" ColumnCount="0" />
+                  </Fixture>
+                  <Fixture Name="DJSCAN2">
+                    <Poursuit Active="False" pt_A_X="63" pt_A_Y="175" pt_B_X="211" pt_B_Y="181" pt_C_X="200" pt_C_Y="231" pt_D_X="73" pt_D_Y="235" />
+                    <Scenes RowCount="0" ColumnCount="0" />
+                  </Fixture>
+                </SubFixture>
+                <Scenes RowCount="3" ColumnCount="2">
+                  <Scene Name="Normal" Category="BalayageV" StepTime="50" WaitingTime="600" btn_x="1" btn_y="0" Loop="True" AutoStart="False" MusicBeat="False">
+                    <Channels>
+                      <Channel ChannelName="DJSCAN/Tilt" />
+                      <Channel ChannelName="DJSCAN/Pan" />
+                      <Channel ChannelName="DJSCAN/Gobo" />
+                      <Channel ChannelName="DJSCAN/Shutter" />
+                    </Channels>
+                    <Steps>
+                      <Step Comment="Gauche" Val1="128" Val2="0" Val3="40" Val4="0" />
+                      <Step Comment="Droite" Val1="128" Val2="255" Val3="40" Val4="0" />
+                    </Steps>
+                  </Scene>
+                  <Scene Name="Inverse" Category="BalayageV" StepTime="50" WaitingTime="600" btn_x="1" btn_y="1" Loop="True" AutoStart="False" MusicBeat="False">
+                    <Channels>
+                      <Channel ChannelName="DJSCAN/Tilt" />
+                      <Channel ChannelName="DJSCAN/DJSCAN1/Pan" />
+                      <Channel ChannelName="DJSCAN/DJSCAN2/Pan" />
+                      <Channel ChannelName="DJSCAN/Gobo" />
+                      <Channel ChannelName="DJSCAN/Shutter" />
+                    </Channels>
+                    <Steps>
+                      <Step Comment="Gauche" Val1="128" Val2="0" Val3="255" Val4="20" Val5="0" />
+                      <Step Comment="Droite" Val1="128" Val2="255" Val3="0" Val4="20" Val5="0" />
+                    </Steps>
+                  </Scene>
+                  <Scene Name="Alternatif" Category="BalayageV" StepTime="50" WaitingTime="600" btn_x="1" btn_y="2" Loop="True" AutoStart="False" MusicBeat="False">
+                    <Channels>
+                      <Channel ChannelName="DJSCAN/Tilt" />
+                      <Channel ChannelName="DJSCAN/Pan" />
+                      <Channel ChannelName="DJSCAN/DJSCAN1/Gobo" />
+                      <Channel ChannelName="DJSCAN/DJSCAN2/Gobo" />
+                      <Channel ChannelName="DJSCAN/Shutter" />
+                    </Channels>
+                    <Steps>
+                      <Step Comment="Gauche" Val1="128" Val2="0" Val3="20" Val4="0" Val5="0" />
+                      <Step Comment="Droite" Val1="128" Val2="255" Val3="0" Val4="20" Val5="0" />
+                    </Steps>
+                  </Scene>
+                  <Scene Name="Normal" Category="Cercle" StepTime="1000" WaitingTime="0" btn_x="0" btn_y="0" Loop="True" AutoStart="False" MusicBeat="False">
+                    <Channels>
+                      <Channel ChannelName="DJSCAN/Tilt" />
+                      <Channel ChannelName="DJSCAN/DJSCAN1/Pan" />
+                      <Channel ChannelName="DJSCAN/DJSCAN2/Pan" />
+                      <Channel ChannelName="DJSCAN/Gobo" />
+                      <Channel ChannelName="DJSCAN/Shutter" />
+                    </Channels>
+                    <Steps>
+                      <Step Comment="" Val1="70" Val2="122" Val3="122" Val4="20" Val5="0" />
+                      <Step Comment="" Val1="100" Val2="160" Val3="160" Val4="20" Val5="0" />
+                      <Step Comment="" Val1="130" Val2="188" Val3="188" Val4="20" Val5="0" />
+                      <Step Comment="" Val1="160" Val2="214" Val3="214" Val4="20" Val5="0" />
+                      <Step Comment="" Val1="190" Val2="188" Val3="188" Val4="20" Val5="0" />
+                      <Step Comment="" Val1="220" Val2="160" Val3="160" Val4="20" Val5="0" />
+                      <Step Comment="" Val1="250" Val2="122" Val3="122" Val4="20" Val5="0" />
+                      <Step Comment="" Val1="220" Val2="75" Val3="75" Val4="20" Val5="0" />
+                      <Step Comment="" Val1="190" Val2="44" Val3="44" Val4="20" Val5="0" />
+                      <Step Comment="" Val1="160" Val2="5" Val3="5" Val4="20" Val5="0" />
+                      <Step Comment="" Val1="130" Val2="48" Val3="48" Val4="20" Val5="0" />
+                      <Step Comment="" Val1="100" Val2="82" Val3="82" Val4="20" Val5="0" />
+                      <Step Comment="" Val1="100" Val2="90" Val3="82" Val4="20" Val5="0" />
+                      <Step Comment="" Val1="100" Val2="90" Val3="82" Val4="20" Val5="0" />
+                      <Step Comment="" Val1="100" Val2="82" Val3="82" Val4="20" Val5="0" />
+                    </Steps>
+                  </Scene>
+                  <Scene Name="Inverse" Category="Cercle" StepTime="1000" WaitingTime="0" btn_x="0" btn_y="1" Loop="True" AutoStart="False" MusicBeat="False">
+                    <Channels>
+                      <Channel ChannelName="DJSCAN/Tilt" />
+                      <Channel ChannelName="DJSCAN/DJSCAN1/Pan" />
+                      <Channel ChannelName="DJSCAN/DJSCAN2/Pan" />
+                      <Channel ChannelName="DJSCAN/Gobo" />
+                      <Channel ChannelName="DJSCAN/Shutter" />
+                    </Channels>
+                    <Steps>
+                      <Step Comment="" Val1="70" Val2="122" Val3="122" Val4="20" Val5="0" />
+                      <Step Comment="" Val1="100" Val2="160" Val3="82" Val4="20" Val5="0" />
+                      <Step Comment="" Val1="130" Val2="188" Val3="48" Val4="20" Val5="0" />
+                      <Step Comment="" Val1="160" Val2="214" Val3="5" Val4="20" Val5="0" />
+                      <Step Comment="" Val1="190" Val2="188" Val3="44" Val4="20" Val5="0" />
+                      <Step Comment="" Val1="220" Val2="160" Val3="75" Val4="20" Val5="0" />
+                      <Step Comment="" Val1="250" Val2="122" Val3="122" Val4="20" Val5="0" />
+                      <Step Comment="" Val1="220" Val2="75" Val3="160" Val4="20" Val5="0" />
+                      <Step Comment="" Val1="190" Val2="44" Val3="188" Val4="20" Val5="0" />
+                      <Step Comment="" Val1="160" Val2="5" Val3="214" Val4="20" Val5="0" />
+                      <Step Comment="" Val1="130" Val2="48" Val3="188" Val4="20" Val5="0" />
+                      <Step Comment="" Val1="100" Val2="82" Val3="160" Val4="20" Val5="0" />
+                      <Step Comment="" Val1="100" Val2="90" Val3="160" Val4="20" Val5="0" />
+                      <Step Comment="" Val1="100" Val2="82" Val3="160" Val4="20" Val5="0" />
+                    </Steps>
+                  </Scene>
+                  <Scene Name="Decale" Category="Cercle" StepTime="1000" WaitingTime="0" btn_x="0" btn_y="2" Loop="True" AutoStart="False" MusicBeat="False">
+                    <Channels>
+                      <Channel ChannelName="DJSCAN/DJSCAN1/Tilt" />
+                      <Channel ChannelName="DJSCAN/DJSCAN2/Tilt" />
+                      <Channel ChannelName="DJSCAN/DJSCAN1/Pan" />
+                      <Channel ChannelName="DJSCAN/DJSCAN2/Pan" />
+                      <Channel ChannelName="DJSCAN/Gobo" />
+                      <Channel ChannelName="DJSCAN/Shutter" />
+                    </Channels>
+                    <Steps>
+                      <Step Comment="HAUT" Val1="250" Val2="70" Val3="122" Val4="122" Val5="20" Val6="0" />
+                      <Step Comment="" Val1="220" Val2="100" Val3="82" Val4="160" Val5="20" Val6="0" />
+                      <Step Comment="" Val1="190" Val2="130" Val3="48" Val4="188" Val5="20" Val6="0" />
+                      <Step Comment="Droite" Val1="160" Val2="160" Val3="2" Val4="214" Val5="20" Val6="0" />
+                      <Step Comment="" Val1="130" Val2="190" Val3="44" Val4="188" Val5="20" Val6="0" />
+                      <Step Comment="" Val1="100" Val2="220" Val3="75" Val4="160" Val5="20" Val6="0" />
+                      <Step Comment="Bas" Val1="70" Val2="250" Val3="122" Val4="122" Val5="20" Val6="0" />
+                      <Step Comment="" Val1="100" Val2="220" Val3="160" Val4="75" Val5="20" Val6="0" />
+                      <Step Comment="" Val1="130" Val2="190" Val3="188" Val4="44" Val5="20" Val6="0" />
+                      <Step Comment="Gauche" Val1="160" Val2="160" Val3="214" Val4="5" Val5="20" Val6="0" />
+                      <Step Comment="" Val1="170" Val2="130" Val3="188" Val4="48" Val5="20" Val6="0" />
+                      <Step Comment="" Val1="220" Val2="100" Val3="160" Val4="82" Val5="20" Val6="0" />
+                    </Steps>
+                  </Scene>
+                  <Scene Name="New Scene" Category="New Category" StepTime="50" WaitingTime="100" btn_x="0" btn_y="0" Loop="True" AutoStart="False" MusicBeat="False">
+                    <Channels>
+                      <Channel ChannelName="DJSCAN/Tilt" />
+                      <Channel ChannelName="DJSCAN/DJSCAN2/Tilt" />
+                    </Channels>
+                    <Steps>
+                      <Step Comment="" Val1="108" Val2="35" />
+                    </Steps>
+                  </Scene>
+                </Scenes>
+              </Fixture>
+              <Fixture Name="TheWinner">
+                <SubFixture>
+                  <Fixture Name="THEWINNER1">
+                    <Poursuit Active="False" pt_A_X="40" pt_A_Y="40" pt_B_X="200" pt_B_Y="40" pt_C_X="200" pt_C_Y="200" pt_D_X="40" pt_D_Y="200" />
+                    <Scenes RowCount="0" ColumnCount="0" />
+                  </Fixture>
+                  <Fixture Name="THEWINNER2">
+                    <Poursuit Active="False" pt_A_X="40" pt_A_Y="40" pt_B_X="200" pt_B_Y="40" pt_C_X="200" pt_C_Y="200" pt_D_X="40" pt_D_Y="200" />
+                    <Scenes RowCount="0" ColumnCount="0">
+                      <Scene Name="New Scene" Category="New Category" StepTime="50" WaitingTime="100" btn_x="0" btn_y="0" Loop="True" AutoStart="False" MusicBeat="False">
+                        <Channels />
+                        <Steps />
+                      </Scene>
+                    </Scenes>
+                  </Fixture>
+                </SubFixture>
+                <Scenes RowCount="1" ColumnCount="1">
+                  <Scene Name="Test" Category="Test" StepTime="200" WaitingTime="150" btn_x="0" btn_y="0" Loop="True" AutoStart="False" MusicBeat="False">
+                    <Channels>
+                      <Channel ChannelName="TheWinner/Pan" />
+                      <Channel ChannelName="TheWinner/Tilt" />
+                      <Channel ChannelName="TheWinner/Gobo" />
+                      <Channel ChannelName="TheWinner/Color" />
+                      <Channel ChannelName="TheWinner/Shutter" />
+                    </Channels>
+                    <Steps>
+                      <Step Comment="" Val1="11" Val2="131" Val3="8" Val4="0" Val5="0" />
+                      <Step Comment="" Val1="250" Val2="134" Val3="8" Val4="0" Val5="0" />
+                    </Steps>
+                  </Scene>
+                </Scenes>
+              </Fixture>
+              <Fixture Name="AS 250">
+                <SubFixture>
+                  <Fixture Name="AS 250 1">
+                    <Poursuit Active="False" pt_A_X="40" pt_A_Y="40" pt_B_X="200" pt_B_Y="40" pt_C_X="200" pt_C_Y="200" pt_D_X="40" pt_D_Y="200" />
+                    <Scenes RowCount="0" ColumnCount="0" />
+                  </Fixture>
+                  <Fixture Name="AS 250 2">
+                    <Poursuit Active="False" pt_A_X="40" pt_A_Y="40" pt_B_X="200" pt_B_Y="40" pt_C_X="200" pt_C_Y="200" pt_D_X="40" pt_D_Y="200" />
+                    <Scenes RowCount="0" ColumnCount="0" />
+                  </Fixture>
+                  <Fixture Name="AS 250 3">
+                    <Poursuit Active="False" pt_A_X="40" pt_A_Y="40" pt_B_X="200" pt_B_Y="40" pt_C_X="200" pt_C_Y="200" pt_D_X="40" pt_D_Y="200" />
+                    <Scenes RowCount="0" ColumnCount="0" />
+                  </Fixture>
+                  <Fixture Name="AS 250 4">
+                    <Poursuit Active="False" pt_A_X="40" pt_A_Y="40" pt_B_X="200" pt_B_Y="40" pt_C_X="200" pt_C_Y="200" pt_D_X="40" pt_D_Y="200" />
+                    <Scenes RowCount="0" ColumnCount="0" />
+                  </Fixture>
+                </SubFixture>
+                <Scenes RowCount="0" ColumnCount="0" />
+              </Fixture>
+              <Fixture Name="DYNAMO">
+                <SubFixture>
+                  <Fixture Name="DYNAMO1">
+                    <Poursuit Active="False" pt_A_X="40" pt_A_Y="40" pt_B_X="200" pt_B_Y="40" pt_C_X="200" pt_C_Y="200" pt_D_X="40" pt_D_Y="200" />
+                    <Scenes RowCount="0" ColumnCount="0" />
+                  </Fixture>
+                  <Fixture Name="DYNAMO2">
+                    <Poursuit Active="False" pt_A_X="40" pt_A_Y="40" pt_B_X="200" pt_B_Y="40" pt_C_X="200" pt_C_Y="200" pt_D_X="40" pt_D_Y="200" />
+                    <Scenes RowCount="0" ColumnCount="0" />
+                  </Fixture>
+                </SubFixture>
+                <Scenes RowCount="0" ColumnCount="0" />
+              </Fixture>
+            </SubFixture>
+            <Scenes RowCount="3" ColumnCount="3">
+              <Scene Name="Off" Category="Rapide" StepTime="1000" WaitingTime="0" btn_x="0" btn_y="0" Loop="True" AutoStart="False" MusicBeat="False">
+                <Channels>
+                  <Channel ChannelName="SCANNER/Gobo" />
+                </Channels>
+                <Steps>
+                  <Step Comment="off" Val1="0" />
+                </Steps>
+              </Scene>
+              <Scene Name="Decale_R" Category="Cercle Rapide" StepTime="200" WaitingTime="0" btn_x="0" btn_y="1" Loop="True" AutoStart="False" MusicBeat="False">
+                <Channels>
+                  <Channel ChannelName="SCANNER/DJSCAN/DJSCAN1/Tilt" />
+                  <Channel ChannelName="SCANNER/TheWinner/THEWINNER1/Tilt" />
+                  <Channel ChannelName="SCANNER/TheWinner/THEWINNER2/Tilt" />
+                  <Channel ChannelName="SCANNER/DJSCAN/DJSCAN2/Tilt" />
+                  <Channel ChannelName="SCANNER/DJSCAN/DJSCAN1/Pan" />
+                  <Channel ChannelName="SCANNER/TheWinner/THEWINNER1/Pan" />
+                  <Channel ChannelName="SCANNER/TheWinner/THEWINNER2/Pan" />
+                  <Channel ChannelName="SCANNER/DJSCAN/DJSCAN2/Pan" />
+                  <Channel ChannelName="SCANNER/Gobo" />
+                  <Channel ChannelName="SCANNER/Shutter" />
+                </Channels>
+                <Steps>
+                  <Step Comment="HAUT" Val1="70" Val2="100" Val3="130" Val4="160" Val5="122" Val6="82" Val7="48" Val8="5" Val9="20" Val10="0" />
+                  <Step Comment="" Val1="100" Val2="70" Val3="100" Val4="130" Val5="160" Val6="122" Val7="82" Val8="48" Val9="20" Val10="0" />
+                  <Step Comment="" Val1="130" Val2="100" Val3="70" Val4="100" Val5="188" Val6="160" Val7="122" Val8="82" Val9="20" Val10="0" />
+                  <Step Comment="Droite" Val1="160" Val2="130" Val3="100" Val4="70" Val5="220" Val6="188" Val7="160" Val8="122" Val9="20" Val10="0" />
+                  <Step Comment="" Val1="190" Val2="160" Val3="130" Val4="100" Val5="188" Val6="220" Val7="188" Val8="160" Val9="20" Val10="0" />
+                  <Step Comment="" Val1="220" Val2="190" Val3="160" Val4="130" Val5="160" Val6="188" Val7="220" Val8="188" Val9="20" Val10="0" />
+                  <Step Comment="Bas" Val1="250" Val2="220" Val3="190" Val4="160" Val5="122" Val6="160" Val7="188" Val8="220" Val9="20" Val10="0" />
+                  <Step Comment="" Val1="220" Val2="250" Val3="220" Val4="190" Val5="75" Val6="122" Val7="160" Val8="188" Val9="20" Val10="0" />
+                  <Step Comment="" Val1="190" Val2="220" Val3="250" Val4="220" Val5="44" Val6="75" Val7="122" Val8="160" Val9="20" Val10="0" />
+                  <Step Comment="Gauche" Val1="160" Val2="190" Val3="220" Val4="250" Val5="5" Val6="44" Val7="75" Val8="122" Val9="20" Val10="0" />
+                  <Step Comment="" Val1="130" Val2="160" Val3="190" Val4="220" Val5="48" Val6="5" Val7="44" Val8="75" Val9="20" Val10="0" />
+                  <Step Comment="" Val1="100" Val2="130" Val3="160" Val4="190" Val5="82" Val6="48" Val7="5" Val8="44" Val9="20" Val10="0" />
+                </Steps>
+              </Scene>
+              <Scene Name="Normal_R" Category="Cercle Rapide" StepTime="200" WaitingTime="0" btn_x="0" btn_y="2" Loop="True" AutoStart="False" MusicBeat="False">
+                <Channels>
+                  <Channel ChannelName="SCANNER/Tilt" />
+                  <Channel ChannelName="SCANNER/Pan" />
+                  <Channel ChannelName="SCANNER/Gobo" />
+                  <Channel ChannelName="SCANNER/Shutter" />
+                </Channels>
+                <Steps>
+                  <Step Comment="HAUT" Val1="70" Val2="122" Val3="20" Val4="0" />
+                  <Step Comment="" Val1="100" Val2="160" Val3="20" Val4="0" />
+                  <Step Comment="" Val1="130" Val2="188" Val3="20" Val4="0" />
+                  <Step Comment="Droite" Val1="160" Val2="220" Val3="20" Val4="0" />
+                  <Step Comment="" Val1="190" Val2="188" Val3="20" Val4="0" />
+                  <Step Comment="" Val1="220" Val2="160" Val3="20" Val4="0" />
+                  <Step Comment="Bas" Val1="250" Val2="122" Val3="20" Val4="0" />
+                  <Step Comment="" Val1="220" Val2="75" Val3="20" Val4="0" />
+                  <Step Comment="" Val1="190" Val2="44" Val3="20" Val4="0" />
+                  <Step Comment="Gauche" Val1="160" Val2="5" Val3="20" Val4="0" />
+                  <Step Comment="" Val1="130" Val2="48" Val3="20" Val4="0" />
+                  <Step Comment="" Val1="100" Val2="82" Val3="20" Val4="0" />
+                </Steps>
+              </Scene>
+              <Scene Name="Balayage_H_1" Category="Rapide" StepTime="200" WaitingTime="0" btn_x="2" btn_y="1" Loop="True" AutoStart="False" MusicBeat="False">
+                <Channels>
+                  <Channel ChannelName="SCANNER/Tilt" />
+                  <Channel ChannelName="SCANNER/Pan" />
+                  <Channel ChannelName="SCANNER/Gobo" />
+                </Channels>
+                <Steps>
+                  <Step Comment="bas" Val1="250" Val2="128" Val3="40" />
+                  <Step Comment="Milieu" Val1="170" Val2="128" Val3="40" />
+                  <Step Comment="haut" Val1="100" Val2="128" Val3="40" />
+                </Steps>
+              </Scene>
+              <Scene Name="Balayage_H_2" Category="Rapide" StepTime="200" WaitingTime="0" btn_x="2" btn_y="2" Loop="True" AutoStart="False" MusicBeat="False">
+                <Channels>
+                  <Channel ChannelName="SCANNER/Pan" />
+                  <Channel ChannelName="SCANNER/DJSCAN/DJSCAN1/Tilt" />
+                  <Channel ChannelName="SCANNER/TheWinner/THEWINNER1/Tilt" />
+                  <Channel ChannelName="SCANNER/TheWinner/THEWINNER2/Tilt" />
+                  <Channel ChannelName="SCANNER/DJSCAN/DJSCAN2/Tilt" />
+                  <Channel ChannelName="SCANNER/Gobo" />
+                  <Channel ChannelName="SCANNER/Shutter" />
+                </Channels>
+                <Steps>
+                  <Step Comment="" Val1="128" Val2="250" Val3="250" Val4="250" Val5="250" Val6="30" Val7="0" />
+                  <Step Comment="" Val1="128" Val2="100" Val3="250" Val4="250" Val5="250" Val6="30" Val7="0" />
+                  <Step Comment="" Val1="128" Val2="100" Val3="100" Val4="250" Val5="250" Val6="30" Val7="0" />
+                  <Step Comment="" Val1="128" Val2="100" Val3="100" Val4="100" Val5="250" Val6="30" Val7="0" />
+                  <Step Comment="" Val1="128" Val2="100" Val3="100" Val4="100" Val5="100" Val6="30" Val7="0" />
+                  <Step Comment="" Val1="128" Val2="100" Val3="100" Val4="100" Val5="250" Val6="30" Val7="0" />
+                  <Step Comment="" Val1="128" Val2="100" Val3="100" Val4="250" Val5="250" Val6="30" Val7="0" />
+                  <Step Comment="" Val1="128" Val2="100" Val3="250" Val4="250" Val5="250" Val6="30" Val7="0" />
+                </Steps>
+              </Scene>
+              <Scene Name="Decale_L" Category="Cercle Lent" StepTime="1000" WaitingTime="0" btn_x="1" btn_y="1" Loop="True" AutoStart="False" MusicBeat="False">
+                <Channels>
+                  <Channel ChannelName="SCANNER/DJSCAN/DJSCAN1/Tilt" />
+                  <Channel ChannelName="SCANNER/TheWinner/THEWINNER1/Tilt" />
+                  <Channel ChannelName="SCANNER/TheWinner/THEWINNER2/Tilt" />
+                  <Channel ChannelName="SCANNER/DJSCAN/DJSCAN2/Tilt" />
+                  <Channel ChannelName="SCANNER/DJSCAN/DJSCAN1/Pan" />
+                  <Channel ChannelName="SCANNER/TheWinner/THEWINNER1/Pan" />
+                  <Channel ChannelName="SCANNER/TheWinner/THEWINNER2/Pan" />
+                  <Channel ChannelName="SCANNER/DJSCAN/DJSCAN2/Pan" />
+                  <Channel ChannelName="SCANNER/Gobo" />
+                  <Channel ChannelName="SCANNER/Shutter" />
+                </Channels>
+                <Steps>
+                  <Step Comment="HAUT" Val1="70" Val2="100" Val3="130" Val4="160" Val5="122" Val6="82" Val7="48" Val8="5" Val9="20" Val10="0" />
+                  <Step Comment="" Val1="100" Val2="70" Val3="100" Val4="130" Val5="160" Val6="122" Val7="82" Val8="48" Val9="20" Val10="0" />
+                  <Step Comment="" Val1="130" Val2="100" Val3="70" Val4="100" Val5="188" Val6="160" Val7="122" Val8="82" Val9="20" Val10="0" />
+                  <Step Comment="Droite" Val1="160" Val2="130" Val3="100" Val4="70" Val5="220" Val6="188" Val7="160" Val8="122" Val9="20" Val10="0" />
+                  <Step Comment="" Val1="190" Val2="160" Val3="130" Val4="100" Val5="188" Val6="220" Val7="188" Val8="160" Val9="20" Val10="0" />
+                  <Step Comment="" Val1="220" Val2="190" Val3="160" Val4="130" Val5="160" Val6="188" Val7="220" Val8="188" Val9="20" Val10="0" />
+                  <Step Comment="Bas" Val1="250" Val2="220" Val3="190" Val4="160" Val5="122" Val6="160" Val7="188" Val8="220" Val9="20" Val10="0" />
+                  <Step Comment="" Val1="220" Val2="250" Val3="220" Val4="190" Val5="75" Val6="122" Val7="160" Val8="188" Val9="20" Val10="0" />
+                  <Step Comment="" Val1="190" Val2="220" Val3="250" Val4="220" Val5="44" Val6="75" Val7="122" Val8="160" Val9="20" Val10="0" />
+                  <Step Comment="Gauche" Val1="160" Val2="190" Val3="220" Val4="250" Val5="5" Val6="44" Val7="75" Val8="122" Val9="20" Val10="0" />
+                  <Step Comment="" Val1="130" Val2="160" Val3="190" Val4="220" Val5="48" Val6="5" Val7="44" Val8="75" Val9="20" Val10="0" />
+                  <Step Comment="" Val1="100" Val2="130" Val3="160" Val4="190" Val5="82" Val6="48" Val7="5" Val8="44" Val9="20" Val10="0" />
+                </Steps>
+              </Scene>
+              <Scene Name="Normal_L" Category="Cercle Lent" StepTime="1000" WaitingTime="0" btn_x="1" btn_y="2" Loop="True" AutoStart="False" MusicBeat="False">
+                <Channels>
+                  <Channel ChannelName="SCANNER/Tilt" />
+                  <Channel ChannelName="SCANNER/Pan" />
+                  <Channel ChannelName="SCANNER/Gobo" />
+                  <Channel ChannelName="SCANNER/Shutter" />
+                  <Channel ChannelName="SCANNER/AS 250/Gobo" />
+                  <Channel ChannelName="SCANNER/AS 250/Rotation" />
+                  <Channel ChannelName="SCANNER/AS 250/Color" />
+                  <Channel ChannelName="SCANNER/AS 250/Shutter" />
+                </Channels>
+                <Steps>
+                  <Step Comment="" Val1="70" Val2="122" Val3="20" Val4="0" Val5="32" Val6="26" Val7="234" Val8="45" />
+                  <Step Comment="" Val1="100" Val2="160" Val3="20" Val4="0" Val5="32" Val6="26" Val7="234" Val8="45" />
+                  <Step Comment="" Val1="130" Val2="188" Val3="20" Val4="0" Val5="32" Val6="26" Val7="234" Val8="45" />
+                  <Step Comment="" Val1="160" Val2="220" Val3="20" Val4="0" Val5="32" Val6="26" Val7="234" Val8="45" />
+                  <Step Comment="" Val1="190" Val2="188" Val3="20" Val4="0" Val5="32" Val6="26" Val7="234" Val8="45" />
+                  <Step Comment="" Val1="220" Val2="160" Val3="20" Val4="0" Val5="32" Val6="26" Val7="234" Val8="45" />
+                  <Step Comment="" Val1="250" Val2="122" Val3="20" Val4="0" Val5="32" Val6="26" Val7="234" Val8="45" />
+                  <Step Comment="" Val1="220" Val2="75" Val3="20" Val4="0" Val5="32" Val6="26" Val7="234" Val8="45" />
+                  <Step Comment="" Val1="190" Val2="44" Val3="20" Val4="0" Val5="32" Val6="26" Val7="234" Val8="45" />
+                  <Step Comment="" Val1="160" Val2="5" Val3="20" Val4="0" Val5="32" Val6="26" Val7="234" Val8="45" />
+                  <Step Comment="" Val1="130" Val2="48" Val3="20" Val4="0" Val5="32" Val6="26" Val7="234" Val8="45" />
+                  <Step Comment="" Val1="100" Val2="82" Val3="20" Val4="0" Val5="32" Val6="26" Val7="234" Val8="45" />
+                </Steps>
+              </Scene>
+              <Scene Name="Triangle" Category="Rapide" StepTime="51" WaitingTime="250" btn_x="1" btn_y="0" Loop="True" AutoStart="False" MusicBeat="False">
+                <Channels>
+                  <Channel ChannelName="SCANNER/Tilt" />
+                  <Channel ChannelName="SCANNER/Pan" />
+                  <Channel ChannelName="SCANNER/AS 250/Gobo" />
+                  <Channel ChannelName="SCANNER/AS 250/Color" />
+                  <Channel ChannelName="SCANNER/AS 250/Shutter" />
+                  <Channel ChannelName="SCANNER/DJSCAN/Gobo" />
+                  <Channel ChannelName="SCANNER/DJSCAN/Shutter" />
+                  <Channel ChannelName="SCANNER/TheWinner/Color" />
+                  <Channel ChannelName="SCANNER/TheWinner/Shutter" />
+                </Channels>
+                <Steps>
+                  <Step Comment="" Val1="170" Val2="98" Val3="0" Val4="242" Val5="255" Val6="100" Val7="85" Val8="22" Val9="85" />
+                  <Step Comment="" Val1="100" Val2="128" Val3="0" Val4="242" Val5="255" Val6="100" Val7="85" Val8="22" Val9="85" />
+                  <Step Comment="" Val1="170" Val2="158" Val3="0" Val4="242" Val5="255" Val6="100" Val7="85" Val8="22" Val9="85" />
+                </Steps>
+              </Scene>
+              <Scene Name="Carre" Category="Rapide" StepTime="300" WaitingTime="0" btn_x="2" btn_y="0" Loop="True" AutoStart="False" MusicBeat="False">
+                <Channels>
+                  <Channel ChannelName="SCANNER/Tilt" />
+                  <Channel ChannelName="SCANNER/Pan" />
+                  <Channel ChannelName="SCANNER/Gobo" />
+                  <Channel ChannelName="SCANNER/Shutter" />
+                </Channels>
+                <Steps>
+                  <Step Comment="bas gauche" Val1="170" Val2="100" Val3="50" Val4="0" />
+                  <Step Comment="haut gauche" Val1="120" Val2="100" Val3="50" Val4="0" />
+                  <Step Comment="haut droite" Val1="120" Val2="150" Val3="50" Val4="0" />
+                  <Step Comment="bas droite" Val1="170" Val2="150" Val3="50" Val4="0" />
+                </Steps>
+              </Scene>
+              <Scene Name="Triangle_Strob" Category="Rapide" StepTime="51" WaitingTime="250" btn_x="0" btn_y="0" Loop="True" AutoStart="False" MusicBeat="False">
+                <Channels>
+                  <Channel ChannelName="SCANNER/Tilt" />
+                  <Channel ChannelName="SCANNER/Pan" />
+                  <Channel ChannelName="SCANNER/Gobo" />
+                  <Channel ChannelName="SCANNER/Shutter" />
+                  <Channel ChannelName="SCANNER/AS 250/Gobo" />
+                  <Channel ChannelName="SCANNER/AS 250/Color" />
+                  <Channel ChannelName="SCANNER/AS 250/Shutter" />
+                </Channels>
+                <Steps>
+                  <Step Comment="" Val1="170" Val2="98" Val3="12" Val4="255" Val5="0" Val6="0" Val7="255" />
+                  <Step Comment="" Val1="100" Val2="128" Val3="12" Val4="255" Val5="0" Val6="0" Val7="255" />
+                  <Step Comment="" Val1="170" Val2="158" Val3="12" Val4="255" Val5="0" Val6="0" Val7="255" />
+                </Steps>
+              </Scene>
+              <Scene Name="test" Category="2 ponts" StepTime="500" WaitingTime="0" btn_x="0" btn_y="0" Loop="True" AutoStart="False" MusicBeat="False">
+                <Channels>
+                  <Channel ChannelName="SCANNER/DJSCAN/Pan" />
+                  <Channel ChannelName="SCANNER/DJSCAN/Tilt" />
+                  <Channel ChannelName="SCANNER/TheWinner/Pan" />
+                  <Channel ChannelName="SCANNER/TheWinner/Tilt" />
+                  <Channel ChannelName="SCANNER/AS 250/AS 250 1/Pan" />
+                  <Channel ChannelName="SCANNER/AS 250/AS 250 1/Tilt" />
+                  <Channel ChannelName="SCANNER/AS 250/AS 250 2/Pan" />
+                  <Channel ChannelName="SCANNER/AS 250/AS 250 2/Tilt" />
+                  <Channel ChannelName="SCANNER/AS 250/AS 250 3/Pan" />
+                  <Channel ChannelName="SCANNER/AS 250/AS 250 3/Tilt" />
+                  <Channel ChannelName="SCANNER/AS 250/AS 250 4/Pan" />
+                  <Channel ChannelName="SCANNER/AS 250/AS 250 4/Tilt" />
+                </Channels>
+                <Steps>
+                  <Step Comment="" Val1="0" Val2="0" Val3="136" Val4="254" Val5="162" Val6="255" Val7="162" Val8="255" Val9="162" Val10="255" Val11="162" Val12="255" />
+                  <Step Comment="" Val1="0" Val2="0" Val3="136" Val4="50" Val5="162" Val6="255" Val7="162" Val8="255" Val9="162" Val10="255" Val11="162" Val12="255" />
+                  <Step Comment="" Val1="0" Val2="0" Val3="136" Val4="50" Val5="162" Val6="68" Val7="162" Val8="255" Val9="162" Val10="255" Val11="162" Val12="68" />
+                  <Step Comment="" Val1="0" Val2="0" Val3="136" Val4="50" Val5="162" Val6="68" Val7="162" Val8="255" Val9="162" Val10="255" Val11="162" Val12="68" />
+                  <Step Comment="" Val1="0" Val2="0" Val3="136" Val4="50" Val5="162" Val6="68" Val7="162" Val8="68" Val9="162" Val10="68" Val11="162" Val12="68" />
+                  <Step Comment="" Val1="0" Val2="0" Val3="136" Val4="254" Val5="162" Val6="68" Val7="162" Val8="68" Val9="162" Val10="68" Val11="162" Val12="68" />
+                  <Step Comment="" Val1="0" Val2="0" Val3="136" Val4="254" Val5="162" Val6="255" Val7="162" Val8="68" Val9="162" Val10="68" Val11="162" Val12="255" />
+                  <Step Comment="" Val1="0" Val2="0" Val3="136" Val4="254" Val5="162" Val6="255" Val7="162" Val8="68" Val9="162" Val10="68" Val11="162" Val12="255" />
+                </Steps>
+              </Scene>
+              <Scene Name="New Scene" Category="2 ponts" StepTime="50" WaitingTime="100" btn_x="0" btn_y="0" Loop="True" AutoStart="False" MusicBeat="False">
+                <Channels>
+                  <Channel ChannelName="SCANNER/DJSCAN/Gobo" />
+                  <Channel ChannelName="SCANNER/TheWinner/Gobo" />
+                  <Channel ChannelName="SCANNER/AS 250/Pan" />
+                  <Channel ChannelName="SCANNER/AS 250/Tilt" />
+                  <Channel ChannelName="SCANNER/AS 250/Gobo" />
+                  <Channel ChannelName="SCANNER/AS 250/Rotation" />
+                  <Channel ChannelName="SCANNER/AS 250/Color" />
+                  <Channel ChannelName="SCANNER/AS 250/Shutter" />
+                </Channels>
+                <Steps />
+              </Scene>
+            </Scenes>
+          </Fixture>
+          <Fixture Name="LYRES">
+            <SubFixture>
+              <Fixture Name="iMove">
+                <SubFixture>
+                  <Fixture Name="IMOVE1">
+                    <Poursuit Active="False" pt_A_X="40" pt_A_Y="40" pt_B_X="200" pt_B_Y="40" pt_C_X="200" pt_C_Y="200" pt_D_X="40" pt_D_Y="200" />
+                    <Scenes RowCount="0" ColumnCount="0" />
+                  </Fixture>
+                  <Fixture Name="IMOVE2">
+                    <Poursuit Active="False" pt_A_X="40" pt_A_Y="40" pt_B_X="200" pt_B_Y="40" pt_C_X="200" pt_C_Y="200" pt_D_X="40" pt_D_Y="200" />
+                    <Scenes RowCount="0" ColumnCount="0" />
+                  </Fixture>
+                </SubFixture>
+                <Scenes RowCount="0" ColumnCount="0" />
+              </Fixture>
+            </SubFixture>
+            <Scenes RowCount="2" ColumnCount="2">
+              <Scene Name="Off" Category="Off" StepTime="50" WaitingTime="0" btn_x="0" btn_y="0" Loop="True" AutoStart="False" MusicBeat="False">
+                <Channels>
+                  <Channel ChannelName="LYRES/iMove/Shutter" />
+                </Channels>
+                <Steps>
+                  <Step Comment="bas" Val1="0" />
+                </Steps>
+              </Scene>
+              <Scene Name="Lent" Category="Cercle" StepTime="5000" WaitingTime="0" btn_x="0" btn_y="1" Loop="True" AutoStart="False" MusicBeat="False">
+                <Channels>
+                  <Channel ChannelName="LYRES/iMove/Shutter" />
+                  <Channel ChannelName="LYRES/iMove/Gobo" />
+                  <Channel ChannelName="LYRES/iMove/Color" />
+                  <Channel ChannelName="LYRES/iMove/Pan" />
+                  <Channel ChannelName="LYRES/iMove/Tilt" />
+                </Channels>
+                <Steps>
+                  <Step Comment="" Val1="8" Val2="0" Val3="61" Val4="122" Val5="90" />
+                  <Step Comment="" Val1="8" Val2="0" Val3="61" Val4="106" Val5="70" />
+                  <Step Comment="" Val1="8" Val2="0" Val3="61" Val4="106" Val5="44" />
+                  <Step Comment="" Val1="8" Val2="0" Val3="61" Val4="122" Val5="44" />
+                  <Step Comment="" Val1="8" Val2="0" Val3="61" Val4="138" Val5="44" />
+                  <Step Comment="" Val1="8" Val2="0" Val3="61" Val4="138" Val5="70" />
+                </Steps>
+              </Scene>
+              <Scene Name="Rapide" Category="Balayage" StepTime="2000" WaitingTime="0" btn_x="1" btn_y="0" Loop="True" AutoStart="False" MusicBeat="False">
+                <Channels>
+                  <Channel ChannelName="LYRES/iMove/Shutter" />
+                  <Channel ChannelName="LYRES/iMove/Gobo" />
+                  <Channel ChannelName="LYRES/iMove/Color" />
+                  <Channel ChannelName="LYRES/iMove/Pan" />
+                  <Channel ChannelName="LYRES/iMove/Tilt" />
+                </Channels>
+                <Steps>
+                  <Step Comment="" Val1="50" Val2="69" Val3="31" Val4="0" Val5="57" />
+                  <Step Comment="" Val1="50" Val2="69" Val3="31" Val4="171" Val5="59" />
+                  <Step Comment="" Val1="50" Val2="69" Val3="31" Val4="171" Val5="206" />
+                  <Step Comment="" Val1="50" Val2="69" Val3="31" Val4="0" Val5="206" />
+                </Steps>
+              </Scene>
+              <Scene Name="Normal" Category="Balayage" StepTime="2000" WaitingTime="0" btn_x="1" btn_y="1" Loop="True" AutoStart="False" MusicBeat="False">
+                <Channels>
+                  <Channel ChannelName="LYRES/iMove/Shutter" />
+                  <Channel ChannelName="LYRES/iMove/Gobo" />
+                  <Channel ChannelName="LYRES/iMove/Color" />
+                  <Channel ChannelName="LYRES/iMove/IMOVE1/Pan" />
+                  <Channel ChannelName="LYRES/iMove/IMOVE1/Tilt" />
+                  <Channel ChannelName="LYRES/iMove/IMOVE2/Pan" />
+                  <Channel ChannelName="LYRES/iMove/IMOVE2/Tilt" />
+                </Channels>
+                <Steps>
+                  <Step Comment="" Val1="8" Val2="0" Val3="130" Val4="138" Val5="90" Val6="106" Val7="90" />
+                  <Step Comment="" Val1="8" Val2="0" Val3="130" Val4="106" Val5="44" Val6="138" Val7="44" />
+                  <Step Comment="" Val1="8" Val2="0" Val3="130" Val4="138" Val5="44" Val6="106" Val7="44" />
+                  <Step Comment="" Val1="8" Val2="0" Val3="130" Val4="106" Val5="90" Val6="138" Val7="90" />
+                </Steps>
+              </Scene>
+              <Scene Name="Strob" Category="Strob" StepTime="500" WaitingTime="0" btn_x="0" btn_y="0" Loop="True" AutoStart="False" MusicBeat="False">
+                <Channels>
+                  <Channel ChannelName="LYRES/Pan" />
+                  <Channel ChannelName="LYRES/Tilt" />
+                  <Channel ChannelName="LYRES/Gobo" />
+                  <Channel ChannelName="LYRES/Color" />
+                  <Channel ChannelName="LYRES/Shutter" />
+                </Channels>
+                <Steps>
+                  <Step Comment="" Val1="106" Val2="44" Val3="0" Val4="0" Val5="131" />
+                  <Step Comment="" Val1="122" Val2="70" Val3="0" Val4="0" Val5="131" />
+                  <Step Comment="" Val1="138" Val2="90" Val3="0" Val4="0" Val5="131" />
+                  <Step Comment="" Val1="122" Val2="70" Val3="0" Val4="0" Val5="131" />
+                </Steps>
+              </Scene>
+              <Scene Name="Progressif" Category="Balayage" StepTime="3000" WaitingTime="0" btn_x="0" btn_y="0" Loop="True" AutoStart="False" MusicBeat="False">
+                <Channels>
+                  <Channel ChannelName="LYRES/Pan" />
+                  <Channel ChannelName="LYRES/Tilt" />
+                  <Channel ChannelName="LYRES/Gobo" />
+                  <Channel ChannelName="LYRES/Color" />
+                  <Channel ChannelName="LYRES/Shutter" />
+                </Channels>
+                <Steps>
+                  <Step Comment="" Val1="0" Val2="0" Val3="110" Val4="189" Val5="14" />
+                  <Step Comment="" Val1="255" Val2="255" Val3="110" Val4="189" Val5="14" />
+                </Steps>
+              </Scene>
+              <Scene Name="Test" Category="Balayage" StepTime="50" WaitingTime="100" btn_x="0" btn_y="0" Loop="True" AutoStart="False" MusicBeat="False">
+                <Channels>
+                  <Channel ChannelName="LYRES/Pan" />
+                  <Channel ChannelName="LYRES/Tilt" />
+                  <Channel ChannelName="LYRES/Gobo" />
+                  <Channel ChannelName="LYRES/Color" />
+                  <Channel ChannelName="LYRES/Shutter" />
+                </Channels>
+                <Steps />
+              </Scene>
+              <Scene Name="Normal Rapide" Category="Balayage" StepTime="1000" WaitingTime="0" btn_x="0" btn_y="0" Loop="True" AutoStart="False" MusicBeat="False">
+                <Channels>
+                  <Channel ChannelName="LYRES/iMove/Shutter" />
+                  <Channel ChannelName="LYRES/iMove/Gobo" />
+                  <Channel ChannelName="LYRES/iMove/Color" />
+                  <Channel ChannelName="LYRES/iMove/IMOVE1/Pan" />
+                  <Channel ChannelName="LYRES/iMove/IMOVE2/Pan" />
+                  <Channel ChannelName="LYRES/Tilt" />
+                </Channels>
+                <Steps>
+                  <Step Comment="" Val1="8" Val2="0" Val3="130" Val4="90" Val5="170" Val6="50" />
+                  <Step Comment="" Val1="8" Val2="0" Val3="130" Val4="170" Val5="90" Val6="50" />
+                  <Step Comment="" Val1="8" Val2="0" Val3="130" Val4="90" Val5="170" Val6="80" />
+                  <Step Comment="" Val1="8" Val2="0" Val3="130" Val4="170" Val5="90" Val6="80" />
+                </Steps>
+              </Scene>
+              <Scene Name="MOVING_FRONTAL" Category="Marc" StepTime="1000" WaitingTime="0" btn_x="0" btn_y="0" Loop="True" AutoStart="False" MusicBeat="False">
+                <Channels>
+                  <Channel ChannelName="LYRES/iMove/IMOVE2/Pan" />
+                  <Channel ChannelName="LYRES/iMove/IMOVE2/Tilt" />
+                  <Channel ChannelName="LYRES/iMove/IMOVE1/Tilt" />
+                  <Channel ChannelName="LYRES/iMove/IMOVE1/Pan" />
+                  <Channel ChannelName="LYRES/Gobo" />
+                  <Channel ChannelName="LYRES/Color" />
+                  <Channel ChannelName="LYRES/Shutter" />
+                </Channels>
+                <Steps>
+                  <Step Comment="" Val1="156" Val2="50" Val3="50" Val4="156" Val5="128" Val6="128" Val7="8" />
+                  <Step Comment="" Val1="80" Val2="52" Val3="52" Val4="80" Val5="128" Val6="128" Val7="8" />
+                  <Step Comment="" Val1="160" Val2="55" Val3="55" Val4="160" Val5="128" Val6="128" Val7="8" />
+                  <Step Comment="" Val1="84" Val2="58" Val3="58" Val4="84" Val5="128" Val6="128" Val7="8" />
+                  <Step Comment="" Val1="165" Val2="60" Val3="60" Val4="165" Val5="128" Val6="128" Val7="8" />
+                  <Step Comment="" Val1="90" Val2="62" Val3="62" Val4="90" Val5="128" Val6="128" Val7="8" />
+                  <Step Comment="" Val1="170" Val2="65" Val3="65" Val4="170" Val5="128" Val6="128" Val7="8" />
+                  <Step Comment="" Val1="95" Val2="67" Val3="67" Val4="95" Val5="128" Val6="128" Val7="8" />
+                  <Step Comment="" Val1="175" Val2="70" Val3="70" Val4="175" Val5="128" Val6="128" Val7="8" />
+                  <Step Comment="" Val1="100" Val2="67" Val3="67" Val4="100" Val5="128" Val6="128" Val7="8" />
+                  <Step Comment="" Val1="175" Val2="65" Val3="65" Val4="175" Val5="128" Val6="128" Val7="8" />
+                  <Step Comment="" Val1="95" Val2="62" Val3="62" Val4="95" Val5="128" Val6="128" Val7="8" />
+                  <Step Comment="" Val1="165" Val2="60" Val3="60" Val4="165" Val5="128" Val6="128" Val7="8" />
+                  <Step Comment="" Val1="85" Val2="58" Val3="58" Val4="85" Val5="128" Val6="128" Val7="8" />
+                  <Step Comment="" Val1="160" Val2="55" Val3="55" Val4="160" Val5="128" Val6="128" Val7="8" />
+                  <Step Comment="" Val1="80" Val2="52" Val3="52" Val4="80" Val5="128" Val6="128" Val7="8" />
+                </Steps>
+              </Scene>
+            </Scenes>
+          </Fixture>
+        </SubFixture>
+        <Scenes RowCount="3" ColumnCount="1">
+          <Scene Name="OFF" Category="Strob" StepTime="500" WaitingTime="0" btn_x="0" btn_y="0" Loop="True" AutoStart="False" MusicBeat="False">
+            <Channels>
+              <Channel ChannelName="PROJECTEUR ROBOTISES/Gobo" />
+            </Channels>
+            <Steps>
+              <Step Comment="off" Val1="0" />
+            </Steps>
+          </Scene>
+          <Scene Name="Strob_L" Category="Strob" StepTime="51" WaitingTime="500" btn_x="0" btn_y="1" Loop="True" AutoStart="False" MusicBeat="False">
+            <Channels>
+              <Channel ChannelName="PROJECTEUR ROBOTISES/SCANNER/Tilt" />
+              <Channel ChannelName="PROJECTEUR ROBOTISES/SCANNER/Pan" />
+              <Channel ChannelName="PROJECTEUR ROBOTISES/LYRES/Tilt" />
+              <Channel ChannelName="PROJECTEUR ROBOTISES/LYRES/Pan" />
+              <Channel ChannelName="PROJECTEUR ROBOTISES/SCANNER/DJSCAN/DJSCAN1/Gobo" />
+              <Channel ChannelName="PROJECTEUR ROBOTISES/SCANNER/DJSCAN/DJSCAN1/Shutter" />
+              <Channel ChannelName="PROJECTEUR ROBOTISES/SCANNER/TheWinner/THEWINNER1/Gobo" />
+              <Channel ChannelName="PROJECTEUR ROBOTISES/SCANNER/TheWinner/THEWINNER1/Color" />
+              <Channel ChannelName="PROJECTEUR ROBOTISES/SCANNER/TheWinner/THEWINNER1/Shutter" />
+              <Channel ChannelName="PROJECTEUR ROBOTISES/SCANNER/TheWinner/THEWINNER2/Gobo" />
+              <Channel ChannelName="PROJECTEUR ROBOTISES/SCANNER/TheWinner/THEWINNER2/Color" />
+              <Channel ChannelName="PROJECTEUR ROBOTISES/SCANNER/TheWinner/THEWINNER2/Shutter" />
+              <Channel ChannelName="PROJECTEUR ROBOTISES/SCANNER/DJSCAN/DJSCAN2/Gobo" />
+              <Channel ChannelName="PROJECTEUR ROBOTISES/SCANNER/DJSCAN/DJSCAN2/Shutter" />
+              <Channel ChannelName="PROJECTEUR ROBOTISES/LYRES/iMove/IMOVE1/Gobo" />
+              <Channel ChannelName="PROJECTEUR ROBOTISES/LYRES/iMove/IMOVE1/Color" />
+              <Channel ChannelName="PROJECTEUR ROBOTISES/LYRES/iMove/IMOVE1/Shutter" />
+              <Channel ChannelName="PROJECTEUR ROBOTISES/LYRES/iMove/IMOVE2/Gobo" />
+              <Channel ChannelName="PROJECTEUR ROBOTISES/LYRES/iMove/IMOVE2/Color" />
+              <Channel ChannelName="PROJECTEUR ROBOTISES/LYRES/iMove/IMOVE2/Shutter" />
+            </Channels>
+            <Steps>
+              <Step Comment="" Val1="128" Val2="128" Val3="100" Val4="128" Val5="11" Val6="0" Val7="0" Val8="0" Val9="0" Val10="0" Val11="0" Val12="0" Val13="0" Val14="0" Val15="0" Val16="0" Val17="0" Val18="0" Val19="0" Val20="0" />
+              <Step Comment="" Val1="128" Val2="128" Val3="100" Val4="128" Val5="0" Val6="0" Val7="8" Val8="0" Val9="0" Val10="0" Val11="0" Val12="0" Val13="0" Val14="0" Val15="0" Val16="0" Val17="0" Val18="0" Val19="0" Val20="0" />
+              <Step Comment="" Val1="128" Val2="128" Val3="100" Val4="128" Val5="0" Val6="0" Val7="0" Val8="0" Val9="0" Val10="8" Val11="0" Val12="0" Val13="0" Val14="0" Val15="0" Val16="0" Val17="0" Val18="0" Val19="0" Val20="0" />
+              <Step Comment="" Val1="128" Val2="128" Val3="100" Val4="128" Val5="0" Val6="0" Val7="0" Val8="0" Val9="0" Val10="0" Val11="0" Val12="0" Val13="10" Val14="0" Val15="0" Val16="0" Val17="0" Val18="0" Val19="0" Val20="0" />
+              <Step Comment="" Val1="128" Val2="128" Val3="100" Val4="128" Val5="0" Val6="0" Val7="0" Val8="0" Val9="0" Val10="0" Val11="0" Val12="0" Val13="0" Val14="0" Val15="0" Val16="0" Val17="8" Val18="0" Val19="0" Val20="0" />
+              <Step Comment="" Val1="128" Val2="128" Val3="100" Val4="128" Val5="0" Val6="0" Val7="0" Val8="0" Val9="0" Val10="0" Val11="0" Val12="0" Val13="0" Val14="0" Val15="0" Val16="0" Val17="0" Val18="0" Val19="0" Val20="8" />
+            </Steps>
+          </Scene>
+          <Scene Name="Strob_R" Category="Strob" StepTime="51" WaitingTime="150" btn_x="0" btn_y="2" Loop="True" AutoStart="False" MusicBeat="False">
+            <Channels>
+              <Channel ChannelName="PROJECTEUR ROBOTISES/SCANNER/Tilt" />
+              <Channel ChannelName="PROJECTEUR ROBOTISES/SCANNER/Pan" />
+              <Channel ChannelName="PROJECTEUR ROBOTISES/LYRES/Tilt" />
+              <Channel ChannelName="PROJECTEUR ROBOTISES/LYRES/Pan" />
+              <Channel ChannelName="PROJECTEUR ROBOTISES/SCANNER/DJSCAN/DJSCAN1/Gobo" />
+              <Channel ChannelName="PROJECTEUR ROBOTISES/SCANNER/DJSCAN/DJSCAN1/Shutter" />
+              <Channel ChannelName="PROJECTEUR ROBOTISES/SCANNER/TheWinner/THEWINNER1/Gobo" />
+              <Channel ChannelName="PROJECTEUR ROBOTISES/SCANNER/TheWinner/THEWINNER1/Color" />
+              <Channel ChannelName="PROJECTEUR ROBOTISES/SCANNER/TheWinner/THEWINNER1/Shutter" />
+              <Channel ChannelName="PROJECTEUR ROBOTISES/SCANNER/TheWinner/THEWINNER2/Gobo" />
+              <Channel ChannelName="PROJECTEUR ROBOTISES/SCANNER/TheWinner/THEWINNER2/Color" />
+              <Channel ChannelName="PROJECTEUR ROBOTISES/SCANNER/TheWinner/THEWINNER2/Shutter" />
+              <Channel ChannelName="PROJECTEUR ROBOTISES/SCANNER/DJSCAN/DJSCAN2/Gobo" />
+              <Channel ChannelName="PROJECTEUR ROBOTISES/SCANNER/DJSCAN/DJSCAN2/Shutter" />
+              <Channel ChannelName="PROJECTEUR ROBOTISES/LYRES/iMove/IMOVE1/Gobo" />
+              <Channel ChannelName="PROJECTEUR ROBOTISES/LYRES/iMove/IMOVE1/Color" />
+              <Channel ChannelName="PROJECTEUR ROBOTISES/LYRES/iMove/IMOVE1/Shutter" />
+              <Channel ChannelName="PROJECTEUR ROBOTISES/LYRES/iMove/IMOVE2/Gobo" />
+              <Channel ChannelName="PROJECTEUR ROBOTISES/LYRES/iMove/IMOVE2/Color" />
+              <Channel ChannelName="PROJECTEUR ROBOTISES/LYRES/iMove/IMOVE2/Shutter" />
+            </Channels>
+            <Steps>
+              <Step Comment="" Val1="128" Val2="128" Val3="100" Val4="128" Val5="11" Val6="0" Val7="0" Val8="0" Val9="0" Val10="0" Val11="0" Val12="0" Val13="0" Val14="0" Val15="0" Val16="0" Val17="0" Val18="0" Val19="0" Val20="0" />
+              <Step Comment="" Val1="128" Val2="128" Val3="100" Val4="128" Val5="0" Val6="0" Val7="8" Val8="0" Val9="0" Val10="0" Val11="0" Val12="0" Val13="0" Val14="0" Val15="0" Val16="0" Val17="0" Val18="0" Val19="0" Val20="0" />
+              <Step Comment="" Val1="128" Val2="128" Val3="100" Val4="128" Val5="0" Val6="0" Val7="0" Val8="0" Val9="0" Val10="8" Val11="0" Val12="0" Val13="0" Val14="0" Val15="0" Val16="0" Val17="0" Val18="0" Val19="0" Val20="0" />
+              <Step Comment="" Val1="128" Val2="128" Val3="100" Val4="128" Val5="0" Val6="0" Val7="0" Val8="0" Val9="0" Val10="0" Val11="0" Val12="0" Val13="10" Val14="0" Val15="0" Val16="0" Val17="0" Val18="0" Val19="0" Val20="0" />
+              <Step Comment="" Val1="128" Val2="128" Val3="100" Val4="128" Val5="0" Val6="0" Val7="0" Val8="0" Val9="0" Val10="0" Val11="0" Val12="0" Val13="0" Val14="0" Val15="0" Val16="0" Val17="8" Val18="0" Val19="0" Val20="0" />
+              <Step Comment="" Val1="128" Val2="128" Val3="100" Val4="128" Val5="0" Val6="0" Val7="0" Val8="0" Val9="0" Val10="0" Val11="0" Val12="0" Val13="0" Val14="0" Val15="0" Val16="0" Val17="0" Val18="0" Val19="0" Val20="8" />
+            </Steps>
+          </Scene>
+          <Scene Name="Strob" Category="Flash1" StepTime="0" WaitingTime="200" btn_x="0" btn_y="0" Loop="True" AutoStart="False" MusicBeat="False">
+            <Channels>
+              <Channel ChannelName="PROJECTEUR ROBOTISES/SCANNER/Pan" />
+              <Channel ChannelName="PROJECTEUR ROBOTISES/SCANNER/Tilt" />
+              <Channel ChannelName="PROJECTEUR ROBOTISES/LYRES/Pan" />
+              <Channel ChannelName="PROJECTEUR ROBOTISES/LYRES/Tilt" />
+              <Channel ChannelName="PROJECTEUR ROBOTISES/SCANNER/DJSCAN/DJSCAN1/Gobo" />
+              <Channel ChannelName="PROJECTEUR ROBOTISES/SCANNER/DJSCAN/DJSCAN2/Gobo" />
+              <Channel ChannelName="PROJECTEUR ROBOTISES/SCANNER/TheWinner/THEWINNER1/Gobo" />
+              <Channel ChannelName="PROJECTEUR ROBOTISES/SCANNER/TheWinner/THEWINNER1/Color" />
+              <Channel ChannelName="PROJECTEUR ROBOTISES/SCANNER/TheWinner/THEWINNER2/Gobo" />
+              <Channel ChannelName="PROJECTEUR ROBOTISES/SCANNER/TheWinner/THEWINNER2/Color" />
+              <Channel ChannelName="PROJECTEUR ROBOTISES/SCANNER/AS 250/AS 250 1/Color" />
+              <Channel ChannelName="PROJECTEUR ROBOTISES/SCANNER/AS 250/AS 250 1/Shutter" />
+              <Channel ChannelName="PROJECTEUR ROBOTISES/SCANNER/AS 250/AS 250 2/Color" />
+              <Channel ChannelName="PROJECTEUR ROBOTISES/SCANNER/AS 250/AS 250 2/Shutter" />
+              <Channel ChannelName="PROJECTEUR ROBOTISES/SCANNER/AS 250/AS 250 3/Color" />
+              <Channel ChannelName="PROJECTEUR ROBOTISES/SCANNER/AS 250/AS 250 3/Shutter" />
+              <Channel ChannelName="PROJECTEUR ROBOTISES/SCANNER/AS 250/AS 250 4/Color" />
+              <Channel ChannelName="PROJECTEUR ROBOTISES/SCANNER/AS 250/AS 250 4/Shutter" />
+              <Channel ChannelName="PROJECTEUR ROBOTISES/LYRES/iMove/IMOVE1/Color" />
+              <Channel ChannelName="PROJECTEUR ROBOTISES/LYRES/iMove/IMOVE1/Shutter" />
+              <Channel ChannelName="PROJECTEUR ROBOTISES/LYRES/iMove/IMOVE2/Color" />
+              <Channel ChannelName="PROJECTEUR ROBOTISES/LYRES/iMove/IMOVE2/Shutter" />
+            </Channels>
+            <Steps>
+              <Step Comment="" Val1="129" Val2="124" Val3="127" Val4="45" Val5="10" Val6="0" Val7="0" Val8="0" Val9="0" Val10="0" Val11="0" Val12="0" Val13="0" Val14="0" Val15="0" Val16="0" Val17="0" Val18="0" Val19="0" Val20="0" Val21="0" Val22="0" />
+              <Step Comment="" Val1="129" Val2="124" Val3="127" Val4="45" Val5="0" Val6="0" Val7="0" Val8="0" Val9="0" Val10="0" Val11="0" Val12="50" Val13="0" Val14="0" Val15="0" Val16="0" Val17="0" Val18="0" Val19="0" Val20="0" Val21="0" Val22="0" />
+              <Step Comment="" Val1="129" Val2="124" Val3="127" Val4="45" Val5="0" Val6="0" Val7="0" Val8="0" Val9="10" Val10="0" Val11="0" Val12="0" Val13="0" Val14="0" Val15="0" Val16="0" Val17="0" Val18="0" Val19="0" Val20="0" Val21="0" Val22="0" />
+              <Step Comment="" Val1="129" Val2="124" Val3="127" Val4="45" Val5="0" Val6="0" Val7="0" Val8="0" Val9="0" Val10="0" Val11="0" Val12="0" Val13="0" Val14="0" Val15="0" Val16="0" Val17="0" Val18="0" Val19="0" Val20="10" Val21="0" Val22="0" />
+              <Step Comment="" Val1="129" Val2="124" Val3="127" Val4="45" Val5="0" Val6="0" Val7="0" Val8="0" Val9="0" Val10="0" Val11="0" Val12="0" Val13="0" Val14="0" Val15="0" Val16="0" Val17="0" Val18="50" Val19="0" Val20="0" Val21="0" Val22="0" />
+              <Step Comment="" Val1="129" Val2="124" Val3="127" Val4="45" Val5="0" Val6="0" Val7="10" Val8="0" Val9="0" Val10="0" Val11="0" Val12="0" Val13="0" Val14="0" Val15="0" Val16="0" Val17="0" Val18="0" Val19="0" Val20="0" Val21="0" Val22="0" />
+              <Step Comment="" Val1="129" Val2="124" Val3="127" Val4="45" Val5="0" Val6="0" Val7="0" Val8="0" Val9="0" Val10="0" Val11="0" Val12="0" Val13="0" Val14="0" Val15="0" Val16="0" Val17="0" Val18="0" Val19="0" Val20="0" Val21="0" Val22="10" />
+              <Step Comment="" Val1="129" Val2="124" Val3="127" Val4="45" Val5="0" Val6="0" Val7="0" Val8="0" Val9="0" Val10="0" Val11="0" Val12="0" Val13="0" Val14="50" Val15="0" Val16="0" Val17="0" Val18="0" Val19="0" Val20="0" Val21="0" Val22="0" />
+              <Step Comment="" Val1="129" Val2="124" Val3="127" Val4="45" Val5="0" Val6="10" Val7="0" Val8="0" Val9="0" Val10="0" Val11="0" Val12="0" Val13="0" Val14="0" Val15="0" Val16="0" Val17="0" Val18="0" Val19="0" Val20="0" Val21="0" Val22="0" />
+              <Step Comment="" Val1="129" Val2="124" Val3="127" Val4="45" Val5="0" Val6="0" Val7="0" Val8="0" Val9="0" Val10="0" Val11="0" Val12="0" Val13="0" Val14="0" Val15="0" Val16="50" Val17="0" Val18="0" Val19="0" Val20="0" Val21="0" Val22="0" />
+            </Steps>
+          </Scene>
+          <Scene Name="Strob fast" Category="Flash1" StepTime="0" WaitingTime="50" btn_x="0" btn_y="0" Loop="True" AutoStart="False" MusicBeat="False">
+            <Channels>
+              <Channel ChannelName="PROJECTEUR ROBOTISES/SCANNER/Pan" />
+              <Channel ChannelName="PROJECTEUR ROBOTISES/SCANNER/Tilt" />
+              <Channel ChannelName="PROJECTEUR ROBOTISES/LYRES/Pan" />
+              <Channel ChannelName="PROJECTEUR ROBOTISES/LYRES/Tilt" />
+              <Channel ChannelName="PROJECTEUR ROBOTISES/SCANNER/DJSCAN/DJSCAN1/Gobo" />
+              <Channel ChannelName="PROJECTEUR ROBOTISES/SCANNER/DJSCAN/DJSCAN2/Gobo" />
+              <Channel ChannelName="PROJECTEUR ROBOTISES/SCANNER/TheWinner/THEWINNER1/Gobo" />
+              <Channel ChannelName="PROJECTEUR ROBOTISES/SCANNER/TheWinner/THEWINNER1/Color" />
+              <Channel ChannelName="PROJECTEUR ROBOTISES/SCANNER/TheWinner/THEWINNER2/Gobo" />
+              <Channel ChannelName="PROJECTEUR ROBOTISES/SCANNER/TheWinner/THEWINNER2/Color" />
+              <Channel ChannelName="PROJECTEUR ROBOTISES/SCANNER/AS 250/AS 250 1/Color" />
+              <Channel ChannelName="PROJECTEUR ROBOTISES/SCANNER/AS 250/AS 250 1/Shutter" />
+              <Channel ChannelName="PROJECTEUR ROBOTISES/SCANNER/AS 250/AS 250 2/Color" />
+              <Channel ChannelName="PROJECTEUR ROBOTISES/SCANNER/AS 250/AS 250 2/Shutter" />
+              <Channel ChannelName="PROJECTEUR ROBOTISES/SCANNER/AS 250/AS 250 3/Color" />
+              <Channel ChannelName="PROJECTEUR ROBOTISES/SCANNER/AS 250/AS 250 3/Shutter" />
+              <Channel ChannelName="PROJECTEUR ROBOTISES/SCANNER/AS 250/AS 250 4/Color" />
+              <Channel ChannelName="PROJECTEUR ROBOTISES/SCANNER/AS 250/AS 250 4/Shutter" />
+              <Channel ChannelName="PROJECTEUR ROBOTISES/LYRES/iMove/IMOVE1/Color" />
+              <Channel ChannelName="PROJECTEUR ROBOTISES/LYRES/iMove/IMOVE1/Shutter" />
+              <Channel ChannelName="PROJECTEUR ROBOTISES/LYRES/iMove/IMOVE2/Color" />
+              <Channel ChannelName="PROJECTEUR ROBOTISES/LYRES/iMove/IMOVE2/Shutter" />
+            </Channels>
+            <Steps>
+              <Step Comment="" Val1="129" Val2="124" Val3="127" Val4="45" Val5="10" Val6="0" Val7="0" Val8="0" Val9="0" Val10="0" Val11="0" Val12="0" Val13="0" Val14="0" Val15="0" Val16="0" Val17="0" Val18="0" Val19="0" Val20="0" Val21="0" Val22="0" />
+              <Step Comment="" Val1="129" Val2="124" Val3="127" Val4="45" Val5="0" Val6="0" Val7="0" Val8="0" Val9="0" Val10="0" Val11="0" Val12="50" Val13="0" Val14="0" Val15="0" Val16="0" Val17="0" Val18="0" Val19="0" Val20="0" Val21="0" Val22="0" />
+              <Step Comment="" Val1="129" Val2="124" Val3="127" Val4="45" Val5="0" Val6="0" Val7="0" Val8="0" Val9="10" Val10="0" Val11="0" Val12="0" Val13="0" Val14="0" Val15="0" Val16="0" Val17="0" Val18="0" Val19="0" Val20="0" Val21="0" Val22="0" />
+              <Step Comment="" Val1="129" Val2="124" Val3="127" Val4="45" Val5="0" Val6="0" Val7="0" Val8="0" Val9="0" Val10="0" Val11="0" Val12="0" Val13="0" Val14="0" Val15="0" Val16="0" Val17="0" Val18="0" Val19="0" Val20="10" Val21="0" Val22="0" />
+              <Step Comment="" Val1="129" Val2="124" Val3="127" Val4="45" Val5="0" Val6="0" Val7="0" Val8="0" Val9="0" Val10="0" Val11="0" Val12="0" Val13="0" Val14="0" Val15="0" Val16="0" Val17="0" Val18="50" Val19="0" Val20="0" Val21="0" Val22="0" />
+              <Step Comment="" Val1="129" Val2="124" Val3="127" Val4="45" Val5="0" Val6="0" Val7="10" Val8="0" Val9="0" Val10="0" Val11="0" Val12="0" Val13="0" Val14="0" Val15="0" Val16="0" Val17="0" Val18="0" Val19="0" Val20="0" Val21="0" Val22="0" />
+              <Step Comment="" Val1="129" Val2="124" Val3="127" Val4="45" Val5="0" Val6="0" Val7="0" Val8="0" Val9="0" Val10="0" Val11="0" Val12="0" Val13="0" Val14="0" Val15="0" Val16="0" Val17="0" Val18="0" Val19="0" Val20="0" Val21="0" Val22="10" />
+              <Step Comment="" Val1="129" Val2="124" Val3="127" Val4="45" Val5="0" Val6="0" Val7="0" Val8="0" Val9="0" Val10="0" Val11="0" Val12="0" Val13="0" Val14="50" Val15="0" Val16="0" Val17="0" Val18="0" Val19="0" Val20="0" Val21="0" Val22="0" />
+              <Step Comment="" Val1="129" Val2="124" Val3="127" Val4="45" Val5="0" Val6="10" Val7="0" Val8="0" Val9="0" Val10="0" Val11="0" Val12="0" Val13="0" Val14="0" Val15="0" Val16="0" Val17="0" Val18="0" Val19="0" Val20="0" Val21="0" Val22="0" />
+              <Step Comment="" Val1="129" Val2="124" Val3="127" Val4="45" Val5="0" Val6="0" Val7="0" Val8="0" Val9="0" Val10="0" Val11="0" Val12="0" Val13="0" Val14="0" Val15="0" Val16="50" Val17="0" Val18="0" Val19="0" Val20="0" Val21="0" Val22="0" />
+            </Steps>
+          </Scene>
+          <Scene Name="Strob full" Category="Flash1" StepTime="0" WaitingTime="300" btn_x="0" btn_y="0" Loop="True" AutoStart="False" MusicBeat="False">
+            <Channels>
+              <Channel ChannelName="PROJECTEUR ROBOTISES/SCANNER/Pan" />
+              <Channel ChannelName="PROJECTEUR ROBOTISES/SCANNER/Tilt" />
+              <Channel ChannelName="PROJECTEUR ROBOTISES/LYRES/Pan" />
+              <Channel ChannelName="PROJECTEUR ROBOTISES/LYRES/Tilt" />
+              <Channel ChannelName="PROJECTEUR ROBOTISES/SCANNER/DJSCAN/DJSCAN1/Gobo" />
+              <Channel ChannelName="PROJECTEUR ROBOTISES/SCANNER/DJSCAN/DJSCAN2/Gobo" />
+              <Channel ChannelName="PROJECTEUR ROBOTISES/SCANNER/TheWinner/THEWINNER1/Gobo" />
+              <Channel ChannelName="PROJECTEUR ROBOTISES/SCANNER/TheWinner/THEWINNER1/Color" />
+              <Channel ChannelName="PROJECTEUR ROBOTISES/SCANNER/TheWinner/THEWINNER2/Gobo" />
+              <Channel ChannelName="PROJECTEUR ROBOTISES/SCANNER/TheWinner/THEWINNER2/Color" />
+              <Channel ChannelName="PROJECTEUR ROBOTISES/SCANNER/AS 250/AS 250 1/Color" />
+              <Channel ChannelName="PROJECTEUR ROBOTISES/SCANNER/AS 250/AS 250 1/Shutter" />
+              <Channel ChannelName="PROJECTEUR ROBOTISES/SCANNER/AS 250/AS 250 2/Color" />
+              <Channel ChannelName="PROJECTEUR ROBOTISES/SCANNER/AS 250/AS 250 2/Shutter" />
+              <Channel ChannelName="PROJECTEUR ROBOTISES/SCANNER/AS 250/AS 250 3/Color" />
+              <Channel ChannelName="PROJECTEUR ROBOTISES/SCANNER/AS 250/AS 250 3/Shutter" />
+              <Channel ChannelName="PROJECTEUR ROBOTISES/SCANNER/AS 250/AS 250 4/Color" />
+              <Channel ChannelName="PROJECTEUR ROBOTISES/SCANNER/AS 250/AS 250 4/Shutter" />
+              <Channel ChannelName="PROJECTEUR ROBOTISES/LYRES/iMove/IMOVE1/Color" />
+              <Channel ChannelName="PROJECTEUR ROBOTISES/LYRES/iMove/IMOVE1/Shutter" />
+              <Channel ChannelName="PROJECTEUR ROBOTISES/LYRES/iMove/IMOVE2/Color" />
+              <Channel ChannelName="PROJECTEUR ROBOTISES/LYRES/iMove/IMOVE2/Shutter" />
+            </Channels>
+            <Steps>
+              <Step Comment="" Val1="129" Val2="124" Val3="127" Val4="45" Val5="0" Val6="0" Val7="0" Val8="0" Val9="0" Val10="0" Val11="0" Val12="0" Val13="0" Val14="0" Val15="0" Val16="0" Val17="0" Val18="0" Val19="0" Val20="0" Val21="0" Val22="0" />
+              <Step Comment="" Val1="129" Val2="124" Val3="127" Val4="45" Val5="10" Val6="10" Val7="10" Val8="0" Val9="10" Val10="0" Val11="0" Val12="50" Val13="0" Val14="50" Val15="0" Val16="50" Val17="0" Val18="50" Val19="0" Val20="10" Val21="0" Val22="10" />
+            </Steps>
+          </Scene>
+          <Scene Name="Strob full 2" Category="Flash1" StepTime="0" WaitingTime="50" btn_x="0" btn_y="0" Loop="True" AutoStart="False" MusicBeat="False">
+            <Channels>
+              <Channel ChannelName="PROJECTEUR ROBOTISES/SCANNER/Pan" />
+              <Channel ChannelName="PROJECTEUR ROBOTISES/SCANNER/Tilt" />
+              <Channel ChannelName="PROJECTEUR ROBOTISES/LYRES/Pan" />
+              <Channel ChannelName="PROJECTEUR ROBOTISES/LYRES/Tilt" />
+              <Channel ChannelName="PROJECTEUR ROBOTISES/SCANNER/DJSCAN/DJSCAN1/Gobo" />
+              <Channel ChannelName="PROJECTEUR ROBOTISES/SCANNER/DJSCAN/DJSCAN2/Gobo" />
+              <Channel ChannelName="PROJECTEUR ROBOTISES/SCANNER/TheWinner/THEWINNER1/Gobo" />
+              <Channel ChannelName="PROJECTEUR ROBOTISES/SCANNER/TheWinner/THEWINNER1/Color" />
+              <Channel ChannelName="PROJECTEUR ROBOTISES/SCANNER/TheWinner/THEWINNER2/Gobo" />
+              <Channel ChannelName="PROJECTEUR ROBOTISES/SCANNER/TheWinner/THEWINNER2/Color" />
+              <Channel ChannelName="PROJECTEUR ROBOTISES/SCANNER/AS 250/AS 250 1/Color" />
+              <Channel ChannelName="PROJECTEUR ROBOTISES/SCANNER/AS 250/AS 250 1/Shutter" />
+              <Channel ChannelName="PROJECTEUR ROBOTISES/SCANNER/AS 250/AS 250 2/Color" />
+              <Channel ChannelName="PROJECTEUR ROBOTISES/SCANNER/AS 250/AS 250 2/Shutter" />
+              <Channel ChannelName="PROJECTEUR ROBOTISES/SCANNER/AS 250/AS 250 3/Color" />
+              <Channel ChannelName="PROJECTEUR ROBOTISES/SCANNER/AS 250/AS 250 3/Shutter" />
+              <Channel ChannelName="PROJECTEUR ROBOTISES/SCANNER/AS 250/AS 250 4/Color" />
+              <Channel ChannelName="PROJECTEUR ROBOTISES/SCANNER/AS 250/AS 250 4/Shutter" />
+              <Channel ChannelName="PROJECTEUR ROBOTISES/LYRES/iMove/IMOVE1/Color" />
+              <Channel ChannelName="PROJECTEUR ROBOTISES/LYRES/iMove/IMOVE1/Shutter" />
+              <Channel ChannelName="PROJECTEUR ROBOTISES/LYRES/iMove/IMOVE2/Color" />
+              <Channel ChannelName="PROJECTEUR ROBOTISES/LYRES/iMove/IMOVE2/Shutter" />
+            </Channels>
+            <Steps>
+              <Step Comment="" Val1="129" Val2="124" Val3="127" Val4="45" Val5="10" Val6="0" Val7="0" Val8="0" Val9="0" Val10="0" Val11="0" Val12="0" Val13="0" Val14="0" Val15="0" Val16="0" Val17="0" Val18="0" Val19="0" Val20="0" Val21="0" Val22="0" />
+              <Step Comment="" Val1="129" Val2="124" Val3="127" Val4="45" Val5="0" Val6="0" Val7="0" Val8="0" Val9="0" Val10="0" Val11="0" Val12="50" Val13="0" Val14="0" Val15="0" Val16="0" Val17="0" Val18="0" Val19="0" Val20="0" Val21="0" Val22="10" />
+              <Step Comment="" Val1="129" Val2="124" Val3="127" Val4="45" Val5="0" Val6="0" Val7="0" Val8="0" Val9="10" Val10="0" Val11="0" Val12="0" Val13="0" Val14="50" Val15="0" Val16="0" Val17="0" Val18="0" Val19="0" Val20="0" Val21="0" Val22="0" />
+              <Step Comment="" Val1="129" Val2="124" Val3="127" Val4="45" Val5="0" Val6="0" Val7="0" Val8="0" Val9="0" Val10="0" Val11="0" Val12="0" Val13="0" Val14="0" Val15="0" Val16="0" Val17="0" Val18="0" Val19="0" Val20="10" Val21="0" Val22="0" />
+              <Step Comment="" Val1="129" Val2="124" Val3="127" Val4="45" Val5="0" Val6="10" Val7="0" Val8="0" Val9="0" Val10="0" Val11="0" Val12="0" Val13="0" Val14="0" Val15="0" Val16="50" Val17="0" Val18="50" Val19="0" Val20="0" Val21="0" Val22="0" />
+              <Step Comment="" Val1="129" Val2="124" Val3="127" Val4="45" Val5="10" Val6="0" Val7="10" Val8="0" Val9="0" Val10="0" Val11="0" Val12="0" Val13="0" Val14="0" Val15="0" Val16="0" Val17="0" Val18="0" Val19="0" Val20="0" Val21="0" Val22="0" />
+              <Step Comment="" Val1="129" Val2="124" Val3="127" Val4="45" Val5="0" Val6="0" Val7="0" Val8="0" Val9="0" Val10="0" Val11="0" Val12="50" Val13="0" Val14="0" Val15="0" Val16="0" Val17="0" Val18="0" Val19="0" Val20="0" Val21="0" Val22="10" />
+              <Step Comment="" Val1="129" Val2="124" Val3="127" Val4="45" Val5="0" Val6="0" Val7="0" Val8="0" Val9="10" Val10="0" Val11="0" Val12="0" Val13="0" Val14="50" Val15="0" Val16="0" Val17="0" Val18="0" Val19="0" Val20="0" Val21="0" Val22="0" />
+              <Step Comment="" Val1="129" Val2="124" Val3="127" Val4="45" Val5="0" Val6="10" Val7="0" Val8="0" Val9="0" Val10="0" Val11="0" Val12="0" Val13="0" Val14="0" Val15="0" Val16="0" Val17="0" Val18="0" Val19="0" Val20="10" Val21="0" Val22="0" />
+              <Step Comment="" Val1="129" Val2="124" Val3="127" Val4="45" Val5="0" Val6="0" Val7="10" Val8="0" Val9="0" Val10="0" Val11="0" Val12="0" Val13="0" Val14="0" Val15="0" Val16="50" Val17="0" Val18="50" Val19="0" Val20="0" Val21="0" Val22="0" />
+            </Steps>
+          </Scene>
+          <Scene Name="Scene 1" Category="2ponts" StepTime="700" WaitingTime="0" btn_x="0" btn_y="0" Loop="True" AutoStart="False" MusicBeat="False">
+            <Channels>
+              <Channel ChannelName="PROJECTEUR ROBOTISES/SCANNER/DJSCAN/DJSCAN1/Pan" />
+              <Channel ChannelName="PROJECTEUR ROBOTISES/SCANNER/DJSCAN/DJSCAN1/Tilt" />
+              <Channel ChannelName="PROJECTEUR ROBOTISES/SCANNER/DJSCAN/DJSCAN2/Pan" />
+              <Channel ChannelName="PROJECTEUR ROBOTISES/SCANNER/DJSCAN/DJSCAN2/Tilt" />
+              <Channel ChannelName="PROJECTEUR ROBOTISES/SCANNER/TheWinner/THEWINNER1/Pan" />
+              <Channel ChannelName="PROJECTEUR ROBOTISES/SCANNER/TheWinner/THEWINNER1/Tilt" />
+              <Channel ChannelName="PROJECTEUR ROBOTISES/SCANNER/TheWinner/THEWINNER2/Pan" />
+              <Channel ChannelName="PROJECTEUR ROBOTISES/SCANNER/TheWinner/THEWINNER2/Tilt" />
+              <Channel ChannelName="PROJECTEUR ROBOTISES/SCANNER/AS 250/AS 250 1/Pan" />
+              <Channel ChannelName="PROJECTEUR ROBOTISES/SCANNER/AS 250/AS 250 1/Tilt" />
+              <Channel ChannelName="PROJECTEUR ROBOTISES/SCANNER/AS 250/AS 250 2/Pan" />
+              <Channel ChannelName="PROJECTEUR ROBOTISES/SCANNER/AS 250/AS 250 2/Tilt" />
+              <Channel ChannelName="PROJECTEUR ROBOTISES/SCANNER/AS 250/AS 250 3/Pan" />
+              <Channel ChannelName="PROJECTEUR ROBOTISES/SCANNER/AS 250/AS 250 3/Tilt" />
+              <Channel ChannelName="PROJECTEUR ROBOTISES/SCANNER/AS 250/AS 250 4/Pan" />
+              <Channel ChannelName="PROJECTEUR ROBOTISES/SCANNER/AS 250/AS 250 4/Tilt" />
+              <Channel ChannelName="PROJECTEUR ROBOTISES/LYRES/iMove/IMOVE1/Pan" />
+              <Channel ChannelName="PROJECTEUR ROBOTISES/LYRES/iMove/IMOVE1/Tilt" />
+              <Channel ChannelName="PROJECTEUR ROBOTISES/LYRES/iMove/IMOVE2/Pan" />
+              <Channel ChannelName="PROJECTEUR ROBOTISES/LYRES/iMove/IMOVE2/Tilt" />
+              <Channel ChannelName="PROJECTEUR ROBOTISES/SCANNER/DJSCAN/Gobo" />
+              <Channel ChannelName="PROJECTEUR ROBOTISES/SCANNER/DJSCAN/Shutter" />
+              <Channel ChannelName="PROJECTEUR ROBOTISES/SCANNER/TheWinner/Gobo" />
+              <Channel ChannelName="PROJECTEUR ROBOTISES/SCANNER/TheWinner/Color" />
+              <Channel ChannelName="PROJECTEUR ROBOTISES/SCANNER/TheWinner/Shutter" />
+              <Channel ChannelName="PROJECTEUR ROBOTISES/SCANNER/AS 250/Gobo" />
+              <Channel ChannelName="PROJECTEUR ROBOTISES/SCANNER/AS 250/Color" />
+              <Channel ChannelName="PROJECTEUR ROBOTISES/SCANNER/AS 250/Shutter" />
+              <Channel ChannelName="PROJECTEUR ROBOTISES/LYRES/Gobo" />
+              <Channel ChannelName="PROJECTEUR ROBOTISES/LYRES/Color" />
+              <Channel ChannelName="PROJECTEUR ROBOTISES/LYRES/Shutter" />
+            </Channels>
+            <Steps>
+              <Step Comment="" Val1="100" Val2="110" Val3="100" Val4="110" Val5="100" Val6="96" Val7="100" Val8="96" Val9="100" Val10="96" Val11="100" Val12="96" Val13="100" Val14="96" Val15="100" Val16="96" Val17="110" Val18="43" Val19="155" Val20="43" Val21="110" Val22="0" Val23="104" Val24="88" Val25="0" Val26="0" Val27="90" Val28="45" Val29="35" Val30="8" Val31="8" />
+              <Step Comment="" Val1="100" Val2="110" Val3="100" Val4="170" Val5="100" Val6="96" Val7="100" Val8="150" Val9="100" Val10="96" Val11="100" Val12="150" Val13="100" Val14="96" Val15="100" Val16="150" Val17="110" Val18="80" Val19="155" Val20="43" Val21="110" Val22="0" Val23="104" Val24="88" Val25="0" Val26="0" Val27="90" Val28="45" Val29="35" Val30="8" Val31="8" />
+              <Step Comment="" Val1="150" Val2="110" Val3="150" Val4="170" Val5="150" Val6="96" Val7="150" Val8="150" Val9="150" Val10="96" Val11="150" Val12="150" Val13="150" Val14="96" Val15="150" Val16="150" Val17="155" Val18="80" Val19="110" Val20="43" Val21="110" Val22="0" Val23="104" Val24="88" Val25="0" Val26="0" Val27="90" Val28="45" Val29="35" Val30="8" Val31="8" />
+              <Step Comment="" Val1="150" Val2="170" Val3="150" Val4="170" Val5="150" Val6="150" Val7="150" Val8="150" Val9="150" Val10="150" Val11="150" Val12="150" Val13="150" Val14="150" Val15="150" Val16="150" Val17="155" Val18="80" Val19="110" Val20="80" Val21="110" Val22="0" Val23="104" Val24="88" Val25="0" Val26="0" Val27="90" Val28="45" Val29="35" Val30="8" Val31="8" />
+              <Step Comment="" Val1="100" Val2="170" Val3="100" Val4="170" Val5="100" Val6="150" Val7="100" Val8="150" Val9="100" Val10="150" Val11="100" Val12="150" Val13="100" Val14="150" Val15="100" Val16="150" Val17="110" Val18="80" Val19="155" Val20="80" Val21="110" Val22="0" Val23="104" Val24="88" Val25="0" Val26="0" Val27="90" Val28="45" Val29="35" Val30="8" Val31="8" />
+              <Step Comment="" Val1="100" Val2="170" Val3="100" Val4="110" Val5="100" Val6="150" Val7="100" Val8="96" Val9="100" Val10="150" Val11="100" Val12="96" Val13="100" Val14="150" Val15="100" Val16="96" Val17="110" Val18="43" Val19="155" Val20="80" Val21="110" Val22="0" Val23="104" Val24="88" Val25="0" Val26="0" Val27="90" Val28="45" Val29="35" Val30="8" Val31="8" />
+              <Step Comment="" Val1="150" Val2="170" Val3="150" Val4="110" Val5="150" Val6="150" Val7="150" Val8="96" Val9="150" Val10="150" Val11="150" Val12="96" Val13="150" Val14="150" Val15="150" Val16="96" Val17="155" Val18="43" Val19="110" Val20="80" Val21="110" Val22="0" Val23="104" Val24="88" Val25="0" Val26="0" Val27="90" Val28="45" Val29="35" Val30="8" Val31="8" />
+              <Step Comment="" Val1="150" Val2="110" Val3="150" Val4="110" Val5="150" Val6="96" Val7="150" Val8="96" Val9="150" Val10="96" Val11="150" Val12="96" Val13="150" Val14="96" Val15="150" Val16="96" Val17="155" Val18="43" Val19="110" Val20="43" Val21="110" Val22="0" Val23="104" Val24="88" Val25="0" Val26="0" Val27="90" Val28="45" Val29="35" Val30="8" Val31="8" />
+            </Steps>
+          </Scene>
+        </Scenes>
+      </Fixture>
+      <Fixture Name="LASER">
+        <SubFixture>
+          <Fixture Name="GORDON30_1">
+            <Poursuit Active="False" pt_A_X="40" pt_A_Y="40" pt_B_X="200" pt_B_Y="40" pt_C_X="200" pt_C_Y="200" pt_D_X="40" pt_D_Y="200" />
+            <Scenes RowCount="0" ColumnCount="0" />
+          </Fixture>
+          <Fixture Name="LASER MAC 4">
+            <Poursuit Active="False" pt_A_X="40" pt_A_Y="40" pt_B_X="200" pt_B_Y="40" pt_C_X="200" pt_C_Y="200" pt_D_X="40" pt_D_Y="200" />
+            <Scenes RowCount="0" ColumnCount="0" />
+          </Fixture>
+        </SubFixture>
+        <Scenes RowCount="3" ColumnCount="1">
+          <Scene Name="Off" Category="Plafond" StepTime="1000" WaitingTime="0" btn_x="0" btn_y="0" Loop="True" AutoStart="False" MusicBeat="False">
+            <Channels>
+              <Channel ChannelName="LASER/Mode" />
+            </Channels>
+            <Steps>
+              <Step Comment="" Val1="0" />
+            </Steps>
+          </Scene>
+          <Scene Name="Fixe" Category="Plafond" StepTime="1000" WaitingTime="0" btn_x="0" btn_y="1" Loop="True" AutoStart="False" MusicBeat="False">
+            <Channels>
+              <Channel ChannelName="LASER/Mode" />
+            </Channels>
+            <Steps>
+              <Step Comment="" Val1="100" />
+            </Steps>
+          </Scene>
+          <Scene Name="Rapide" Category="Plafond" StepTime="1000" WaitingTime="0" btn_x="0" btn_y="2" Loop="True" AutoStart="False" MusicBeat="False">
+            <Channels>
+              <Channel ChannelName="LASER/Mode" />
+            </Channels>
+            <Steps>
+              <Step Comment="" Val1="201" />
+            </Steps>
+          </Scene>
+        </Scenes>
+      </Fixture>
+      <Fixture Name="STROBOSCOPE">
+        <SubFixture>
+          <Fixture Name="STROB1">
+            <Poursuit Active="False" pt_A_X="40" pt_A_Y="40" pt_B_X="200" pt_B_Y="40" pt_C_X="200" pt_C_Y="200" pt_D_X="40" pt_D_Y="200" />
+            <Scenes RowCount="1" ColumnCount="1">
+              <Scene Name="Off" Category="Strob" StepTime="1000" WaitingTime="0" btn_x="0" btn_y="0" Loop="True" AutoStart="True" MusicBeat="False">
+                <Channels>
+                  <Channel ChannelName="STROB1/Rate" />
+                  <Channel ChannelName="STROB1/Intensity" />
+                </Channels>
+                <Steps>
+                  <Step Comment="" Val1="0" Val2="0" />
+                </Steps>
+              </Scene>
+              <Scene Name="New Scene" Category="New Category" StepTime="50" WaitingTime="100" btn_x="0" btn_y="0" Loop="True" AutoStart="False" MusicBeat="False">
+                <Channels>
+                  <Channel ChannelName="STROB1/Rate" />
+                  <Channel ChannelName="STROB1/Intensity" />
+                </Channels>
+                <Steps />
+              </Scene>
+            </Scenes>
+          </Fixture>
+        </SubFixture>
+        <Scenes RowCount="2" ColumnCount="2">
+          <Scene Name="Off" Category="Strob" StepTime="1000" WaitingTime="0" btn_x="0" btn_y="0" Loop="True" AutoStart="False" MusicBeat="False">
+            <Channels>
+              <Channel ChannelName="STROBOSCOPE/Rate" />
+              <Channel ChannelName="STROBOSCOPE/Intensity" />
+            </Channels>
+            <Steps>
+              <Step Comment="" Val1="0" Val2="0" />
+            </Steps>
+          </Scene>
+          <Scene Name="Lent" Category="Strob" StepTime="1000" WaitingTime="0" btn_x="1" btn_y="0" Loop="True" AutoStart="False" MusicBeat="False">
+            <Channels>
+              <Channel ChannelName="STROBOSCOPE/Rate" />
+              <Channel ChannelName="STROBOSCOPE/Intensity" />
+            </Channels>
+            <Steps>
+              <Step Comment="" Val1="200" Val2="50" />
+            </Steps>
+          </Scene>
+          <Scene Name="Moyen" Category="Strob" StepTime="1000" WaitingTime="0" btn_x="1" btn_y="0" Loop="True" AutoStart="False" MusicBeat="False">
+            <Channels>
+              <Channel ChannelName="STROBOSCOPE/Rate" />
+              <Channel ChannelName="STROBOSCOPE/Intensity" />
+            </Channels>
+            <Steps>
+              <Step Comment="" Val1="230" Val2="150" />
+            </Steps>
+          </Scene>
+          <Scene Name="Rapide" Category="Strob" StepTime="1000" WaitingTime="0" btn_x="1" btn_y="1" Loop="True" AutoStart="False" MusicBeat="False">
+            <Channels>
+              <Channel ChannelName="STROBOSCOPE/Rate" />
+              <Channel ChannelName="STROBOSCOPE/Intensity" />
+            </Channels>
+            <Steps>
+              <Step Comment="" Val1="255" Val2="250" />
+            </Steps>
+          </Scene>
+        </Scenes>
+      </Fixture>
+      <Fixture Name="Projecteurs LED">
+        <SubFixture>
+          <Fixture Name="LED_1">
+            <Poursuit Active="False" pt_A_X="40" pt_A_Y="40" pt_B_X="200" pt_B_Y="40" pt_C_X="200" pt_C_Y="200" pt_D_X="40" pt_D_Y="200" />
+            <Scenes RowCount="1" ColumnCount="1">
+              <Scene Name="AutoOff" Category="AUTO" StepTime="50" WaitingTime="100" btn_x="0" btn_y="0" Loop="True" AutoStart="True" MusicBeat="False">
+                <Channels>
+                  <Channel ChannelName="LED_1/Auto" />
+                  <Channel ChannelName="LED_1/R" />
+                  <Channel ChannelName="LED_1/G" />
+                  <Channel ChannelName="LED_1/B" />
+                  <Channel ChannelName="LED_1/Music" />
+                </Channels>
+                <Steps>
+                  <Step Comment="" Val1="0" Val2="0" Val3="0" Val4="0" Val5="0" />
+                </Steps>
+              </Scene>
+            </Scenes>
+          </Fixture>
+          <Fixture Name="LED_2">
+            <Poursuit Active="False" pt_A_X="40" pt_A_Y="40" pt_B_X="200" pt_B_Y="40" pt_C_X="200" pt_C_Y="200" pt_D_X="40" pt_D_Y="200" />
+            <Scenes RowCount="1" ColumnCount="1">
+              <Scene Name="AutoOff" Category="AUTO" StepTime="50" WaitingTime="100" btn_x="0" btn_y="0" Loop="True" AutoStart="True" MusicBeat="False">
+                <Channels>
+                  <Channel ChannelName="LED_2/Auto" />
+                  <Channel ChannelName="LED_2/R" />
+                  <Channel ChannelName="LED_2/G" />
+                  <Channel ChannelName="LED_2/B" />
+                  <Channel ChannelName="LED_2/Music" />
+                </Channels>
+                <Steps>
+                  <Step Comment="" Val1="0" Val2="0" Val3="0" Val4="0" Val5="0" />
+                </Steps>
+              </Scene>
+            </Scenes>
+          </Fixture>
+          <Fixture Name="LED_3">
+            <Poursuit Active="False" pt_A_X="40" pt_A_Y="40" pt_B_X="200" pt_B_Y="40" pt_C_X="200" pt_C_Y="200" pt_D_X="40" pt_D_Y="200" />
+            <Scenes RowCount="1" ColumnCount="1">
+              <Scene Name="AutoOff" Category="AUTO" StepTime="50" WaitingTime="100" btn_x="0" btn_y="0" Loop="True" AutoStart="True" MusicBeat="False">
+                <Channels>
+                  <Channel ChannelName="LED_3/Auto" />
+                  <Channel ChannelName="LED_3/R" />
+                  <Channel ChannelName="LED_3/G" />
+                  <Channel ChannelName="LED_3/B" />
+                  <Channel ChannelName="LED_3/Music" />
+                </Channels>
+                <Steps>
+                  <Step Comment="" Val1="0" Val2="0" Val3="0" Val4="0" Val5="0" />
+                </Steps>
+              </Scene>
+            </Scenes>
+          </Fixture>
+          <Fixture Name="LED_4">
+            <Poursuit Active="False" pt_A_X="40" pt_A_Y="40" pt_B_X="200" pt_B_Y="40" pt_C_X="200" pt_C_Y="200" pt_D_X="40" pt_D_Y="200" />
+            <Scenes RowCount="1" ColumnCount="1">
+              <Scene Name="AutoOff" Category="AUTO" StepTime="50" WaitingTime="100" btn_x="0" btn_y="0" Loop="True" AutoStart="True" MusicBeat="False">
+                <Channels>
+                  <Channel ChannelName="LED_4/Auto" />
+                  <Channel ChannelName="LED_4/R" />
+                  <Channel ChannelName="LED_4/G" />
+                  <Channel ChannelName="LED_4/B" />
+                  <Channel ChannelName="LED_4/Music" />
+                </Channels>
+                <Steps>
+                  <Step Comment="" Val1="0" Val2="0" Val3="0" Val4="0" Val5="0" />
+                </Steps>
+              </Scene>
+            </Scenes>
+          </Fixture>
+          <Fixture Name="LED_5">
+            <Poursuit Active="False" pt_A_X="40" pt_A_Y="40" pt_B_X="200" pt_B_Y="40" pt_C_X="200" pt_C_Y="200" pt_D_X="40" pt_D_Y="200" />
+            <Scenes RowCount="1" ColumnCount="1">
+              <Scene Name="AutoOff" Category="AUTO" StepTime="50" WaitingTime="100" btn_x="0" btn_y="0" Loop="True" AutoStart="True" MusicBeat="False">
+                <Channels>
+                  <Channel ChannelName="LED_5/Auto" />
+                  <Channel ChannelName="LED_5/R" />
+                  <Channel ChannelName="LED_5/G" />
+                  <Channel ChannelName="LED_5/B" />
+                  <Channel ChannelName="LED_5/Music" />
+                </Channels>
+                <Steps>
+                  <Step Comment="" Val1="0" Val2="0" Val3="0" Val4="0" Val5="0" />
+                </Steps>
+              </Scene>
+            </Scenes>
+          </Fixture>
+          <Fixture Name="LED_6">
+            <Poursuit Active="False" pt_A_X="40" pt_A_Y="40" pt_B_X="200" pt_B_Y="40" pt_C_X="200" pt_C_Y="200" pt_D_X="40" pt_D_Y="200" />
+            <Scenes RowCount="1" ColumnCount="1">
+              <Scene Name="AutoOff" Category="AUTO" StepTime="50" WaitingTime="100" btn_x="0" btn_y="0" Loop="True" AutoStart="True" MusicBeat="False">
+                <Channels>
+                  <Channel ChannelName="LED_6/Auto" />
+                  <Channel ChannelName="LED_6/R" />
+                  <Channel ChannelName="LED_6/G" />
+                  <Channel ChannelName="LED_6/B" />
+                  <Channel ChannelName="LED_6/Music" />
+                </Channels>
+                <Steps>
+                  <Step Comment="" Val1="0" Val2="0" Val3="0" Val4="0" Val5="0" />
+                </Steps>
+              </Scene>
+            </Scenes>
+          </Fixture>
+          <Fixture Name="LED_7">
+            <Poursuit Active="False" pt_A_X="40" pt_A_Y="40" pt_B_X="200" pt_B_Y="40" pt_C_X="200" pt_C_Y="200" pt_D_X="40" pt_D_Y="200" />
+            <Scenes RowCount="1" ColumnCount="1">
+              <Scene Name="AutoOff" Category="AUTO" StepTime="50" WaitingTime="100" btn_x="0" btn_y="0" Loop="True" AutoStart="True" MusicBeat="False">
+                <Channels>
+                  <Channel ChannelName="LED_7/Auto" />
+                  <Channel ChannelName="LED_7/R" />
+                  <Channel ChannelName="LED_7/G" />
+                  <Channel ChannelName="LED_7/B" />
+                  <Channel ChannelName="LED_7/Music" />
+                </Channels>
+                <Steps>
+                  <Step Comment="" Val1="0" Val2="0" Val3="0" Val4="0" Val5="0" />
+                </Steps>
+              </Scene>
+            </Scenes>
+          </Fixture>
+          <Fixture Name="LED_8">
+            <Poursuit Active="False" pt_A_X="40" pt_A_Y="40" pt_B_X="200" pt_B_Y="40" pt_C_X="200" pt_C_Y="200" pt_D_X="40" pt_D_Y="200" />
+            <Scenes RowCount="1" ColumnCount="1">
+              <Scene Name="AutoOff" Category="AUTO" StepTime="50" WaitingTime="100" btn_x="0" btn_y="0" Loop="True" AutoStart="True" MusicBeat="False">
+                <Channels>
+                  <Channel ChannelName="LED_8/Auto" />
+                  <Channel ChannelName="LED_8/R" />
+                  <Channel ChannelName="LED_8/G" />
+                  <Channel ChannelName="LED_8/B" />
+                  <Channel ChannelName="LED_8/Music" />
+                </Channels>
+                <Steps>
+                  <Step Comment="" Val1="0" Val2="0" Val3="0" Val4="0" Val5="0" />
+                </Steps>
+              </Scene>
+            </Scenes>
+          </Fixture>
+        </SubFixture>
+        <Scenes RowCount="1" ColumnCount="2">
+          <Scene Name="Lent Rouge" Category="Flash" StepTime="500" WaitingTime="0" btn_x="1" btn_y="0" Loop="False" AutoStart="False" MusicBeat="False">
+            <Channels>
+              <Channel ChannelName="Projecteurs LED/R" />
+              <Channel ChannelName="Projecteurs LED/G" />
+              <Channel ChannelName="Projecteurs LED/B" />
+            </Channels>
+            <Steps>
+              <Step Comment="" Val1="255" Val2="0" Val3="0" />
+              <Step Comment="" Val1="255" Val2="0" Val3="0" />
+              <Step Comment="" Val1="255" Val2="0" Val3="0" />
+              <Step Comment="" Val1="128" Val2="0" Val3="0" />
+              <Step Comment="" Val1="0" Val2="0" Val3="0" />
+            </Steps>
+          </Scene>
+          <Scene Name="Lent Vert" Category="Flash" StepTime="500" WaitingTime="0" btn_x="0" btn_y="0" Loop="False" AutoStart="False" MusicBeat="False">
+            <Channels>
+              <Channel ChannelName="Projecteurs LED/R" />
+              <Channel ChannelName="Projecteurs LED/G" />
+              <Channel ChannelName="Projecteurs LED/B" />
+            </Channels>
+            <Steps>
+              <Step Comment="" Val1="0" Val2="255" Val3="0" />
+              <Step Comment="" Val1="0" Val2="255" Val3="0" />
+              <Step Comment="" Val1="0" Val2="255" Val3="0" />
+              <Step Comment="" Val1="0" Val2="128" Val3="0" />
+              <Step Comment="" Val1="0" Val2="0" Val3="0" />
+            </Steps>
+          </Scene>
+          <Scene Name="Progressif bleu" Category="Flash" StepTime="500" WaitingTime="0" btn_x="0" btn_y="0" Loop="False" AutoStart="False" MusicBeat="False">
+            <Channels>
+              <Channel ChannelName="Projecteurs LED/R" />
+              <Channel ChannelName="Projecteurs LED/G" />
+              <Channel ChannelName="Projecteurs LED/B" />
+            </Channels>
+            <Steps>
+              <Step Comment="" Val1="0" Val2="0" Val3="0" />
+              <Step Comment="" Val1="0" Val2="0" Val3="100" />
+              <Step Comment="" Val1="0" Val2="0" Val3="255" />
+              <Step Comment="" Val1="0" Val2="0" Val3="255" />
+              <Step Comment="" Val1="0" Val2="0" Val3="255" />
+              <Step Comment="" Val1="0" Val2="0" Val3="255" />
+              <Step Comment="" Val1="0" Val2="0" Val3="255" />
+            </Steps>
+          </Scene>
+          <Scene Name="Lent bleu" Category="Flash" StepTime="500" WaitingTime="0" btn_x="0" btn_y="0" Loop="False" AutoStart="False" MusicBeat="False">
+            <Channels>
+              <Channel ChannelName="Projecteurs LED/B" />
+              <Channel ChannelName="Projecteurs LED/G" />
+              <Channel ChannelName="Projecteurs LED/R" />
+            </Channels>
+            <Steps>
+              <Step Comment="" Val1="255" Val2="0" Val3="0" />
+              <Step Comment="" Val1="255" Val2="0" Val3="0" />
+              <Step Comment="" Val1="255" Val2="0" Val3="0" />
+              <Step Comment="" Val1="128" Val2="0" Val3="0" />
+              <Step Comment="" Val1="0" Val2="0" Val3="0" />
+            </Steps>
+          </Scene>
+          <Scene Name="WHITE" Category="WHITE" StepTime="50" WaitingTime="100" btn_x="0" btn_y="0" Loop="True" AutoStart="False" MusicBeat="False">
+            <Channels>
+              <Channel ChannelName="Projecteurs LED/Auto" />
+              <Channel ChannelName="Projecteurs LED/R" />
+              <Channel ChannelName="Projecteurs LED/G" />
+              <Channel ChannelName="Projecteurs LED/B" />
+              <Channel ChannelName="Projecteurs LED/Music" />
+            </Channels>
+            <Steps>
+              <Step Comment="" Val1="0" Val2="255" Val3="255" Val4="255" Val5="0" />
+            </Steps>
+          </Scene>
+          <Scene Name="FlashBleu" Category="Flash" StepTime="50" WaitingTime="100" btn_x="0" btn_y="0" Loop="True" AutoStart="False" MusicBeat="False">
+            <Channels>
+              <Channel ChannelName="Projecteurs LED/Auto" />
+              <Channel ChannelName="Projecteurs LED/R" />
+              <Channel ChannelName="Projecteurs LED/G" />
+              <Channel ChannelName="Projecteurs LED/B" />
+              <Channel ChannelName="Projecteurs LED/Music" />
+            </Channels>
+            <Steps>
+              <Step Comment="" Val1="0" Val2="0" Val3="0" Val4="255" Val5="0" />
+            </Steps>
+          </Scene>
+          <Scene Name="FlashRouge" Category="Flash" StepTime="50" WaitingTime="100" btn_x="0" btn_y="0" Loop="True" AutoStart="False" MusicBeat="False">
+            <Channels>
+              <Channel ChannelName="Projecteurs LED/Auto" />
+              <Channel ChannelName="Projecteurs LED/R" />
+              <Channel ChannelName="Projecteurs LED/G" />
+              <Channel ChannelName="Projecteurs LED/B" />
+              <Channel ChannelName="Projecteurs LED/Music" />
+            </Channels>
+            <Steps>
+              <Step Comment="" Val1="0" Val2="255" Val3="0" Val4="0" Val5="0" />
+            </Steps>
+          </Scene>
+          <Scene Name="FlashVert" Category="Flash" StepTime="50" WaitingTime="100" btn_x="0" btn_y="0" Loop="True" AutoStart="False" MusicBeat="False">
+            <Channels>
+              <Channel ChannelName="Projecteurs LED/Auto" />
+              <Channel ChannelName="Projecteurs LED/R" />
+              <Channel ChannelName="Projecteurs LED/G" />
+              <Channel ChannelName="Projecteurs LED/B" />
+              <Channel ChannelName="Projecteurs LED/Music" />
+            </Channels>
+            <Steps>
+              <Step Comment="" Val1="0" Val2="0" Val3="255" Val4="0" Val5="0" />
+            </Steps>
+          </Scene>
+          <Scene Name="Progressif rouge" Category="Flash" StepTime="500" WaitingTime="0" btn_x="0" btn_y="0" Loop="False" AutoStart="False" MusicBeat="False">
+            <Channels>
+              <Channel ChannelName="Projecteurs LED/R" />
+              <Channel ChannelName="Projecteurs LED/G" />
+              <Channel ChannelName="Projecteurs LED/B" />
+            </Channels>
+            <Steps>
+              <Step Comment="" Val1="0" Val2="0" Val3="0" />
+              <Step Comment="" Val1="100" Val2="0" Val3="0" />
+              <Step Comment="" Val1="255" Val2="0" Val3="0" />
+              <Step Comment="" Val1="255" Val2="0" Val3="0" />
+              <Step Comment="" Val1="255" Val2="0" Val3="0" />
+              <Step Comment="" Val1="255" Val2="0" Val3="0" />
+              <Step Comment="" Val1="255" Val2="0" Val3="0" />
+            </Steps>
+          </Scene>
+          <Scene Name="Progressif Vert" Category="Flash" StepTime="500" WaitingTime="0" btn_x="0" btn_y="0" Loop="False" AutoStart="False" MusicBeat="False">
+            <Channels>
+              <Channel ChannelName="Projecteurs LED/R" />
+              <Channel ChannelName="Projecteurs LED/G" />
+              <Channel ChannelName="Projecteurs LED/B" />
+            </Channels>
+            <Steps>
+              <Step Comment="" Val1="0" Val2="0" Val3="0" />
+              <Step Comment="" Val1="0" Val2="100" Val3="0" />
+              <Step Comment="" Val1="0" Val2="255" Val3="0" />
+              <Step Comment="" Val1="0" Val2="255" Val3="0" />
+              <Step Comment="" Val1="0" Val2="255" Val3="0" />
+              <Step Comment="" Val1="0" Val2="255" Val3="0" />
+              <Step Comment="" Val1="0" Val2="255" Val3="0" />
+            </Steps>
+          </Scene>
+          <Scene Name="Chenillard" Category="Musical" StepTime="50" WaitingTime="100" btn_x="0" btn_y="0" Loop="True" AutoStart="False" MusicBeat="True">
+            <Channels>
+              <Channel ChannelName="Projecteurs LED/LED_1/R" />
+              <Channel ChannelName="Projecteurs LED/LED_2/G" />
+              <Channel ChannelName="Projecteurs LED/LED_3/B" />
+              <Channel ChannelName="Projecteurs LED/LED_4/R" />
+              <Channel ChannelName="Projecteurs LED/LED_5/G" />
+              <Channel ChannelName="Projecteurs LED/LED_6/B" />
+              <Channel ChannelName="Projecteurs LED/LED_7/R" />
+              <Channel ChannelName="Projecteurs LED/LED_8/G" />
+            </Channels>
+            <Steps>
+              <Step Comment="" Val1="255" Val2="0" Val3="0" Val4="0" Val5="0" Val6="0" Val7="0" Val8="0" />
+              <Step Comment="" Val1="0" Val2="255" Val3="0" Val4="0" Val5="0" Val6="0" Val7="0" Val8="0" />
+              <Step Comment="" Val1="0" Val2="0" Val3="255" Val4="0" Val5="0" Val6="0" Val7="0" Val8="0" />
+              <Step Comment="" Val1="0" Val2="0" Val3="0" Val4="255" Val5="0" Val6="0" Val7="0" Val8="0" />
+              <Step Comment="" Val1="0" Val2="0" Val3="0" Val4="0" Val5="255" Val6="0" Val7="0" Val8="0" />
+              <Step Comment="" Val1="0" Val2="0" Val3="0" Val4="0" Val5="0" Val6="255" Val7="0" Val8="0" />
+              <Step Comment="" Val1="0" Val2="0" Val3="0" Val4="0" Val5="0" Val6="0" Val7="255" Val8="0" />
+              <Step Comment="" Val1="0" Val2="0" Val3="0" Val4="0" Val5="0" Val6="0" Val7="0" Val8="255" />
+            </Steps>
+          </Scene>
+        </Scenes>
+      </Fixture>
+      <Fixture Name="SUNLED">
+        <SubFixture>
+          <Fixture Name="SUNLED1">
+            <Poursuit Active="False" pt_A_X="40" pt_A_Y="40" pt_B_X="200" pt_B_Y="40" pt_C_X="200" pt_C_Y="200" pt_D_X="40" pt_D_Y="200" />
+            <Scenes RowCount="0" ColumnCount="0" />
+          </Fixture>
+          <Fixture Name="SUNLED2">
+            <Poursuit Active="False" pt_A_X="40" pt_A_Y="40" pt_B_X="200" pt_B_Y="40" pt_C_X="200" pt_C_Y="200" pt_D_X="40" pt_D_Y="200" />
+            <Scenes RowCount="0" ColumnCount="0" />
+          </Fixture>
+        </SubFixture>
+        <Scenes RowCount="0" ColumnCount="0">
+          <Scene Name="Full automatique" Category="Automatic" StepTime="50" WaitingTime="100" btn_x="0" btn_y="0" Loop="False" AutoStart="False" MusicBeat="False">
+            <Channels>
+              <Channel ChannelName="SUNLED/Mode" />
+              <Channel ChannelName="SUNLED/Clus1" />
+              <Channel ChannelName="SUNLED/Clus2" />
+              <Channel ChannelName="SUNLED/Clus3" />
+              <Channel ChannelName="SUNLED/Clus4" />
+              <Channel ChannelName="SUNLED/Clus5" />
+              <Channel ChannelName="SUNLED/Clus6" />
+              <Channel ChannelName="SUNLED/Clus7" />
+              <Channel ChannelName="SUNLED/Stobe" />
+            </Channels>
+            <Steps>
+              <Step Comment="" Val1="255" Val2="0" Val3="0" Val4="0" Val5="0" Val6="0" Val7="0" Val8="0" Val9="0" />
+            </Steps>
+          </Scene>
+          <Scene Name="Sound 1" Category="Automatic" StepTime="50" WaitingTime="100" btn_x="0" btn_y="0" Loop="True" AutoStart="False" MusicBeat="False">
+            <Channels>
+              <Channel ChannelName="SUNLED/Mode" />
+              <Channel ChannelName="SUNLED/Clus1" />
+              <Channel ChannelName="SUNLED/Clus2" />
+              <Channel ChannelName="SUNLED/Clus3" />
+              <Channel ChannelName="SUNLED/Clus4" />
+              <Channel ChannelName="SUNLED/Clus5" />
+              <Channel ChannelName="SUNLED/Clus6" />
+              <Channel ChannelName="SUNLED/Clus7" />
+              <Channel ChannelName="SUNLED/Stobe" />
+            </Channels>
+            <Steps>
+              <Step Comment="" Val1="249" Val2="33" Val3="33" Val4="33" Val5="33" Val6="33" Val7="33" Val8="33" Val9="0" />
+            </Steps>
+          </Scene>
+          <Scene Name="Sound 2" Category="Automatic" StepTime="50" WaitingTime="100" btn_x="0" btn_y="0" Loop="True" AutoStart="False" MusicBeat="False">
+            <Channels>
+              <Channel ChannelName="SUNLED/Mode" />
+              <Channel ChannelName="SUNLED/Clus1" />
+              <Channel ChannelName="SUNLED/Clus2" />
+              <Channel ChannelName="SUNLED/Clus3" />
+              <Channel ChannelName="SUNLED/Clus4" />
+              <Channel ChannelName="SUNLED/Clus5" />
+              <Channel ChannelName="SUNLED/Clus6" />
+              <Channel ChannelName="SUNLED/Clus7" />
+              <Channel ChannelName="SUNLED/Stobe" />
+            </Channels>
+            <Steps>
+              <Step Comment="" Val1="249" Val2="33" Val3="33" Val4="33" Val5="33" Val6="33" Val7="33" Val8="100" Val9="0" />
+            </Steps>
+          </Scene>
+          <Scene Name="Sound 3" Category="Automatic" StepTime="50" WaitingTime="100" btn_x="0" btn_y="0" Loop="True" AutoStart="False" MusicBeat="False">
+            <Channels>
+              <Channel ChannelName="SUNLED/Mode" />
+              <Channel ChannelName="SUNLED/Clus1" />
+              <Channel ChannelName="SUNLED/Clus2" />
+              <Channel ChannelName="SUNLED/Clus3" />
+              <Channel ChannelName="SUNLED/Clus4" />
+              <Channel ChannelName="SUNLED/Clus5" />
+              <Channel ChannelName="SUNLED/Clus6" />
+              <Channel ChannelName="SUNLED/Clus7" />
+              <Channel ChannelName="SUNLED/Stobe" />
+            </Channels>
+            <Steps>
+              <Step Comment="" Val1="249" Val2="33" Val3="33" Val4="33" Val5="33" Val6="33" Val7="33" Val8="65" Val9="0" />
+            </Steps>
+          </Scene>
+          <Scene Name="Off" Category="Automatic" StepTime="50" WaitingTime="100" btn_x="0" btn_y="0" Loop="True" AutoStart="False" MusicBeat="False">
+            <Channels>
+              <Channel ChannelName="SUNLED/Mode" />
+              <Channel ChannelName="SUNLED/Clus1" />
+              <Channel ChannelName="SUNLED/Clus2" />
+              <Channel ChannelName="SUNLED/Clus3" />
+              <Channel ChannelName="SUNLED/Clus4" />
+              <Channel ChannelName="SUNLED/Clus5" />
+              <Channel ChannelName="SUNLED/Clus6" />
+              <Channel ChannelName="SUNLED/Clus7" />
+              <Channel ChannelName="SUNLED/Stobe" />
+            </Channels>
+            <Steps>
+              <Step Comment="" Val1="0" Val2="0" Val3="0" Val4="0" Val5="0" Val6="0" Val7="0" Val8="0" Val9="0" />
+            </Steps>
+          </Scene>
+          <Scene Name="Rouge Sound" Category="Couleurs" StepTime="50" WaitingTime="100" btn_x="0" btn_y="0" Loop="True" AutoStart="False" MusicBeat="False">
+            <Channels>
+              <Channel ChannelName="SUNLED/Mode" />
+              <Channel ChannelName="SUNLED/Clus1" />
+              <Channel ChannelName="SUNLED/Clus2" />
+              <Channel ChannelName="SUNLED/Clus3" />
+              <Channel ChannelName="SUNLED/Clus4" />
+              <Channel ChannelName="SUNLED/Clus5" />
+              <Channel ChannelName="SUNLED/Clus6" />
+              <Channel ChannelName="SUNLED/Clus7" />
+              <Channel ChannelName="SUNLED/Stobe" />
+            </Channels>
+            <Steps>
+              <Step Comment="" Val1="0" Val2="213" Val3="213" Val4="213" Val5="213" Val6="213" Val7="213" Val8="213" Val9="213" />
+            </Steps>
+          </Scene>
+          <Scene Name="Bleu Sound" Category="Couleurs" StepTime="50" WaitingTime="100" btn_x="0" btn_y="0" Loop="True" AutoStart="False" MusicBeat="False">
+            <Channels>
+              <Channel ChannelName="SUNLED/Mode" />
+              <Channel ChannelName="SUNLED/Clus1" />
+              <Channel ChannelName="SUNLED/Clus2" />
+              <Channel ChannelName="SUNLED/Clus3" />
+              <Channel ChannelName="SUNLED/Clus4" />
+              <Channel ChannelName="SUNLED/Clus5" />
+              <Channel ChannelName="SUNLED/Clus6" />
+              <Channel ChannelName="SUNLED/Clus7" />
+              <Channel ChannelName="SUNLED/Stobe" />
+            </Channels>
+            <Steps>
+              <Step Comment="" Val1="0" Val2="162" Val3="162" Val4="162" Val5="162" Val6="162" Val7="162" Val8="162" Val9="218" />
+            </Steps>
+          </Scene>
+          <Scene Name="Vert Sound" Category="Couleurs" StepTime="50" WaitingTime="100" btn_x="0" btn_y="0" Loop="True" AutoStart="False" MusicBeat="False">
+            <Channels>
+              <Channel ChannelName="SUNLED/Mode" />
+              <Channel ChannelName="SUNLED/Clus1" />
+              <Channel ChannelName="SUNLED/Clus2" />
+              <Channel ChannelName="SUNLED/Clus3" />
+              <Channel ChannelName="SUNLED/Clus4" />
+              <Channel ChannelName="SUNLED/Clus5" />
+              <Channel ChannelName="SUNLED/Clus6" />
+              <Channel ChannelName="SUNLED/Clus7" />
+              <Channel ChannelName="SUNLED/Stobe" />
+            </Channels>
+            <Steps>
+              <Step Comment="" Val1="0" Val2="139" Val3="139" Val4="139" Val5="139" Val6="139" Val7="139" Val8="139" Val9="245" />
+            </Steps>
+          </Scene>
+          <Scene Name="Blanc full" Category="Couleurs" StepTime="50" WaitingTime="100" btn_x="0" btn_y="0" Loop="True" AutoStart="False" MusicBeat="False">
+            <Channels>
+              <Channel ChannelName="SUNLED/Mode" />
+              <Channel ChannelName="SUNLED/Clus1" />
+              <Channel ChannelName="SUNLED/Clus2" />
+              <Channel ChannelName="SUNLED/Clus3" />
+              <Channel ChannelName="SUNLED/Clus4" />
+              <Channel ChannelName="SUNLED/Clus5" />
+              <Channel ChannelName="SUNLED/Clus6" />
+              <Channel ChannelName="SUNLED/Clus7" />
+              <Channel ChannelName="SUNLED/Stobe" />
+            </Channels>
+            <Steps>
+              <Step Comment="" Val1="0" Val2="255" Val3="255" Val4="255" Val5="255" Val6="255" Val7="255" Val8="255" Val9="0" />
+            </Steps>
+          </Scene>
+          <Scene Name="Multi Color Sound" Category="Couleurs" StepTime="2000" WaitingTime="0" btn_x="0" btn_y="0" Loop="True" AutoStart="False" MusicBeat="False">
+            <Channels>
+              <Channel ChannelName="SUNLED/Mode" />
+              <Channel ChannelName="SUNLED/Clus1" />
+              <Channel ChannelName="SUNLED/Clus2" />
+              <Channel ChannelName="SUNLED/Clus3" />
+              <Channel ChannelName="SUNLED/Clus4" />
+              <Channel ChannelName="SUNLED/Clus5" />
+              <Channel ChannelName="SUNLED/Clus6" />
+              <Channel ChannelName="SUNLED/Clus7" />
+              <Channel ChannelName="SUNLED/Stobe" />
+            </Channels>
+            <Steps>
+              <Step Comment="" Val1="0" Val2="255" Val3="255" Val4="255" Val5="255" Val6="255" Val7="255" Val8="255" Val9="240" />
+              <Step Comment="" Val1="0" Val2="132" Val3="132" Val4="132" Val5="132" Val6="132" Val7="132" Val8="132" Val9="240" />
+            </Steps>
+          </Scene>
+          <Scene Name="Blanc sound" Category="Couleurs" StepTime="50" WaitingTime="100" btn_x="0" btn_y="0" Loop="True" AutoStart="False" MusicBeat="False">
+            <Channels>
+              <Channel ChannelName="SUNLED/Mode" />
+              <Channel ChannelName="SUNLED/Clus1" />
+              <Channel ChannelName="SUNLED/Clus2" />
+              <Channel ChannelName="SUNLED/Clus3" />
+              <Channel ChannelName="SUNLED/Clus4" />
+              <Channel ChannelName="SUNLED/Clus5" />
+              <Channel ChannelName="SUNLED/Clus6" />
+              <Channel ChannelName="SUNLED/Clus7" />
+              <Channel ChannelName="SUNLED/Stobe" />
+            </Channels>
+            <Steps>
+              <Step Comment="" Val1="0" Val2="255" Val3="255" Val4="255" Val5="255" Val6="255" Val7="255" Val8="255" Val9="213" />
+            </Steps>
+          </Scene>
+          <Scene Name="Bleu full" Category="Couleurs" StepTime="50" WaitingTime="100" btn_x="0" btn_y="0" Loop="True" AutoStart="False" MusicBeat="False">
+            <Channels>
+              <Channel ChannelName="SUNLED/Mode" />
+              <Channel ChannelName="SUNLED/Clus1" />
+              <Channel ChannelName="SUNLED/Clus2" />
+              <Channel ChannelName="SUNLED/Clus3" />
+              <Channel ChannelName="SUNLED/Clus4" />
+              <Channel ChannelName="SUNLED/Clus5" />
+              <Channel ChannelName="SUNLED/Clus6" />
+              <Channel ChannelName="SUNLED/Clus7" />
+              <Channel ChannelName="SUNLED/Stobe" />
+            </Channels>
+            <Steps>
+              <Step Comment="" Val1="0" Val2="162" Val3="162" Val4="162" Val5="162" Val6="162" Val7="162" Val8="162" Val9="0" />
+            </Steps>
+          </Scene>
+          <Scene Name="Rouge full" Category="Couleurs" StepTime="50" WaitingTime="100" btn_x="0" btn_y="0" Loop="True" AutoStart="False" MusicBeat="False">
+            <Channels>
+              <Channel ChannelName="SUNLED/Mode" />
+              <Channel ChannelName="SUNLED/Clus1" />
+              <Channel ChannelName="SUNLED/Clus2" />
+              <Channel ChannelName="SUNLED/Clus3" />
+              <Channel ChannelName="SUNLED/Clus4" />
+              <Channel ChannelName="SUNLED/Clus5" />
+              <Channel ChannelName="SUNLED/Clus6" />
+              <Channel ChannelName="SUNLED/Clus7" />
+              <Channel ChannelName="SUNLED/Stobe" />
+            </Channels>
+            <Steps>
+              <Step Comment="" Val1="0" Val2="213" Val3="213" Val4="213" Val5="213" Val6="213" Val7="213" Val8="213" Val9="0" />
+            </Steps>
+          </Scene>
+          <Scene Name="Vert full" Category="Couleurs" StepTime="50" WaitingTime="100" btn_x="0" btn_y="0" Loop="True" AutoStart="False" MusicBeat="False">
+            <Channels>
+              <Channel ChannelName="SUNLED/Mode" />
+              <Channel ChannelName="SUNLED/Clus1" />
+              <Channel ChannelName="SUNLED/Clus2" />
+              <Channel ChannelName="SUNLED/Clus3" />
+              <Channel ChannelName="SUNLED/Clus4" />
+              <Channel ChannelName="SUNLED/Clus5" />
+              <Channel ChannelName="SUNLED/Clus6" />
+              <Channel ChannelName="SUNLED/Clus7" />
+              <Channel ChannelName="SUNLED/Stobe" />
+            </Channels>
+            <Steps>
+              <Step Comment="" Val1="0" Val2="139" Val3="139" Val4="139" Val5="139" Val6="139" Val7="139" Val8="139" Val9="0" />
+            </Steps>
+          </Scene>
+          <Scene Name="Multi Color Rapide" Category="Couleurs" StepTime="2000" WaitingTime="0" btn_x="0" btn_y="0" Loop="True" AutoStart="False" MusicBeat="False">
+            <Channels>
+              <Channel ChannelName="SUNLED/Mode" />
+              <Channel ChannelName="SUNLED/Clus1" />
+              <Channel ChannelName="SUNLED/Clus2" />
+              <Channel ChannelName="SUNLED/Clus3" />
+              <Channel ChannelName="SUNLED/Clus4" />
+              <Channel ChannelName="SUNLED/Clus5" />
+              <Channel ChannelName="SUNLED/Clus6" />
+              <Channel ChannelName="SUNLED/Clus7" />
+              <Channel ChannelName="SUNLED/Stobe" />
+            </Channels>
+            <Steps>
+              <Step Comment="" Val1="0" Val2="255" Val3="255" Val4="255" Val5="255" Val6="255" Val7="255" Val8="255" Val9="0" />
+              <Step Comment="" Val1="0" Val2="132" Val3="132" Val4="132" Val5="132" Val6="132" Val7="132" Val8="132" Val9="0" />
+            </Steps>
+          </Scene>
+          <Scene Name="Multi Color Lent" Category="Couleurs" StepTime="10000" WaitingTime="0" btn_x="0" btn_y="0" Loop="True" AutoStart="False" MusicBeat="False">
+            <Channels>
+              <Channel ChannelName="SUNLED/Mode" />
+              <Channel ChannelName="SUNLED/Clus1" />
+              <Channel ChannelName="SUNLED/Clus2" />
+              <Channel ChannelName="SUNLED/Clus3" />
+              <Channel ChannelName="SUNLED/Clus4" />
+              <Channel ChannelName="SUNLED/Clus5" />
+              <Channel ChannelName="SUNLED/Clus6" />
+              <Channel ChannelName="SUNLED/Clus7" />
+              <Channel ChannelName="SUNLED/Stobe" />
+            </Channels>
+            <Steps>
+              <Step Comment="" Val1="0" Val2="255" Val3="255" Val4="255" Val5="255" Val6="255" Val7="255" Val8="255" Val9="0" />
+              <Step Comment="" Val1="0" Val2="132" Val3="132" Val4="132" Val5="132" Val6="132" Val7="132" Val8="132" Val9="0" />
+            </Steps>
+          </Scene>
+        </Scenes>
+      </Fixture>
+      <Fixture Name="DMX BAR">
+        <SubFixture>
+          <Fixture Name="BAR1">
+            <Poursuit Active="False" pt_A_X="40" pt_A_Y="40" pt_B_X="200" pt_B_Y="40" pt_C_X="200" pt_C_Y="200" pt_D_X="40" pt_D_Y="200" />
+            <Scenes RowCount="0" ColumnCount="0" />
+          </Fixture>
+        </SubFixture>
+        <Scenes RowCount="0" ColumnCount="0" />
+      </Fixture>
+    </SubFixture>
+    <Scenes RowCount="2" ColumnCount="2">
+      <Scene Name="BlackOut" Category="Strob" StepTime="51" WaitingTime="300" btn_x="0" btn_y="0" Loop="True" AutoStart="False" MusicBeat="False">
+        <Channels>
+          <Channel ChannelName="DJSEB LIGHT/PROJECTEUR ROBOTISES/Gobo" />
+          <Channel ChannelName="DJSEB LIGHT/STROBOSCOPE/Intensity" />
+          <Channel ChannelName="DJSEB LIGHT/LASER/Mode" />
+        </Channels>
+        <Steps>
+          <Step Comment="" Val1="0" Val2="0" Val3="0" />
+        </Steps>
+      </Scene>
+      <Scene Name="Strob" Category="Strob" StepTime="51" WaitingTime="300" btn_x="1" btn_y="0" Loop="True" AutoStart="False" MusicBeat="False">
+        <Channels>
+          <Channel ChannelName="DJSEB LIGHT/PROJECTEUR ROBOTISES/Gobo" />
+          <Channel ChannelName="DJSEB LIGHT/LASER/GORDON30_1/Mode" />
+          <Channel ChannelName="DJSEB LIGHT/STROBOSCOPE/Rate" />
+          <Channel ChannelName="DJSEB LIGHT/STROBOSCOPE/Intensity" />
+        </Channels>
+        <Steps>
+          <Step Comment="" Val1="0" Val2="0" Val3="250" Val4="250" />
+        </Steps>
+      </Scene>
+      <Scene Name="Laser" Category="Strob" StepTime="51" WaitingTime="300" btn_x="1" btn_y="1" Loop="True" AutoStart="False" MusicBeat="False">
+        <Channels>
+          <Channel ChannelName="DJSEB LIGHT/PROJECTEUR ROBOTISES/Gobo" />
+          <Channel ChannelName="DJSEB LIGHT/STROBOSCOPE/Intensity" />
+          <Channel ChannelName="DJSEB LIGHT/LASER/Mode" />
+        </Channels>
+        <Steps>
+          <Step Comment="" Val1="0" Val2="0" Val3="100" />
+        </Steps>
+      </Scene>
+      <Scene Name="White" Category="White" StepTime="51" WaitingTime="300" btn_x="0" btn_y="1" Loop="True" AutoStart="False" MusicBeat="False">
+        <Channels>
+          <Channel ChannelName="DJSEB LIGHT/PROJECTEUR ROBOTISES/Gobo" />
+          <Channel ChannelName="DJSEB LIGHT/LASER/GORDON30_1/Mode" />
+          <Channel ChannelName="DJSEB LIGHT/STROBOSCOPE/Intensity" />
+          <Channel ChannelName="DJSEB LIGHT/PROJECTEUR ROBOTISES/Pan" />
+          <Channel ChannelName="DJSEB LIGHT/PROJECTEUR ROBOTISES/Tilt" />
+        </Channels>
+        <Steps>
+          <Step Comment="" Val1="0" Val2="0" Val3="0" Val4="128" Val5="128" />
+        </Steps>
+      </Scene>
+    </Scenes>
+  </Fixture>
+  <Keyboard>
+    <Key Code="Space" Value="32" Path="Pimp my lights/STROBOSCOPE/Scene/Strob/Moyen" StopOnKeyUp="True" />
+    <Key Code="F1" Value="112" Path="Pimp my lights/Scene/Strob/BlackOut" StopOnKeyUp="False" />
+    <Key Code="F2" Value="113" Path="Pimp my lights/Scene/Strob/Strob" StopOnKeyUp="False" />
+    <Key Code="F3" Value="114" Path="Pimp my lights/Scene/Strob/Laser" StopOnKeyUp="False" />
+    <Key Code="F4" Value="115" Path="Pimp my lights/PROJECTEUR ROBOTISES/Scene/Strob/Strob_R" StopOnKeyUp="False" />
+    <Key Code="F9" Value="120" Path="Pimp my lights/PROJECTEUR ROBOTISES/LYRES/Scene/Off/Off" StopOnKeyUp="False" />
+    <Key Code="F10" Value="121" Path="Pimp my lights/PROJECTEUR ROBOTISES/LYRES/Scene/Cercle/Lent" StopOnKeyUp="False" />
+    <Key Code="F11" Value="122" Path="Pimp my lights/PROJECTEUR ROBOTISES/LYRES/Scene/Balayage/Rapide" StopOnKeyUp="False" />
+    <Key Code="F12" Value="123" Path="Pimp my lights/PROJECTEUR ROBOTISES/LYRES/Scene/Balayage/Normal" StopOnKeyUp="False" />
+    <Key Code="F7" Value="118" Path="Pimp my lights/PROJECTEUR ROBOTISES/SCANNER/Scene/Cercle Rapide/Decale_R" StopOnKeyUp="False" />
+    <Key Code="F8" Value="119" Path="Pimp my lights/PROJECTEUR ROBOTISES/SCANNER/Scene/Rapide/Balayage_H_2" StopOnKeyUp="False" />
+    <Key Code="Return" Value="13" Path="Pimp my lights/Projecteurs LED/Scene/WHITE/WHITE" StopOnKeyUp="True" />
+    <Key Code="V" Value="86" Path="Pimp my lights/STROBOSCOPE/Scene/Strob/Rapide" StopOnKeyUp="True" />
+    <Key Code="F5" Value="116" Path="Pimp my lights/PROJECTEUR ROBOTISES/SCANNER/Scene/Rapide/Off" StopOnKeyUp="False" />
+    <Key Code="NumPad0" Value="96" Path="Pimp my lights/Projecteurs LED/Scene/WHITE/WHITE" StopOnKeyUp="True" />
+    <Key Code="A" Value="65" Path="Pimp my lights/PROJECTEUR ROBOTISES/SCANNER/Scene/Rapide/Triangle_Strob" StopOnKeyUp="False" />
+    <Key Code="Z" Value="90" Path="Pimp my lights/PROJECTEUR ROBOTISES/SCANNER/Scene/Rapide/Triangle" StopOnKeyUp="False" />
+    <Key Code="NumPad1" Value="97" Path="Pimp my lights/Projecteurs LED/Scene/Flash/FlashBleu" StopOnKeyUp="True" />
+    <Key Code="NumPad2" Value="98" Path="Pimp my lights/Projecteurs LED/Scene/Flash/FlashRouge" StopOnKeyUp="True" />
+    <Key Code="NumPad3" Value="99" Path="Pimp my lights/Projecteurs LED/Scene/Flash/FlashVert" StopOnKeyUp="True" />
+    <Key Code="NumPad4" Value="100" Path="Pimp my lights/Projecteurs LED/Scene/Flash/Progressif bleu" StopOnKeyUp="True" />
+    <Key Code="NumPad5" Value="101" Path="Pimp my lights/Projecteurs LED/Scene/Flash/Progressif rouge" StopOnKeyUp="True" />
+    <Key Code="NumPad6" Value="102" Path="Pimp my lights/Projecteurs LED/Scene/Flash/Progressif Vert" StopOnKeyUp="True" />
+    <Key Code="NumPad7" Value="103" Path="Pimp my lights/Projecteurs LED/Scene/Flash/Lent bleu" StopOnKeyUp="False" />
+    <Key Code="NumPad8" Value="104" Path="Pimp my lights/Projecteurs LED/Scene/Flash/Lent Rouge" StopOnKeyUp="False" />
+    <Key Code="NumPad9" Value="105" Path="Pimp my lights/Projecteurs LED/Scene/Flash/Lent Vert" StopOnKeyUp="False" />
+    <Key Code="D1" Value="49" Path="Pimp my lights/PROJECTEUR ROBOTISES/SCANNER/Scene/Rapide/Triangle_Strob" StopOnKeyUp="False" />
+    <Key Code="D2" Value="50" Path="Pimp my lights/PROJECTEUR ROBOTISES/LYRES/Scene/Strob/Strob" StopOnKeyUp="False" />
+    <Key Code="D3" Value="51" Path="Pimp my lights/LASER/Scene/Plafond/Rapide" StopOnKeyUp="False" />
+    <Key Code="E" Value="69" Path="Pimp my lights/PROJECTEUR ROBOTISES/SCANNER/Scene/Cercle Lent/Normal_L" StopOnKeyUp="False" />
+    <Key Code="F6" Value="117" Path="Pimp my lights/PROJECTEUR ROBOTISES/SCANNER/Scene/Cercle Lent/Normal_L" StopOnKeyUp="False" />
+    <Key Code="W" Value="87" Path="Pimp my lights/PROJECTEUR ROBOTISES/SCANNER/Button/Gobo/Black" StopOnKeyUp="True" />
+    <Key Code="X" Value="88" Path="Pimp my lights/PROJECTEUR ROBOTISES/SCANNER/Button/Gobo/White" StopOnKeyUp="True" />
+    <Key Code="C" Value="67" Path="Pimp my lights/PROJECTEUR ROBOTISES/SCANNER/AS 250/Button/Shutter/ON" StopOnKeyUp="False" />
+    <Key Code="C" Value="67" Path="Pimp my lights/PROJECTEUR ROBOTISES/SCANNER/DJSCAN/Button/Shutter/0" StopOnKeyUp="False" />
+    <Key Code="Y" Value="89" Path="Pimp my lights/PROJECTEUR ROBOTISES/SCANNER/Button/Gobo/Yellow" StopOnKeyUp="False" />
+  </Keyboard>
+</PimpMyScenes>

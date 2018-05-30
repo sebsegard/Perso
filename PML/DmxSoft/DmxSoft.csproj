@@ -1,0 +1,640 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{CFE23FD1-5F0C-464F-9BF2-E29D94961A96}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DmxSoft</RootNamespace>
+    <AssemblyName>PimpMyLights</AssemblyName>
+    <ApplicationIcon>main2.ico</ApplicationIcon>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <TargetFrameworkProfile />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="PimpMyLights, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <ExecutableExtension>.exe</ExecutableExtension>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WeifenLuo.WinFormsUI.Docking, Version=2.2.2864.18696, Culture=neutral, PublicKeyToken=d481317c817cec47, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\imported\WeifenLuo.WinFormsUI.Docking.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Control\AutoModeConfigCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Control\AutoModeConfigCtrl.Designer.cs">
+      <DependentUpon>AutoModeConfigCtrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Control\ChannelButtonCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Control\ChannelButtonCtrl.Designer.cs">
+      <DependentUpon>ChannelButtonCtrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Control\FullTreeCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Control\FullTreeCtrl.Designer.cs">
+      <DependentUpon>FullTreeCtrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Control\ListCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Control\ListCtrl.Designer.cs">
+      <DependentUpon>ListCtrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Control\PanTiltCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Control\PanTiltCtrl.Designer.cs">
+      <DependentUpon>PanTiltCtrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Control\DmxOutputCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Control\DmxOutputCtrl.Designer.cs">
+      <DependentUpon>DmxOutputCtrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Control\SceneBrowserCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Control\SceneBrowserCtrl.Designer.cs">
+      <DependentUpon>SceneBrowserCtrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\AutoMinMaxDlg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\AutoMinMaxDlg.Designer.cs">
+      <DependentUpon>AutoMinMaxDlg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\BCF2000\BCF2000.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\BCF2000\BCF2000.Designer.cs">
+      <DependentUpon>BCF2000.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\BCF2000\BcfButton.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\BCF2000\BcfButton.Designer.cs">
+      <DependentUpon>BcfButton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\BCF2000\BcfControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\BCF2000\BcfControl.Designer.cs">
+      <DependentUpon>BcfControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\BCF2000\BcfControlAssignement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\BCF2000\BcfControlAssignement.Designer.cs">
+      <DependentUpon>BcfControlAssignement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\BCF2000\BcfFader.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\BCF2000\BcfFader.Designer.cs">
+      <DependentUpon>BcfFader.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\BCF2000\BcfInput.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\BCF2000\BcfInput.Designer.cs">
+      <DependentUpon>BcfInput.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\BCF2000\BcfModeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\BCF2000\BcfModeForm.Designer.cs">
+      <DependentUpon>BcfModeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\BCF2000\BcfPotter.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\BCF2000\BcfPotter.Designer.cs">
+      <DependentUpon>BcfPotter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\BCF2000\MidiConfiguration.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\BCF2000\MidiConfiguration.Designer.cs">
+      <DependentUpon>MidiConfiguration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\DmxAddresses.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\DmxAddresses.Designer.cs">
+      <DependentUpon>DmxAddresses.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FixtureParameters.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FixtureParameters.Designer.cs">
+      <DependentUpon>FixtureParameters.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Midi\ActionCtrl\AutoCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\Midi\ActionCtrl\AutoCtrl.Designer.cs">
+      <DependentUpon>AutoCtrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Midi\ActionCtrl\ScenePlyerCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\Midi\ActionCtrl\ScenePlyerCtrl.Designer.cs">
+      <DependentUpon>ScenePlyerCtrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Midi\ActionDescriptionCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\Midi\ActionDescriptionCtrl.Designer.cs">
+      <DependentUpon>ActionDescriptionCtrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Midi\ActionCtrl\CopyCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\Midi\ActionCtrl\CopyCtrl.Designer.cs">
+      <DependentUpon>CopyCtrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Midi\AtctionListCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\Midi\AtctionListCtrl.Designer.cs">
+      <DependentUpon>AtctionListCtrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Midi\ConfForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Midi\ConfForm.Designer.cs">
+      <DependentUpon>ConfForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Midi\KeyListCtrl..cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\Midi\KeyListCtrl..Designer.cs">
+      <DependentUpon>KeyListCtrl..cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Midi\LastMidiChangeCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\Midi\LastMidiChangeCtrl.Designer.cs">
+      <DependentUpon>LastMidiChangeCtrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Midi\MidiDeviceCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\Midi\MidiDeviceCtrl.Designer.cs">
+      <DependentUpon>MidiDeviceCtrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\QuickScene.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\QuickScene.Designer.cs">
+      <DependentUpon>QuickScene.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\SceneExplorer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\SceneExplorer.Designer.cs">
+      <DependentUpon>SceneExplorer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\KeybordConfiguration.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\KeybordConfiguration.Designer.cs">
+      <DependentUpon>KeybordConfiguration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Control\SceneButton.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Control\SceneButton.Designer.cs">
+      <DependentUpon>SceneButton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Control\SceneEditorCtrlr.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Control\SceneEditorCtrlr.Designer.cs">
+      <DependentUpon>SceneEditorCtrlr.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Control\StepEditorCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Control\StepEditorCtrl.Designer.cs">
+      <DependentUpon>StepEditorCtrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Control\ValueButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DmxOption.cs" />
+    <Compile Include="Forms\About.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\About.Designer.cs">
+      <DependentUpon>About.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\AdvancedForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\AdvancedForm.Designer.cs">
+      <DependentUpon>AdvancedForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\AutoModeConfiguration.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\AutoModeConfiguration.Designer.cs">
+      <DependentUpon>AutoModeConfiguration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\BeatDetectionConfiguration.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\BeatDetectionConfiguration.Designer.cs">
+      <DependentUpon>BeatDetectionConfiguration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Chansons.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Chansons.Designer.cs">
+      <DependentUpon>Chansons.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\DmxOutPut.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\DmxOutPut.Designer.cs">
+      <DependentUpon>DmxOutPut.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Explorer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Explorer.Designer.cs">
+      <DependentUpon>Explorer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Control\FixtureButtonConfiguration.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Control\FixtureButtonConfiguration.Designer.cs">
+      <DependentUpon>FixtureButtonConfiguration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FixtureScene.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FixtureScene.Designer.cs">
+      <DependentUpon>FixtureScene.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Options.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Options.Designer.cs">
+      <DependentUpon>Options.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\PoursuitEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\PoursuitEditor.Designer.cs">
+      <DependentUpon>PoursuitEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\SceneEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\SceneEditor.Designer.cs">
+      <DependentUpon>SceneEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ScenePlayer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ScenePlayer.Designer.cs">
+      <DependentUpon>ScenePlayer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\SceneSelectionDlg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\SceneSelectionDlg.Designer.cs">
+      <DependentUpon>SceneSelectionDlg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\SceneShortcuts.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\SceneShortcuts.Designer.cs">
+      <DependentUpon>SceneShortcuts.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\SnapShotDlg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\SnapShotDlg.Designer.cs">
+      <DependentUpon>SnapShotDlg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\WaitForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\WaitForm.Designer.cs">
+      <DependentUpon>WaitForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main.Designer.cs">
+      <DependentUpon>Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Control\AutoModeConfigCtrl.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>AutoModeConfigCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Control\ChannelButtonCtrl.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ChannelButtonCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Control\FullTreeCtrl.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FullTreeCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Control\ListCtrl.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ListCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Control\PanTiltCtrl.resx">
+      <DependentUpon>PanTiltCtrl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Control\DmxOutputCtrl.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>DmxOutputCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Control\SceneBrowserCtrl.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>SceneBrowserCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AutoMinMaxDlg.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>AutoMinMaxDlg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\BCF2000\BCF2000.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>BCF2000.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\BCF2000\BcfButton.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>BcfButton.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\BCF2000\BcfControlAssignement.resx">
+      <DependentUpon>BcfControlAssignement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\BCF2000\BcfFader.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>BcfFader.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\BCF2000\BcfInput.resx">
+      <DependentUpon>BcfInput.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\BCF2000\BcfModeForm.resx">
+      <DependentUpon>BcfModeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\BCF2000\MidiConfiguration.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>MidiConfiguration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\DmxAddresses.resx">
+      <DependentUpon>DmxAddresses.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FixtureParameters.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FixtureParameters.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Midi\ActionCtrl\AutoCtrl.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>AutoCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Midi\ActionCtrl\ScenePlyerCtrl.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ScenePlyerCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Midi\ActionDescriptionCtrl.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ActionDescriptionCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Midi\ActionCtrl\CopyCtrl.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>CopyCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Midi\AtctionListCtrl.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>AtctionListCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Midi\ConfForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ConfForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Midi\KeyListCtrl..resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>KeyListCtrl..cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Midi\LastMidiChangeCtrl.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>LastMidiChangeCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Midi\MidiDeviceCtrl.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>MidiDeviceCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\QuickScene.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>QuickScene.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SceneExplorer.resx">
+      <DependentUpon>SceneExplorer.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\KeybordConfiguration.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>KeybordConfiguration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Control\SceneButton.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>SceneButton.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Control\SceneEditorCtrlr.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>SceneEditorCtrlr.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Control\StepEditorCtrl.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>StepEditorCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\About.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>About.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AdvancedForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>AdvancedForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AutoModeConfiguration.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>AutoModeConfiguration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\BeatDetectionConfiguration.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>BeatDetectionConfiguration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Chansons.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Chansons.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\DmxOutPut.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>DmxOutPut.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Explorer.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Explorer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Control\FixtureButtonConfiguration.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FixtureButtonConfiguration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FixtureScene.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FixtureScene.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Options.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Options.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PoursuitEditor.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>PoursuitEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SceneEditor.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>SceneEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ScenePlayer.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ScenePlayer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SceneSelectionDlg.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>SceneSelectionDlg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SceneShortcuts.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>SceneShortcuts.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SnapShotDlg.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>SnapShotDlg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\WaitForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>WaitForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DmxFramework\DmxFramework.csproj">
+      <Project>{52726C60-8647-4AD3-8FC7-2EF0D557165D}</Project>
+      <Name>DmxFramework</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="main2.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,9 @@
+D:\PML\PML\QuickDmx\bin\Release\Proxymity.QuickDmx.dll
+D:\PML\PML\QuickDmx\bin\Release\Proxymity.QuickDmx.pdb
+D:\PML\PML\QuickDmx\obj\Release\ResolveAssemblyReference.cache
+D:\PML\PML\QuickDmx\obj\Release\Proxymity.QuickDmx.dll
+D:\PML\PML\QuickDmx\obj\Release\Proxymity.QuickDmx.pdb
+C:\Users\ssegard\Documents\GitHub\Perso\PML\QuickDmx\bin\Release\Proxymity.QuickDmx.dll
+C:\Users\ssegard\Documents\GitHub\Perso\PML\QuickDmx\bin\Release\Proxymity.QuickDmx.pdb
+C:\Users\ssegard\Documents\GitHub\Perso\PML\QuickDmx\obj\Release\Proxymity.QuickDmx.dll
+C:\Users\ssegard\Documents\GitHub\Perso\PML\QuickDmx\obj\Release\Proxymity.QuickDmx.pdb

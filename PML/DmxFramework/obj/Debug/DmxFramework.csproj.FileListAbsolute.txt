@@ -1,0 +1,15 @@
+D:\PML\PML\bin\Debug\DmxFramework.dll
+D:\PML\PML\bin\Debug\DmxFramework.pdb
+D:\PML\PML\DmxFramework\obj\Debug\ResolveAssemblyReference.cache
+D:\PML\PML\DmxFramework\obj\Debug\DmxFramework.dll
+D:\PML\PML\DmxFramework\obj\Debug\DmxFramework.pdb
+D:\svn\PML\bin\Debug\DmxFramework.dll
+D:\svn\PML\bin\Debug\DmxFramework.pdb
+D:\svn\PML\DmxFramework\obj\Debug\DmxFramework.csprojResolveAssemblyReference.cache
+D:\svn\PML\DmxFramework\obj\Debug\DmxFramework.dll
+D:\svn\PML\DmxFramework\obj\Debug\DmxFramework.pdb
+C:\Users\ssegard\Documents\GitHub\MyProjects\PML\bin\Debug\DmxFramework.dll
+C:\Users\ssegard\Documents\GitHub\MyProjects\PML\bin\Debug\DmxFramework.pdb
+C:\Users\ssegard\Documents\GitHub\MyProjects\PML\DmxFramework\obj\Debug\DmxFramework.csprojResolveAssemblyReference.cache
+C:\Users\ssegard\Documents\GitHub\MyProjects\PML\DmxFramework\obj\Debug\DmxFramework.dll
+C:\Users\ssegard\Documents\GitHub\MyProjects\PML\DmxFramework\obj\Debug\DmxFramework.pdb

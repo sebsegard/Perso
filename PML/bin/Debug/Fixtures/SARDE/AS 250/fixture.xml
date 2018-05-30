@@ -1,0 +1,41 @@
+<PimpMyLightFixture>
+  <Fixture Constructor="SARDE" PRODUCT="AS 250" img="">
+    <Channels>
+      <Channel Name="Pan" Type="Pan" Num="5" inverted="true"/>
+      <Channel Name="Tilt" Type="Tilt" Num="6" inverted="true"/>
+      <Channel Name="Gobo" Type="Btn" Num="1" inverted="false"  RowCount ="5" ColumnCount="2">
+        <btn value="0" start="0" end="25" img="" text ="0"/>
+        <btn value="32" start="26" end="51" img="" text ="1"/>
+        <btn value="65" start="52" end="77" img="" text ="2"/>
+        <btn value="85" start="78" end="103" img="" text ="3"/>
+        <btn value="110" start="104" end="129" img="" text ="4"/>
+        <btn value="140" start="130" end="155" img="" text ="5"/>
+        <btn value="160" start="156" end="181" img="" text ="6"/>
+        <btn value="190" start="182" end="207" img="" text ="7"/>
+        <btn value="220" start="208" end="249" img="" text ="8"/>
+      </Channel>
+      <Channel Name="Rotation" Type="Basic" Num="2" inverted="false"/>
+      <Channel Name="Color" Type="Btn" Num="3" inverted="false"  RowCount ="5" ColumnCount="2">
+        <btn value="0" start="0" end="25" img="" text ="Blanc"/>
+        <btn value="45" start="26" end="51" img="" text ="Rouge"/>
+        <btn value="65" start="52" end="77" img="" text ="Jaune"/>
+        <btn value="90" start="78" end="103" img="" text ="Vert"/>
+        <btn value="115" start="104" end="129" img="" text ="Magenta"/>
+        <btn value="145" start="130" end="155" img="" text ="Bleu"/>
+        <btn value="165" start="156" end="181" img="" text ="Orange"/>
+        <btn value="195" start="182" end="207" img="" text ="Vert"/>
+        <btn value="220" start="208" end="233" img="" text ="Rose"/>
+        <btn value="255" start="234" end="256" img="" text ="Bleu"/>
+      </Channel>
+      <Channel Name="Shutter" Type="Btn" Num="4" inverted="false" RowCount ="6" ColumnCount="1">
+        <btn value="0" start="0" end="30" img="" text ="OFF"/>
+        <btn value="45" start="31" end="62" img="" text ="ON"/>
+        <btn value="80" start="63" end="92" img="" text ="0"/>
+        <btn value="110" start="93" end="124" img="" text ="1"/>
+        <btn value="140" start="125" end="155" img="" text ="2"/>
+        <btn value="220" start="200" end="250" img="" text ="3"/>
+        <btn value="255" start="250" end="256" img="" text ="4"/>
+      </Channel>
+    </Channels>
+  </Fixture>
+</PimpMyLightFixture>
